@@ -49,7 +49,7 @@ def generar_telefono_por_pais(pais):
     return f"{prefijo} {numero_local}"
 
 # Número de proveedores ficticios
-num_provider = 50
+num_provider = 100
 
 # Generar datos ficticios de proveedor
 provider = []
@@ -72,7 +72,7 @@ for i in range(1, num_provider + 1):
 df_providers = pd.DataFrame(provider)
 
 # Exportar a CSV si lo deseas
-# df_providers.to_csv('proveedores.csv', index=False)
+df_providers.to_csv('proveedores.csv', index=False)
 
 # Mostrar ejemplo
 print(df_providers.head())
