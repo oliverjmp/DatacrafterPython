@@ -1,46 +1,48 @@
 import pandas as pd
-import random
-from faker import Faker
+from datetime import datetime
 
-fake = Faker('es_ES')
+# Cargar inventario y compras
+inventario = pd.read_csv('inventario.csv')
+df_compras = pd.read_csv('compras.csv')
+df_productos = pd.read_csv('productos.csv')
 
-# Cargar sucursales y productos
-df_branches = pd.read_csv('sucursales.csv')
-df_products = pd.read_csv('productos.csv')
+# Convertir fecha a datetime
+df_compras['fecha_compra'] = pd.to_datetime(df_compras['fecha_compra'])
 
-# Unidades de medida por categoría
-unidades_por_categoria = {
-    'Electrónica': 'unidad',
-    'Alimentos': random.choice(['kg', 'g', 'litro', 'unidad']),
-    'Hogar': 'unidad',
-    'Ropa': 'unidad',
-    'Juguetes': 'unidad',
-    'Deportes': random.choice(['unidad', 'litro', 'kg'])
-}
+# Procesar cada compra
+for _, compra in df_compras.iterrows():
+    branch_id = compra['branch_id']
+    product_id = compra['product_id']
+    cantidad = compra['cantidad']
+    fecha = compra['fecha_compra']
 
-inventario = []
+    # Buscar si ya existe el producto en esa sucursal
+    filtro = (inventario['branch_id'] == branch_id) & (inventario['product_id'] == product_id)
 
-for _, branch in df_branches.iterrows():
-    productos_sample = df_products.sample(random.randint(20, 50))
-    for _, prod in productos_sample.iterrows():
-        stock = random.randint(10, 200)
-        stock_min = random.randint(5, 15)
-        stock_max = stock + random.randint(50, 150)
-        unidad = unidades_por_categoria.get(prod['category'], 'unidad')
-        fecha = fake.date_between(start_date='-3mo', end_date='today')
-        
-        inventario.append({
-            'branch_id': branch['branch_id'],
-            'product_id': prod['product_id'],
-            'stock': stock,
-            'stock_minimo': stock_min,
-            'stock_maximo': stock_max,
+    if filtro.any():
+        # Actualizar stock y fecha
+        inventario.loc[filtro, 'stock'] += cantidad
+        inventario.loc[filtro, 'fecha_actualizacion'] = fecha
+    else:
+        # Crear nuevo registro
+        producto = df_productos[df_productos['product_id'] == product_id].iloc[0]
+        unidad = 'unidad'  # Puedes mejorar esto con tu lógica de unidades por categoría
+
+        nuevo_registro = {
+            'branch_id': branch_id,
+            'product_id': product_id,
+            'stock': cantidad,
+            'stock_minimo': 5,
+            'stock_maximo': cantidad + 100,
             'unidad_medida': unidad,
             'fecha_actualizacion': fecha
-        })
+        }
 
-df_inventario = pd.DataFrame(inventario)
-df_inventario.to_csv('inventario.csv', index=False)
+        inventario = pd.concat([inventario, pd.DataFrame([nuevo_registro])], ignore_index=True)
 
-print(df_inventario.head())
-print(f"\n✅ Inventario enriquecido generado y exportado a 'inventario.csv'.")
+# Exportar inventario actualizado
+inventario.to_csv('inventario.csv', index=False)
+
+print(inventario.head())
+print("\n✅ Inventario actualizado con compras y exportado a 'inventario.csv'.")
+
