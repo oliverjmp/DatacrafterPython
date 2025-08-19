@@ -26,7 +26,7 @@ def generar_identidad_ficticia():
         return f"SIM-{letra_inicial}{numero_convertido}{letra_final}"  # Prefijo SIM indica que es simulado 
 
 def generar_telefono_espanol():
-    return f"+35{random.randint(600000000, 699999999)}"
+    return f"+15-{random.randint(100000000, 199999999)}"
 
 # Número de clientes ficticios
 num_clients = 50
