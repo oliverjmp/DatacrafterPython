@@ -8,19 +8,22 @@ def calcular_letra(numero):
     letras = 'TRWAGMYFPDXBNJZSQVHLCKE'
     return letras[int(numero) % 23]
 
-def generar_identidad():
+def generar_identidad_ficticia():
     tipo = random.choice(['DNI', 'NIE'])
+    
     if tipo == 'DNI':
-        numero = random.randint(10000000, 99999999)
+        # Usamos un rango no habitual y añadimos un prefijo
+        numero = random.randint(1000000, 9999999) 
         letra = calcular_letra(numero)
-        return f"{numero}{letra}"
+        return f"SIM-{numero:07d}{letra}"  # Prefijo SIM indica que es simulado
+
     else:  # NIE
         letra_inicial = random.choice('XYZ')
-        numero_base = random.randint(1000000, 9999999)
+        numero_base = random.randint(100000, 999999)  
         conversion = {'X': '0', 'Y': '1', 'Z': '2'}
-        numero_convertido = conversion[letra_inicial] + f"{numero_base:07d}"
+        numero_convertido = conversion[letra_inicial] + f"{numero_base:06d}"
         letra_final = calcular_letra(numero_convertido)
-        return f"{letra_inicial}{numero_base:07d}{letra_final}"
+        return f"SIM-{letra_inicial}{numero_convertido}{letra_final}"  # Prefijo SIM indica que es simulado 
 
 def generar_telefono_espanol():
     return f"+34{random.randint(600000000, 699999999)}"
@@ -33,7 +36,7 @@ clients = [{
     'client_id': f"CL-{i:05d}",  # ID único con prefijo y ceros
     'name': fake.first_name(),
     'lastname': fake.last_name(),
-    'ID': generar_identidad(),  # DNI o NIE
+    'ID': generar_identidad_ficticia(),  # DNI o NIE
     'email': fake.email(),
     'phone': generar_telefono_espanol()
 } for i in range(1, num_clients + 1)]
