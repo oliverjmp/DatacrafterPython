@@ -1,0 +1,141 @@
+entrega_id,venta_id,fecha_envio,fecha_entrega,estado,tipo_entrega,empresa_logistica
+ET-00001,VT-00001,2025-05-18,2025-05-18,Entregado,Propia,
+ET-00002,VT-00002,2025-07-07,2025-07-10,Entregado,Propia,
+ET-00003,VT-00003,2025-04-30,2025-05-01,Entregado,Propia,
+ET-00004,VT-00004,2025-05-06,,Enviado,Logística,DHL
+ET-00005,VT-00005,2025-06-19,2025-06-23,Entregado,Logística,Correos Express
+ET-00006,VT-00007,2025-05-24,2025-05-26,Entregado,Propia,
+ET-00007,VT-00008,2024-09-30,,Enviado,Propia,
+ET-00008,VT-00009,2024-12-15,,Enviado,Logística,Amazon Logistics
+ET-00009,VT-00010,,,Pendiente,Logística,UPS
+ET-00010,VT-00011,2025-05-02,2025-05-02,Entregado,Logística,FedEx
+ET-00011,VT-00013,2024-11-13,2024-11-14,Entregado,Logística,SEUR
+ET-00012,VT-00014,2024-10-13,,Cancelado,Logística,UPS
+ET-00013,VT-00015,2024-12-18,,Enviado,Propia,
+ET-00014,VT-00016,2025-02-12,,Enviado,Logística,Amazon Logistics
+ET-00015,VT-00017,,,Pendiente,Propia,
+ET-00016,VT-00018,2025-07-06,,Cancelado,Logística,MRW
+ET-00017,VT-00019,2025-01-07,,Enviado,Logística,UPS
+ET-00018,VT-00020,2024-12-18,2024-12-18,Entregado,Propia,
+ET-00019,VT-00021,2024-10-21,,Enviado,Propia,
+ET-00020,VT-00022,2024-12-22,,Enviado,Logística,Amazon Logistics
+ET-00021,VT-00023,2024-12-29,2024-12-30,Entregado,Propia,
+ET-00022,VT-00024,2024-12-06,2024-12-08,Entregado,Propia,
+ET-00023,VT-00025,2024-11-21,2024-11-22,Entregado,Logística,Correos Express
+ET-00024,VT-00026,2025-04-19,2025-04-19,Entregado,Logística,SEUR
+ET-00025,VT-00027,2025-06-23,2025-06-23,Entregado,Propia,
+ET-00026,VT-00029,2025-01-12,2025-01-15,Entregado,Propia,
+ET-00027,VT-00030,2024-11-13,2024-11-13,Entregado,Logística,MRW
+ET-00028,VT-00031,2024-11-17,2024-11-17,Entregado,Logística,Correos Express
+ET-00029,VT-00032,2024-10-18,,Enviado,Logística,SEUR
+ET-00030,VT-00033,2024-12-18,2024-12-22,Entregado,Propia,
+ET-00031,VT-00034,2025-05-17,2025-05-18,Entregado,Logística,Amazon Logistics
+ET-00032,VT-00035,2025-04-20,2025-04-20,Entregado,Propia,
+ET-00033,VT-00036,2024-12-06,2024-12-06,Entregado,Propia,
+ET-00034,VT-00037,2024-09-30,,Cancelado,Logística,SEUR
+ET-00035,VT-00038,2025-02-28,2025-02-28,Entregado,Propia,
+ET-00036,VT-00039,2024-12-01,,Enviado,Logística,DHL
+ET-00037,VT-00040,2025-03-24,,Enviado,Propia,
+ET-00038,VT-00043,2025-02-11,,Cancelado,Logística,Correos Express
+ET-00039,VT-00044,2025-07-15,2025-07-19,Entregado,Logística,SEUR
+ET-00040,VT-00045,,,Pendiente,Logística,Correos Express
+ET-00041,VT-00046,2024-08-30,2024-09-02,Entregado,Propia,
+ET-00042,VT-00047,2024-09-15,2024-09-15,Entregado,Propia,
+ET-00043,VT-00048,2024-12-24,2024-12-25,Entregado,Logística,DHL
+ET-00044,VT-00049,2025-03-04,,Enviado,Propia,
+ET-00045,VT-00050,2025-06-15,,Enviado,Propia,
+ET-00046,VT-00051,2025-01-03,,Enviado,Propia,
+ET-00047,VT-00052,2025-06-02,,Enviado,Propia,
+ET-00048,VT-00053,2025-07-26,2025-07-28,Entregado,Logística,Correos Express
+ET-00049,VT-00054,2025-05-17,2025-05-21,Entregado,Logística,UPS
+ET-00050,VT-00055,2025-07-05,,Enviado,Logística,Amazon Logistics
+ET-00051,VT-00056,2024-12-25,,Enviado,Logística,MRW
+ET-00052,VT-00057,,,Pendiente,Logística,FedEx
+ET-00053,VT-00058,2024-11-12,,Enviado,Propia,
+ET-00054,VT-00059,2025-07-25,2025-07-28,Entregado,Logística,SEUR
+ET-00055,VT-00060,2024-10-03,2024-10-03,Entregado,Propia,
+ET-00056,VT-00061,2025-05-31,,Enviado,Propia,
+ET-00057,VT-00062,2025-02-25,,Enviado,Propia,
+ET-00058,VT-00063,2025-07-10,2025-07-14,Entregado,Propia,
+ET-00059,VT-00064,2025-01-05,2025-01-09,Entregado,Propia,
+ET-00060,VT-00065,2025-05-29,,Enviado,Logística,DHL
+ET-00061,VT-00066,2024-11-24,2024-11-25,Entregado,Logística,SEUR
+ET-00062,VT-00067,2024-08-31,2024-09-04,Entregado,Propia,
+ET-00063,VT-00068,2025-03-30,2025-03-30,Entregado,Logística,MRW
+ET-00064,VT-00069,,,Pendiente,Propia,
+ET-00065,VT-00070,2025-06-17,,Cancelado,Logística,FedEx
+ET-00066,VT-00071,2025-07-12,,Cancelado,Propia,
+ET-00067,VT-00072,2024-12-05,2024-12-06,Entregado,Logística,FedEx
+ET-00068,VT-00073,2024-10-09,2024-10-10,Entregado,Logística,Amazon Logistics
+ET-00069,VT-00074,2025-08-13,,Enviado,Propia,
+ET-00070,VT-00075,2025-02-08,2025-02-08,Entregado,Logística,UPS
+ET-00071,VT-00076,2024-10-15,2024-10-19,Entregado,Propia,
+ET-00072,VT-00077,2025-01-14,2025-01-16,Entregado,Logística,Amazon Logistics
+ET-00073,VT-00078,2025-02-12,2025-02-16,Entregado,Logística,DHL
+ET-00074,VT-00079,2024-10-30,2024-11-02,Entregado,Logística,MRW
+ET-00075,VT-00080,2025-01-16,2025-01-20,Entregado,Logística,MRW
+ET-00076,VT-00081,2024-11-30,2024-12-01,Entregado,Propia,
+ET-00077,VT-00082,2025-04-23,2025-04-23,Entregado,Logística,SEUR
+ET-00078,VT-00083,,,Pendiente,Logística,FedEx
+ET-00079,VT-00084,2025-05-25,,Enviado,Logística,DHL
+ET-00080,VT-00085,2025-03-19,,Enviado,Logística,DHL
+ET-00081,VT-00086,2024-12-03,,Enviado,Logística,UPS
+ET-00082,VT-00087,2024-12-09,2024-12-11,Entregado,Logística,UPS
+ET-00083,VT-00088,2025-04-16,2025-04-19,Entregado,Logística,FedEx
+ET-00084,VT-00089,2025-06-21,2025-06-21,Entregado,Propia,
+ET-00085,VT-00090,2025-01-17,,Enviado,Logística,MRW
+ET-00086,VT-00091,2025-06-06,,Enviado,Propia,
+ET-00087,VT-00093,2025-04-27,2025-05-01,Entregado,Propia,
+ET-00088,VT-00094,2025-04-06,2025-04-10,Entregado,Propia,
+ET-00089,VT-00095,2025-04-24,2025-04-27,Entregado,Logística,SEUR
+ET-00090,VT-00096,2025-02-18,2025-02-18,Entregado,Propia,
+ET-00091,VT-00097,2024-10-22,2024-10-25,Entregado,Propia,
+ET-00092,VT-00098,2025-01-08,,Enviado,Propia,
+ET-00093,VT-00099,2024-09-05,2024-09-06,Entregado,Logística,SEUR
+ET-00094,VT-00100,2025-03-09,,Cancelado,Logística,SEUR
+ET-00095,VT-00102,2025-03-04,,Enviado,Logística,SEUR
+ET-00096,VT-00103,2025-05-03,2025-05-07,Entregado,Logística,MRW
+ET-00097,VT-00104,2025-08-14,2025-08-15,Entregado,Logística,Amazon Logistics
+ET-00098,VT-00105,2025-08-12,2025-08-14,Entregado,Propia,
+ET-00099,VT-00106,,,Pendiente,Logística,FedEx
+ET-00100,VT-00107,2024-11-05,,Enviado,Logística,UPS
+ET-00101,VT-00108,2024-09-16,,Enviado,Logística,UPS
+ET-00102,VT-00109,2025-01-08,,Enviado,Logística,FedEx
+ET-00103,VT-00110,2024-12-24,,Cancelado,Propia,
+ET-00104,VT-00111,2025-01-24,2025-01-27,Entregado,Propia,
+ET-00105,VT-00112,2024-09-16,2024-09-19,Entregado,Propia,
+ET-00106,VT-00113,2025-07-24,,Enviado,Propia,
+ET-00107,VT-00115,2025-03-21,2025-03-24,Entregado,Logística,Correos Express
+ET-00108,VT-00116,2024-11-27,,Enviado,Logística,DHL
+ET-00109,VT-00117,2025-07-15,2025-07-15,Entregado,Logística,SEUR
+ET-00110,VT-00118,,,Pendiente,Logística,DHL
+ET-00111,VT-00119,2025-01-26,,Enviado,Propia,
+ET-00112,VT-00120,2025-02-05,2025-02-07,Entregado,Propia,
+ET-00113,VT-00121,2024-11-10,,Enviado,Propia,
+ET-00114,VT-00122,2025-08-10,,Enviado,Logística,FedEx
+ET-00115,VT-00123,2024-12-25,2024-12-28,Entregado,Propia,
+ET-00116,VT-00124,2025-05-18,,Enviado,Propia,
+ET-00117,VT-00125,2024-12-02,2024-12-02,Entregado,Logística,Correos Express
+ET-00118,VT-00126,2024-12-18,,Enviado,Logística,Amazon Logistics
+ET-00119,VT-00127,2024-10-13,2024-10-14,Entregado,Propia,
+ET-00120,VT-00129,2024-08-27,2024-08-27,Entregado,Propia,
+ET-00121,VT-00130,2024-10-16,2024-10-20,Entregado,Logística,MRW
+ET-00122,VT-00131,,,Pendiente,Propia,
+ET-00123,VT-00132,2025-05-28,2025-06-01,Entregado,Propia,
+ET-00124,VT-00133,2025-03-13,,Enviado,Propia,
+ET-00125,VT-00134,2025-05-20,,Cancelado,Logística,FedEx
+ET-00126,VT-00135,2025-05-28,,Enviado,Logística,Amazon Logistics
+ET-00127,VT-00136,2025-06-29,2025-06-29,Entregado,Propia,
+ET-00128,VT-00137,2024-12-01,2024-12-03,Entregado,Propia,
+ET-00129,VT-00138,2025-07-24,2025-07-25,Entregado,Propia,
+ET-00130,VT-00139,2025-05-29,2025-06-01,Entregado,Propia,
+ET-00131,VT-00140,2024-12-18,,Enviado,Propia,
+ET-00132,VT-00141,2025-04-08,,Enviado,Logística,Correos Express
+ET-00133,VT-00143,2025-07-12,2025-07-15,Entregado,Propia,
+ET-00134,VT-00144,2024-12-25,2024-12-28,Entregado,Logística,Amazon Logistics
+ET-00135,VT-00145,,,Pendiente,Logística,SEUR
+ET-00136,VT-00146,2025-05-24,,Enviado,Logística,Amazon Logistics
+ET-00137,VT-00147,2024-11-13,,Enviado,Logística,MRW
+ET-00138,VT-00148,2024-12-20,,Enviado,Logística,Amazon Logistics
+ET-00139,VT-00149,2025-01-01,,Enviado,Propia,
+ET-00140,VT-00150,2025-06-16,2025-06-19,Entregado,Logística,Amazon Logistics

@@ -1,0 +1,101 @@
+reseña_id,venta_id,client_id,puntuacion,comentario,fecha_reseña
+RS-00001,VT-00005,CL-00013,4,Precio justo y buena calidad.,2024-10-28
+RS-00002,VT-00038,CL-00037,5,La talla no era correcta.,2025-06-06
+RS-00003,VT-00043,CL-00011,4,Tuve problemas con la entrega.,2025-05-29
+RS-00004,VT-00049,CL-00042,4,El embalaje estaba dañado.,2025-06-16
+RS-00005,VT-00053,CL-00025,5,Tuve problemas con la entrega.,2025-08-09
+RS-00006,VT-00016,CL-00040,5,El embalaje estaba dañado.,2024-10-23
+RS-00007,VT-00033,CL-00021,5,No era lo que esperaba.,2025-08-14
+RS-00008,VT-00103,CL-00015,4,No era lo que esperaba.,2025-04-12
+RS-00009,VT-00065,CL-00017,3,Excelente atención al cliente.,2025-08-10
+RS-00010,VT-00086,CL-00045,2,Volveré a comprar sin duda.,2025-07-25
+RS-00011,VT-00009,CL-00026,3,El embalaje estaba dañado.,2025-07-04
+RS-00012,VT-00015,CL-00012,5,Tuve problemas con la entrega.,2024-12-19
+RS-00013,VT-00034,CL-00020,5,Excelente atención al cliente.,2025-07-23
+RS-00014,VT-00117,CL-00048,2,Volveré a comprar sin duda.,2025-05-29
+RS-00015,VT-00091,CL-00006,3,Tuve problemas con la entrega.,2025-04-21
+RS-00016,VT-00013,CL-00034,3,Precio justo y buena calidad.,2025-08-12
+RS-00017,VT-00141,CL-00049,5,Excelente atención al cliente.,2025-04-30
+RS-00018,VT-00072,CL-00014,5,No era lo que esperaba.,2025-05-16
+RS-00019,VT-00005,CL-00013,5,"Muy buen producto, llegó rápido.",2024-09-16
+RS-00020,VT-00129,CL-00044,4,La talla no era correcta.,2025-05-31
+RS-00021,VT-00126,CL-00005,1,El embalaje estaba dañado.,2024-12-20
+RS-00022,VT-00148,CL-00033,4,"Me encantó, lo recomiendo.",2025-05-08
+RS-00023,VT-00047,CL-00043,1,Precio justo y buena calidad.,2025-08-12
+RS-00024,VT-00013,CL-00034,4,Tuve problemas con la entrega.,2025-07-28
+RS-00025,VT-00056,CL-00050,5,Excelente atención al cliente.,2025-06-27
+RS-00026,VT-00012,CL-00013,3,"Todo perfecto, gracias.",2025-08-17
+RS-00027,VT-00009,CL-00026,5,"Todo perfecto, gracias.",2025-06-03
+RS-00028,VT-00076,CL-00047,2,La talla no era correcta.,2025-06-29
+RS-00029,VT-00023,CL-00036,4,Precio justo y buena calidad.,2025-08-05
+RS-00030,VT-00036,CL-00026,5,No era lo que esperaba.,2025-07-26
+RS-00031,VT-00019,CL-00011,2,"Me encantó, lo recomiendo.",2025-03-22
+RS-00032,VT-00132,CL-00015,4,"Todo perfecto, gracias.",2025-06-17
+RS-00033,VT-00122,CL-00020,5,"Todo perfecto, gracias.",2024-12-27
+RS-00034,VT-00023,CL-00036,5,Tuve problemas con la entrega.,2025-07-07
+RS-00035,VT-00073,CL-00031,1,"Me encantó, lo recomiendo.",2025-06-21
+RS-00036,VT-00113,CL-00032,3,"Todo perfecto, gracias.",2025-03-25
+RS-00037,VT-00080,CL-00018,3,El embalaje estaba dañado.,2025-04-04
+RS-00038,VT-00069,CL-00024,5,Excelente atención al cliente.,2025-02-18
+RS-00039,VT-00143,CL-00003,3,No era lo que esperaba.,2025-01-26
+RS-00040,VT-00053,CL-00025,5,"Me encantó, lo recomiendo.",2025-07-04
+RS-00041,VT-00015,CL-00012,5,"Muy buen producto, llegó rápido.",2025-05-11
+RS-00042,VT-00036,CL-00026,5,La talla no era correcta.,2025-08-04
+RS-00043,VT-00012,CL-00013,4,No era lo que esperaba.,2025-08-15
+RS-00044,VT-00127,CL-00008,4,Excelente atención al cliente.,2025-07-05
+RS-00045,VT-00025,CL-00042,5,El embalaje estaba dañado.,2025-08-14
+RS-00046,VT-00040,CL-00046,5,Excelente atención al cliente.,2025-07-28
+RS-00047,VT-00142,CL-00020,3,Tuve problemas con la entrega.,2025-06-22
+RS-00048,VT-00058,CL-00024,3,No era lo que esperaba.,2025-08-18
+RS-00049,VT-00010,CL-00022,1,"Todo perfecto, gracias.",2025-07-31
+RS-00050,VT-00121,CL-00035,4,Tuve problemas con la entrega.,2025-08-08
+RS-00051,VT-00095,CL-00003,5,Volveré a comprar sin duda.,2025-01-09
+RS-00052,VT-00013,CL-00034,1,Volveré a comprar sin duda.,2025-06-30
+RS-00053,VT-00038,CL-00037,5,Excelente atención al cliente.,2024-11-30
+RS-00054,VT-00079,CL-00028,3,"Me encantó, lo recomiendo.",2025-03-22
+RS-00055,VT-00068,CL-00034,4,Tuve problemas con la entrega.,2025-01-25
+RS-00056,VT-00053,CL-00025,5,La talla no era correcta.,2025-07-18
+RS-00057,VT-00056,CL-00050,4,Tuve problemas con la entrega.,2025-05-25
+RS-00058,VT-00121,CL-00035,3,La talla no era correcta.,2025-05-09
+RS-00059,VT-00045,CL-00026,5,"Me encantó, lo recomiendo.",2025-03-30
+RS-00060,VT-00118,CL-00006,5,Tuve problemas con la entrega.,2025-03-04
+RS-00061,VT-00019,CL-00011,4,El embalaje estaba dañado.,2025-05-27
+RS-00062,VT-00104,CL-00046,4,No era lo que esperaba.,2025-07-14
+RS-00063,VT-00048,CL-00024,4,"Muy buen producto, llegó rápido.",2025-08-12
+RS-00064,VT-00068,CL-00034,3,"Muy buen producto, llegó rápido.",2025-02-03
+RS-00065,VT-00104,CL-00046,5,La talla no era correcta.,2025-05-28
+RS-00066,VT-00144,CL-00048,4,Precio justo y buena calidad.,2025-07-25
+RS-00067,VT-00110,CL-00012,4,"Me encantó, lo recomiendo.",2025-08-11
+RS-00068,VT-00034,CL-00020,5,"Todo perfecto, gracias.",2025-08-10
+RS-00069,VT-00011,CL-00010,5,El embalaje estaba dañado.,2025-06-04
+RS-00070,VT-00106,CL-00034,4,La talla no era correcta.,2025-07-31
+RS-00071,VT-00143,CL-00003,4,Precio justo y buena calidad.,2025-05-03
+RS-00072,VT-00085,CL-00040,3,"Me encantó, lo recomiendo.",2025-08-18
+RS-00073,VT-00047,CL-00043,4,"Todo perfecto, gracias.",2025-08-16
+RS-00074,VT-00132,CL-00015,5,"Me encantó, lo recomiendo.",2024-12-14
+RS-00075,VT-00039,CL-00022,4,"Muy buen producto, llegó rápido.",2025-07-28
+RS-00076,VT-00149,CL-00029,5,"Todo perfecto, gracias.",2025-07-23
+RS-00077,VT-00089,CL-00026,4,Excelente atención al cliente.,2025-06-30
+RS-00078,VT-00099,CL-00021,5,"Todo perfecto, gracias.",2025-08-18
+RS-00079,VT-00144,CL-00048,4,"Todo perfecto, gracias.",2025-06-14
+RS-00080,VT-00074,CL-00013,5,"Todo perfecto, gracias.",2025-05-15
+RS-00081,VT-00010,CL-00022,5,"Me encantó, lo recomiendo.",2025-07-18
+RS-00082,VT-00003,CL-00019,1,"Muy buen producto, llegó rápido.",2025-06-23
+RS-00083,VT-00107,CL-00002,3,"Muy buen producto, llegó rápido.",2025-08-16
+RS-00084,VT-00035,CL-00014,4,Volveré a comprar sin duda.,2024-12-28
+RS-00085,VT-00056,CL-00050,4,El embalaje estaba dañado.,2025-07-06
+RS-00086,VT-00129,CL-00044,2,"Me encantó, lo recomiendo.",2025-07-27
+RS-00087,VT-00019,CL-00011,4,La talla no era correcta.,2025-08-04
+RS-00088,VT-00092,CL-00045,4,Volveré a comprar sin duda.,2025-06-10
+RS-00089,VT-00068,CL-00034,1,No era lo que esperaba.,2024-11-18
+RS-00090,VT-00056,CL-00050,5,"Muy buen producto, llegó rápido.",2025-05-15
+RS-00091,VT-00008,CL-00044,4,El embalaje estaba dañado.,2025-03-01
+RS-00092,VT-00100,CL-00025,5,El embalaje estaba dañado.,2025-06-16
+RS-00093,VT-00015,CL-00012,5,La talla no era correcta.,2024-11-25
+RS-00094,VT-00128,CL-00030,3,"Me encantó, lo recomiendo.",2025-05-23
+RS-00095,VT-00047,CL-00043,2,El embalaje estaba dañado.,2025-07-02
+RS-00096,VT-00118,CL-00006,5,No era lo que esperaba.,2025-06-12
+RS-00097,VT-00065,CL-00017,3,Volveré a comprar sin duda.,2025-08-14
+RS-00098,VT-00008,CL-00044,5,"Todo perfecto, gracias.",2025-03-21
+RS-00099,VT-00099,CL-00021,3,La talla no era correcta.,2025-08-18
+RS-00100,VT-00005,CL-00013,5,"Muy buen producto, llegó rápido.",2025-05-09

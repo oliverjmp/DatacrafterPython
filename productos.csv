@@ -1,0 +1,201 @@
+product_id,name,description,price,category,provider_id
+PD-00001,Pantalón vaquero,Pantalón vaquero en formato: Pack de 2 camisetas,471.16,Ropa,PR-00066
+PD-00002,Puzzle 500 piezas,Puzzle 500 piezas en formato: Set de construcción,274.76,Juguetes,PR-00068
+PD-00003,Lámpara LED,Lámpara LED en formato: Pack de 3,258.67,Hogar,PR-00035
+PD-00004,Organizador de cocina,Organizador de cocina en formato: Pack de 3,334.62,Hogar,PR-00097
+PD-00005,Bloques de construcción,Bloques de construcción en formato: Caja con piezas,334.72,Juguetes,PR-00033
+PD-00006,Balón de fútbol,Balón de fútbol en formato: Unidad,165.75,Deportes,PR-00009
+PD-00007,Botella térmica,Botella térmica en formato: Unidad,439.52,Deportes,PR-00078
+PD-00008,Aceite de oliva,Aceite de oliva en formato: Caja de 12 unidades,460.74,Alimentos,PR-00088
+PD-00009,Arroz basmati,Arroz basmati en formato: Botella de 1L,400.97,Alimentos,PR-00035
+PD-00010,Cargador USB-C,Cargador USB-C en formato: Unidad,418.48,Electrónica,PR-00099
+PD-00011,Galletas integrales,Galletas integrales en formato: Paquete de 500g,104.87,Alimentos,PR-00009
+PD-00012,Café molido,Café molido en formato: Botella de 1L,51.94,Alimentos,PR-00015
+PD-00013,Puzzle 500 piezas,Puzzle 500 piezas en formato: Set de construcción,410.21,Juguetes,PR-00060
+PD-00014,Lámpara LED,Lámpara LED en formato: Unidad,331.37,Hogar,PR-00031
+PD-00015,Chaqueta impermeable,Chaqueta impermeable en formato: Talla M,354.07,Ropa,PR-00063
+PD-00016,Bloques de construcción,Bloques de construcción en formato: Set de construcción,59.04,Juguetes,PR-00039
+PD-00017,Lámpara LED,Lámpara LED en formato: Pack de 3,210.78,Hogar,PR-00094
+PD-00018,Organizador de cocina,Organizador de cocina en formato: Set de cocina,353.08,Hogar,PR-00013
+PD-00019,Smartwatch,Smartwatch en formato: Caja con accesorios,488.39,Electrónica,PR-00032
+PD-00020,Cargador USB-C,Cargador USB-C en formato: Unidad,153.34,Electrónica,PR-00086
+PD-00021,Bloques de construcción,Bloques de construcción en formato: Set de construcción,48.38,Juguetes,PR-00047
+PD-00022,Chaqueta impermeable,Chaqueta impermeable en formato: Talla única,265.45,Ropa,PR-00053
+PD-00023,Café molido,Café molido en formato: Caja de 12 unidades,60.45,Alimentos,PR-00053
+PD-00024,Zapatillas deportivas,Zapatillas deportivas en formato: Talla única,367.05,Ropa,PR-00097
+PD-00025,Aceite de oliva,Aceite de oliva en formato: Botella de 1L,303.82,Alimentos,PR-00044
+PD-00026,Altavoz portátil,Altavoz portátil en formato: Caja con accesorios,181.29,Electrónica,PR-00006
+PD-00027,Pelota sensorial,Pelota sensorial en formato: Unidad,38.49,Juguetes,PR-00040
+PD-00028,Arroz basmati,Arroz basmati en formato: Paquete de 500g,172.22,Alimentos,PR-00024
+PD-00029,Muñeca articulada,Muñeca articulada en formato: Set de construcción,122.69,Juguetes,PR-00045
+PD-00030,Camiseta básica,Camiseta básica en formato: Talla M,486.71,Ropa,PR-00020
+PD-00031,Bloques de construcción,Bloques de construcción en formato: Set de construcción,233.48,Juguetes,PR-00093
+PD-00032,Aceite de oliva,Aceite de oliva en formato: Caja de 12 unidades,5.93,Alimentos,PR-00060
+PD-00033,Puzzle 500 piezas,Puzzle 500 piezas en formato: Unidad,102.08,Juguetes,PR-00071
+PD-00034,Galletas integrales,Galletas integrales en formato: Paquete de 500g,306.27,Alimentos,PR-00007
+PD-00035,Organizador de cocina,Organizador de cocina en formato: Unidad,138.61,Hogar,PR-00017
+PD-00036,Mancuernas 5kg,Mancuernas 5kg en formato: Pack de 2,199.29,Deportes,PR-00060
+PD-00037,Muñeca articulada,Muñeca articulada en formato: Caja con piezas,249.21,Juguetes,PR-00079
+PD-00038,Pantalón vaquero,Pantalón vaquero en formato: Talla M,223.1,Ropa,PR-00021
+PD-00039,Chaqueta impermeable,Chaqueta impermeable en formato: Talla única,165.43,Ropa,PR-00012
+PD-00040,Auriculares Bluetooth,Auriculares Bluetooth en formato: Set de 2 piezas,390.83,Electrónica,PR-00069
+PD-00041,Esterilla yoga,Esterilla yoga en formato: Unidad,141.01,Deportes,PR-00076
+PD-00042,Organizador de cocina,Organizador de cocina en formato: Pack de 3,496.99,Hogar,PR-00098
+PD-00043,Auriculares Bluetooth,Auriculares Bluetooth en formato: Unidad,243.95,Electrónica,PR-00076
+PD-00044,Lámpara LED,Lámpara LED en formato: Unidad,391.01,Hogar,PR-00011
+PD-00045,Balón de fútbol,Balón de fútbol en formato: Unidad,494.09,Deportes,PR-00100
+PD-00046,Café molido,Café molido en formato: Caja de 12 unidades,30.9,Alimentos,PR-00036
+PD-00047,Botella térmica,Botella térmica en formato: Unidad,347.13,Deportes,PR-00048
+PD-00048,Camiseta básica,Camiseta básica en formato: Talla única,222.55,Ropa,PR-00001
+PD-00049,Muñeca articulada,Muñeca articulada en formato: Unidad,163.55,Juguetes,PR-00056
+PD-00050,Botella térmica,Botella térmica en formato: Botella de 750ml,456.87,Deportes,PR-00036
+PD-00051,Puzzle 500 piezas,Puzzle 500 piezas en formato: Set de construcción,394.23,Juguetes,PR-00071
+PD-00052,Camiseta básica,Camiseta básica en formato: Talla única,59.06,Ropa,PR-00054
+PD-00053,Balón de fútbol,Balón de fútbol en formato: Pack de 2,84.84,Deportes,PR-00035
+PD-00054,Muñeca articulada,Muñeca articulada en formato: Unidad,98.28,Juguetes,PR-00099
+PD-00055,Puzzle 500 piezas,Puzzle 500 piezas en formato: Caja con piezas,196.96,Juguetes,PR-00068
+PD-00056,Chaqueta impermeable,Chaqueta impermeable en formato: Pack de 2 camisetas,293.88,Ropa,PR-00013
+PD-00057,Organizador de cocina,Organizador de cocina en formato: Unidad,304.41,Hogar,PR-00047
+PD-00058,Mancuernas 5kg,Mancuernas 5kg en formato: Botella de 750ml,173.87,Deportes,PR-00091
+PD-00059,Zapatillas deportivas,Zapatillas deportivas en formato: Talla M,64.91,Ropa,PR-00097
+PD-00060,Altavoz portátil,Altavoz portátil en formato: Unidad,124.54,Electrónica,PR-00013
+PD-00061,Organizador de cocina,Organizador de cocina en formato: Unidad,35.76,Hogar,PR-00034
+PD-00062,Puzzle 500 piezas,Puzzle 500 piezas en formato: Unidad,216.68,Juguetes,PR-00003
+PD-00063,Balón de fútbol,Balón de fútbol en formato: Unidad,115.55,Deportes,PR-00095
+PD-00064,Aceite de oliva,Aceite de oliva en formato: Caja de 12 unidades,362.94,Alimentos,PR-00055
+PD-00065,Mancuernas 5kg,Mancuernas 5kg en formato: Unidad,15.45,Deportes,PR-00029
+PD-00066,Organizador de cocina,Organizador de cocina en formato: Unidad,165.46,Hogar,PR-00072
+PD-00067,Puzzle 500 piezas,Puzzle 500 piezas en formato: Set de construcción,472.11,Juguetes,PR-00073
+PD-00068,Zapatillas deportivas,Zapatillas deportivas en formato: Pack de 2 camisetas,488.8,Ropa,PR-00007
+PD-00069,Cargador USB-C,Cargador USB-C en formato: Caja con accesorios,180.97,Electrónica,PR-00081
+PD-00070,Altavoz portátil,Altavoz portátil en formato: Set de 2 piezas,402.27,Electrónica,PR-00094
+PD-00071,Arroz basmati,Arroz basmati en formato: Paquete de 500g,318.11,Alimentos,PR-00035
+PD-00072,Muñeca articulada,Muñeca articulada en formato: Set de construcción,233.36,Juguetes,PR-00096
+PD-00073,Muñeca articulada,Muñeca articulada en formato: Caja con piezas,392.33,Juguetes,PR-00034
+PD-00074,Pantalón vaquero,Pantalón vaquero en formato: Talla única,14.76,Ropa,PR-00098
+PD-00075,Smartwatch,Smartwatch en formato: Caja con accesorios,102.36,Electrónica,PR-00011
+PD-00076,Arroz basmati,Arroz basmati en formato: Caja de 12 unidades,191.73,Alimentos,PR-00092
+PD-00077,Altavoz portátil,Altavoz portátil en formato: Caja con accesorios,392.39,Electrónica,PR-00078
+PD-00078,Camiseta básica,Camiseta básica en formato: Talla M,94.92,Ropa,PR-00048
+PD-00079,Botella térmica,Botella térmica en formato: Botella de 750ml,463.04,Deportes,PR-00044
+PD-00080,Altavoz portátil,Altavoz portátil en formato: Caja con accesorios,349.2,Electrónica,PR-00083
+PD-00081,Smartwatch,Smartwatch en formato: Caja con accesorios,77.15,Electrónica,PR-00022
+PD-00082,Almohada viscoelástica,Almohada viscoelástica en formato: Pack de 3,227.41,Hogar,PR-00051
+PD-00083,Pantalón vaquero,Pantalón vaquero en formato: Talla única,470.05,Ropa,PR-00046
+PD-00084,Cortina blackout,Cortina blackout en formato: Pack de 3,409.21,Hogar,PR-00099
+PD-00085,Arroz basmati,Arroz basmati en formato: Paquete de 500g,216.91,Alimentos,PR-00076
+PD-00086,Auriculares Bluetooth,Auriculares Bluetooth en formato: Set de 2 piezas,372.99,Electrónica,PR-00058
+PD-00087,Zapatillas deportivas,Zapatillas deportivas en formato: Talla única,448.53,Ropa,PR-00098
+PD-00088,Mancuernas 5kg,Mancuernas 5kg en formato: Unidad,426.0,Deportes,PR-00013
+PD-00089,Almohada viscoelástica,Almohada viscoelástica en formato: Unidad,140.0,Hogar,PR-00044
+PD-00090,Arroz basmati,Arroz basmati en formato: Caja de 12 unidades,128.75,Alimentos,PR-00091
+PD-00091,Cortina blackout,Cortina blackout en formato: Set de cocina,154.13,Hogar,PR-00056
+PD-00092,Aceite de oliva,Aceite de oliva en formato: Caja de 12 unidades,10.81,Alimentos,PR-00011
+PD-00093,Puzzle 500 piezas,Puzzle 500 piezas en formato: Unidad,435.95,Juguetes,PR-00099
+PD-00094,Esterilla yoga,Esterilla yoga en formato: Pack de 2,129.57,Deportes,PR-00073
+PD-00095,Cargador USB-C,Cargador USB-C en formato: Caja con accesorios,402.23,Electrónica,PR-00021
+PD-00096,Altavoz portátil,Altavoz portátil en formato: Set de 2 piezas,104.55,Electrónica,PR-00047
+PD-00097,Pelota sensorial,Pelota sensorial en formato: Unidad,197.35,Juguetes,PR-00037
+PD-00098,Arroz basmati,Arroz basmati en formato: Paquete de 500g,57.36,Alimentos,PR-00049
+PD-00099,Mancuernas 5kg,Mancuernas 5kg en formato: Pack de 2,394.34,Deportes,PR-00088
+PD-00100,Botella térmica,Botella térmica en formato: Pack de 2,441.55,Deportes,PR-00022
+PD-00101,Cortina blackout,Cortina blackout en formato: Set de cocina,135.96,Hogar,PR-00029
+PD-00102,Esterilla yoga,Esterilla yoga en formato: Pack de 2,451.96,Deportes,PR-00085
+PD-00103,Zapatillas deportivas,Zapatillas deportivas en formato: Talla única,351.79,Ropa,PR-00086
+PD-00104,Botella térmica,Botella térmica en formato: Pack de 2,85.61,Deportes,PR-00038
+PD-00105,Altavoz portátil,Altavoz portátil en formato: Set de 2 piezas,289.33,Electrónica,PR-00066
+PD-00106,Puzzle 500 piezas,Puzzle 500 piezas en formato: Set de construcción,316.64,Juguetes,PR-00011
+PD-00107,Muñeca articulada,Muñeca articulada en formato: Set de construcción,56.55,Juguetes,PR-00068
+PD-00108,Altavoz portátil,Altavoz portátil en formato: Set de 2 piezas,438.15,Electrónica,PR-00034
+PD-00109,Altavoz portátil,Altavoz portátil en formato: Set de 2 piezas,464.0,Electrónica,PR-00051
+PD-00110,Botella térmica,Botella térmica en formato: Botella de 750ml,65.9,Deportes,PR-00080
+PD-00111,Aceite de oliva,Aceite de oliva en formato: Botella de 1L,46.41,Alimentos,PR-00090
+PD-00112,Zapatillas deportivas,Zapatillas deportivas en formato: Talla única,482.66,Ropa,PR-00064
+PD-00113,Café molido,Café molido en formato: Botella de 1L,268.41,Alimentos,PR-00090
+PD-00114,Puzzle 500 piezas,Puzzle 500 piezas en formato: Set de construcción,349.89,Juguetes,PR-00096
+PD-00115,Galletas integrales,Galletas integrales en formato: Caja de 12 unidades,432.99,Alimentos,PR-00045
+PD-00116,Muñeca articulada,Muñeca articulada en formato: Caja con piezas,5.02,Juguetes,PR-00052
+PD-00117,Aceite de oliva,Aceite de oliva en formato: Botella de 1L,483.06,Alimentos,PR-00065
+PD-00118,Arroz basmati,Arroz basmati en formato: Botella de 1L,166.5,Alimentos,PR-00078
+PD-00119,Altavoz portátil,Altavoz portátil en formato: Caja con accesorios,93.68,Electrónica,PR-00072
+PD-00120,Chaqueta impermeable,Chaqueta impermeable en formato: Pack de 2 camisetas,446.78,Ropa,PR-00045
+PD-00121,Arroz basmati,Arroz basmati en formato: Caja de 12 unidades,374.18,Alimentos,PR-00021
+PD-00122,Organizador de cocina,Organizador de cocina en formato: Unidad,487.26,Hogar,PR-00092
+PD-00123,Botella térmica,Botella térmica en formato: Botella de 750ml,98.28,Deportes,PR-00023
+PD-00124,Café molido,Café molido en formato: Paquete de 500g,412.36,Alimentos,PR-00077
+PD-00125,Pantalón vaquero,Pantalón vaquero en formato: Pack de 2 camisetas,338.05,Ropa,PR-00002
+PD-00126,Organizador de cocina,Organizador de cocina en formato: Pack de 3,116.11,Hogar,PR-00022
+PD-00127,Arroz basmati,Arroz basmati en formato: Caja de 12 unidades,426.67,Alimentos,PR-00098
+PD-00128,Cortina blackout,Cortina blackout en formato: Unidad,146.19,Hogar,PR-00002
+PD-00129,Pelota sensorial,Pelota sensorial en formato: Unidad,334.67,Juguetes,PR-00022
+PD-00130,Camiseta básica,Camiseta básica en formato: Pack de 2 camisetas,132.15,Ropa,PR-00037
+PD-00131,Zapatillas deportivas,Zapatillas deportivas en formato: Talla única,474.69,Ropa,PR-00092
+PD-00132,Puzzle 500 piezas,Puzzle 500 piezas en formato: Unidad,374.36,Juguetes,PR-00066
+PD-00133,Esterilla yoga,Esterilla yoga en formato: Unidad,369.87,Deportes,PR-00067
+PD-00134,Bloques de construcción,Bloques de construcción en formato: Caja con piezas,416.16,Juguetes,PR-00032
+PD-00135,Balón de fútbol,Balón de fútbol en formato: Unidad,181.06,Deportes,PR-00081
+PD-00136,Pelota sensorial,Pelota sensorial en formato: Caja con piezas,48.37,Juguetes,PR-00013
+PD-00137,Camiseta básica,Camiseta básica en formato: Talla única,368.42,Ropa,PR-00045
+PD-00138,Mancuernas 5kg,Mancuernas 5kg en formato: Unidad,128.84,Deportes,PR-00019
+PD-00139,Aceite de oliva,Aceite de oliva en formato: Caja de 12 unidades,244.78,Alimentos,PR-00058
+PD-00140,Organizador de cocina,Organizador de cocina en formato: Unidad,8.64,Hogar,PR-00069
+PD-00141,Cargador USB-C,Cargador USB-C en formato: Set de 2 piezas,231.39,Electrónica,PR-00062
+PD-00142,Smartwatch,Smartwatch en formato: Unidad,230.63,Electrónica,PR-00088
+PD-00143,Camiseta básica,Camiseta básica en formato: Talla única,117.96,Ropa,PR-00092
+PD-00144,Muñeca articulada,Muñeca articulada en formato: Caja con piezas,263.48,Juguetes,PR-00056
+PD-00145,Pelota sensorial,Pelota sensorial en formato: Unidad,277.16,Juguetes,PR-00096
+PD-00146,Pelota sensorial,Pelota sensorial en formato: Unidad,383.64,Juguetes,PR-00021
+PD-00147,Almohada viscoelástica,Almohada viscoelástica en formato: Pack de 3,438.5,Hogar,PR-00017
+PD-00148,Mancuernas 5kg,Mancuernas 5kg en formato: Pack de 2,101.24,Deportes,PR-00048
+PD-00149,Altavoz portátil,Altavoz portátil en formato: Caja con accesorios,109.49,Electrónica,PR-00085
+PD-00150,Pantalón vaquero,Pantalón vaquero en formato: Talla M,379.04,Ropa,PR-00067
+PD-00151,Chaqueta impermeable,Chaqueta impermeable en formato: Pack de 2 camisetas,385.72,Ropa,PR-00065
+PD-00152,Chaqueta impermeable,Chaqueta impermeable en formato: Talla única,414.68,Ropa,PR-00074
+PD-00153,Cortina blackout,Cortina blackout en formato: Set de cocina,201.71,Hogar,PR-00047
+PD-00154,Lámpara LED,Lámpara LED en formato: Pack de 3,101.15,Hogar,PR-00015
+PD-00155,Arroz basmati,Arroz basmati en formato: Caja de 12 unidades,455.11,Alimentos,PR-00061
+PD-00156,Esterilla yoga,Esterilla yoga en formato: Pack de 2,431.4,Deportes,PR-00024
+PD-00157,Cortina blackout,Cortina blackout en formato: Set de cocina,86.11,Hogar,PR-00014
+PD-00158,Smartwatch,Smartwatch en formato: Set de 2 piezas,143.71,Electrónica,PR-00083
+PD-00159,Pantalón vaquero,Pantalón vaquero en formato: Talla M,453.81,Ropa,PR-00010
+PD-00160,Esterilla yoga,Esterilla yoga en formato: Unidad,131.29,Deportes,PR-00003
+PD-00161,Organizador de cocina,Organizador de cocina en formato: Pack de 3,448.2,Hogar,PR-00047
+PD-00162,Botella térmica,Botella térmica en formato: Pack de 2,170.56,Deportes,PR-00033
+PD-00163,Cortina blackout,Cortina blackout en formato: Unidad,356.03,Hogar,PR-00016
+PD-00164,Camiseta básica,Camiseta básica en formato: Talla M,373.18,Ropa,PR-00082
+PD-00165,Chaqueta impermeable,Chaqueta impermeable en formato: Talla M,269.17,Ropa,PR-00082
+PD-00166,Aceite de oliva,Aceite de oliva en formato: Paquete de 500g,435.23,Alimentos,PR-00099
+PD-00167,Muñeca articulada,Muñeca articulada en formato: Set de construcción,475.31,Juguetes,PR-00053
+PD-00168,Auriculares Bluetooth,Auriculares Bluetooth en formato: Unidad,33.54,Electrónica,PR-00033
+PD-00169,Botella térmica,Botella térmica en formato: Pack de 2,304.74,Deportes,PR-00051
+PD-00170,Cortina blackout,Cortina blackout en formato: Pack de 3,251.81,Hogar,PR-00093
+PD-00171,Muñeca articulada,Muñeca articulada en formato: Unidad,78.31,Juguetes,PR-00085
+PD-00172,Smartwatch,Smartwatch en formato: Caja con accesorios,429.55,Electrónica,PR-00056
+PD-00173,Smartwatch,Smartwatch en formato: Set de 2 piezas,199.16,Electrónica,PR-00030
+PD-00174,Almohada viscoelástica,Almohada viscoelástica en formato: Unidad,332.55,Hogar,PR-00053
+PD-00175,Smartwatch,Smartwatch en formato: Unidad,233.95,Electrónica,PR-00074
+PD-00176,Almohada viscoelástica,Almohada viscoelástica en formato: Unidad,56.24,Hogar,PR-00050
+PD-00177,Almohada viscoelástica,Almohada viscoelástica en formato: Unidad,190.5,Hogar,PR-00001
+PD-00178,Camiseta básica,Camiseta básica en formato: Talla M,304.24,Ropa,PR-00016
+PD-00179,Puzzle 500 piezas,Puzzle 500 piezas en formato: Set de construcción,437.44,Juguetes,PR-00079
+PD-00180,Organizador de cocina,Organizador de cocina en formato: Unidad,18.91,Hogar,PR-00066
+PD-00181,Auriculares Bluetooth,Auriculares Bluetooth en formato: Set de 2 piezas,183.71,Electrónica,PR-00062
+PD-00182,Almohada viscoelástica,Almohada viscoelástica en formato: Set de cocina,259.7,Hogar,PR-00099
+PD-00183,Zapatillas deportivas,Zapatillas deportivas en formato: Talla M,144.45,Ropa,PR-00064
+PD-00184,Cortina blackout,Cortina blackout en formato: Pack de 3,291.75,Hogar,PR-00060
+PD-00185,Botella térmica,Botella térmica en formato: Unidad,302.02,Deportes,PR-00098
+PD-00186,Café molido,Café molido en formato: Paquete de 500g,342.7,Alimentos,PR-00012
+PD-00187,Mancuernas 5kg,Mancuernas 5kg en formato: Pack de 2,190.19,Deportes,PR-00024
+PD-00188,Lámpara LED,Lámpara LED en formato: Unidad,247.34,Hogar,PR-00075
+PD-00189,Mancuernas 5kg,Mancuernas 5kg en formato: Unidad,379.53,Deportes,PR-00070
+PD-00190,Muñeca articulada,Muñeca articulada en formato: Set de construcción,376.62,Juguetes,PR-00006
+PD-00191,Pantalón vaquero,Pantalón vaquero en formato: Talla M,261.53,Ropa,PR-00068
+PD-00192,Mancuernas 5kg,Mancuernas 5kg en formato: Unidad,430.96,Deportes,PR-00029
+PD-00193,Organizador de cocina,Organizador de cocina en formato: Pack de 3,436.4,Hogar,PR-00099
+PD-00194,Auriculares Bluetooth,Auriculares Bluetooth en formato: Unidad,438.08,Electrónica,PR-00008
+PD-00195,Almohada viscoelástica,Almohada viscoelástica en formato: Set de cocina,179.49,Hogar,PR-00062
+PD-00196,Smartwatch,Smartwatch en formato: Caja con accesorios,42.77,Electrónica,PR-00002
+PD-00197,Organizador de cocina,Organizador de cocina en formato: Set de cocina,497.42,Hogar,PR-00057
+PD-00198,Cortina blackout,Cortina blackout en formato: Unidad,425.9,Hogar,PR-00047
+PD-00199,Altavoz portátil,Altavoz portátil en formato: Set de 2 piezas,178.3,Electrónica,PR-00068
+PD-00200,Altavoz portátil,Altavoz portátil en formato: Caja con accesorios,184.92,Electrónica,PR-00084
