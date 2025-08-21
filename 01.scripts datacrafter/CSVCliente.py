@@ -1,6 +1,7 @@
 import random
 from faker import Faker
 import pandas as pd
+import os
 
 # Diccionario de países con su configuración de Faker y prefijo telefónico
 localizaciones = {
@@ -68,10 +69,34 @@ for i in range(1, num_clients + 1):
     }
     clients.append(client)
 
-# Convertir a DataFrame y exportar
+# Convertir a DataFrame
 df_clients = pd.DataFrame(clients)
-df_clients.to_csv('02.descargable/CSV/clientes.csv', index=False)
-# Exportar también como JSON
-df_clients.to_json('02.descargable/JSON/clientes.json', orient='records', lines=True, force_ascii=False)
+
+def exportar_clientes(df, carpeta='02.descargable'):
+    formatos = {
+        'CSV': lambda: df_clients.to_csv(f'{carpeta}/CSV/clientes.csv', index=False),
+        'JSON': lambda: df_clients.to_json(f'{carpeta}/JSON/clientes.json', orient='records', lines=True, force_ascii=False),
+        'SQL': lambda: exportar_sql(df_clients, f'{carpeta}/SQL/clientes.sql', 'clientes'),
+        'PARQUET': lambda: df_clients.to_parquet(f'{carpeta}/PARQUET/clientes.parquet', index=False),
+        'FEATHER': lambda: df_clients.to_feather(f'{carpeta}/FEATHER/clientes.feather'),
+        'EXCEL': lambda: df_clients.to_excel(f'{carpeta}/XLSX/clientes.xlsx', index=False)
+    }
+
+# Ejecutar exportaciones
+    for nombre, funcion in formatos.items():
+        try:
+            funcion()
+            print(f"✅ Exportado en formato {nombre}")
+        except Exception as e:
+            print(f"⚠️ Error al exportar en {nombre}: {e}")
+
+def exportar_sql(df, ruta, nombre_tabla):
+    with open(ruta, 'w', encoding='utf-8') as f:
+        for _, row in df.iterrows():
+            columnas = ', '.join(df.columns)
+            valores = ', '.join([f"'{str(valor).replace('\'', '\'\'')}'" for valor in row])
+            f.write(f"INSERT INTO {nombre_tabla} ({columnas}) VALUES ({valores});\n")
+
 print(df_clients.head())
+exportar_clientes(df_clients)
 print(f"\n✅ Se han generado y exportado {num_clients} clientes internacionales en el archivo 'clientes.csv'.")
