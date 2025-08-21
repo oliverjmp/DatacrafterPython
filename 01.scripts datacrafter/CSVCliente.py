@@ -11,7 +11,13 @@ localizaciones = {
     'Alemania': {'locale': 'de_DE', 'prefix': '+49'},
     'Japón': {'locale': 'ja_JP', 'prefix': '+81'},
     'Brasil': {'locale': 'pt_BR', 'prefix': '+55'},
-    'China': {'locale': 'zh_CN', 'prefix': '+86'}
+    'China': {'locale': 'zh_CN', 'prefix': '+86'},
+    'Dominican Republic': {'locale': 'es_ES', 'prefix': '+1-809'},  # ← Ajuste aquí
+    'México': {'locale': 'es_MX', 'prefix': '+52'},
+    'Venezuela': {'locale': 'es_ES', 'prefix': '+58'},              # ← Ajuste aquí
+    'Italia': {'locale': 'it_IT', 'prefix': '+39'},
+    'Rusia': {'locale': 'ru_RU', 'prefix': '+7'},
+    'Canadá': {'locale': 'en_CA', 'prefix': '+1'}
 }
 
 # Función para calcular la letra del DNI
