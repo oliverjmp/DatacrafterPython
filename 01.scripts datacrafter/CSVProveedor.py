@@ -20,7 +20,6 @@ paises_ciudades = {
     "China": {"ciudades": ["Pekín", "Shanghái", "Guangzhou", "Shenzhen"], "locale": "zh_CN", "prefix": "+86"}
 }
 
-# Diccionario de categorías y subcategorías
 categorias_subcategorias = {
     'Tecnología': ['Software', 'Hardware', 'Redes', 'Ciberseguridad', 'IoT'],
     'Alimentos': ['Frutas y Verduras', 'Carnes y Embutidos', 'Bebidas', 'Panadería', 'Comida Congelada'],
@@ -30,7 +29,8 @@ categorias_subcategorias = {
     'Accesorios y Repuestos': ['Automotrices', 'Electrodomésticos', 'Tecnológicos', 'Industriales', 'Mecánicos'],
     'Construcción': ['Materiales', 'Maquinaria', 'Herramientas', 'Arquitectura', 'Ingeniería'],
     'Cuidado Personal': ['Cosméticos', 'Farmacéuticos', 'Higiene', 'Spa', 'Nutrición'],
-    'Hogar y Decoración': ['Muebles', 'Iluminación', 'Textiles', 'Organización', 'Arte decorativo']
+    'Hogar y Decoración': ['Muebles', 'Iluminación', 'Textiles', 'Organización', 'Arte decorativo'],
+    'Productos de Limpieza': ['Desinfectantes', 'Detergentes', 'Ambientadores', 'Limpiadores multiusos', 'Escobas y utensilios']
 }
 
 # Función para generar NIF español ficticio
