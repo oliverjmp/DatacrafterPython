@@ -36,26 +36,21 @@ categorias_subcategorias = {
     'Productos de Limpieza': ['Desinfectantes', 'Detergentes', 'Ambientadores', 'Limpiadores multiusos', 'Escobas y utensilios']
 }
 
-# Tipos de tienda
+# Tipos de tienda y empleados
 tipos_tienda = {
-    'Tienda Express': {'metros': 200, 'categorias': ['Productos de Limpieza', 'Cuidado Personal', 'Alimentos']},
-    'Tienda Mediana': {'metros': 500, 'categorias': ['Productos de Limpieza', 'Cuidado Personal', 'Alimentos', 'Ropa']},
-    'Supermercado': {'metros': 1500, 'categorias': ['Productos de Limpieza', 'Cuidado Personal', 'Alimentos', 'Ropa', 'Hogar y Decoración', 'Electrónica']},
-    'Hipermercado': {'metros': 3000, 'categorias': ['Productos de Limpieza', 'Cuidado Personal', 'Alimentos', 'Ropa', 'Hogar y Decoración', 'Electrónica', 'Tecnología', 'Servicios', 'Accesorios y Repuestos', 'Construcción']}
+    'Tienda Express': {'metros': 200, 'categorias': ['Productos de Limpieza', 'Cuidado Personal', 'Alimentos'], 'empleados': (5, 8)},
+    'Tienda Mediana': {'metros': 500, 'categorias': ['Productos de Limpieza', 'Cuidado Personal', 'Alimentos', 'Ropa'], 'empleados': (15, 20)},
+    'Supermercado': {'metros': 1500, 'categorias': ['Productos de Limpieza', 'Cuidado Personal', 'Alimentos', 'Ropa', 'Hogar y Decoración', 'Electrónica'], 'empleados': (40, 50)},
+    'Hipermercado': {'metros': 3000, 'categorias': ['Productos de Limpieza', 'Cuidado Personal', 'Alimentos', 'Ropa', 'Hogar y Decoración', 'Electrónica', 'Tecnología', 'Servicios', 'Accesorios y Repuestos', 'Construcción'], 'empleados': (130, 150)}
 }
 
-# Horarios y servicios
+# Horarios posibles
 horarios = [
     "Lunes a Viernes, 9:00–18:00",
     "Lunes a Sábado, 10:00–20:00",
     "Todos los días, 8:00–22:00",
     "Lunes a Viernes, 8:30–17:30",
     "Martes a Domingo, 11:00–19:00"
-]
-
-servicios_posibles = [
-    "Atención al cliente", "Ventas", "Soporte técnico", "Logística",
-    "Consultoría", "Reparaciones", "Entrega y recogida"
 ]
 
 # Funciones auxiliares
@@ -81,7 +76,6 @@ for pais in paises:
     fake_local = Faker(config['locale'])
     ciudad = random.choice(config['ciudades'])
 
-    # Distribución proporcional por tipo
     distribucion = {
         'Hipermercado': 2,
         'Supermercado': 8,
@@ -94,6 +88,7 @@ for pais in paises:
         for _ in range(cantidad):
             categoria = random.choice(info['categorias'])
             subcategoria = random.choice(categorias_subcategorias[categoria])
+            num_empleados = random.randint(*info['empleados'])
 
             branches.append({
                 'branch_id': f"BR-{branch_id_counter:05d}",
@@ -105,23 +100,23 @@ for pais in paises:
                 'city': ciudad,
                 'address': generar_direccion_personalizada(pais, ciudad),
                 'phone': generar_telefono_por_pais(pais),
-                'manager': fake_local.name(),
+                'email': fake_local.email(),
                 'opening_hours': random.choice(horarios),
-                'services': ", ".join(random.sample(servicios_posibles, k=random.randint(2, 4)))
+                'num_empleados': num_empleados
             })
             branch_id_counter += 1
 
-# Exportar
+# Crear DataFrame
 df_branches = pd.DataFrame(branches)
-os.makedirs('02.descargable/CSV', exist_ok=True)
+
 def exportar_branches(df, carpeta='02.descargable'):
     formatos = {
-        'CSV': lambda: df_branches.to_csv(f'{carpeta}/CSV/sucursales.csv', index=False),
-        'JSON': lambda: df_branches.to_json(f'{carpeta}/JSON/sucursales.json', orient='records', lines=True, force_ascii=False),
-        'SQL': lambda: exportar_sql(df_branches, f'{carpeta}/SQL/sucursales.sql', 'sucursales'),
-        'PARQUET': lambda: df_branches.to_parquet(f'{carpeta}/PARQUET/sucursales.parquet', index=False),
-        'FEATHER': lambda: df_branches.to_feather(f'{carpeta}/FEATHER/sucursales.feather'),
-        'EXCEL': lambda: df_branches.to_excel(f'{carpeta}/XLSX/sucursales.xlsx', index=False)
+        'CSV': lambda: df.to_csv(f'{carpeta}/CSV/sucursales.csv', index=False),
+        'JSON': lambda: df.to_json(f'{carpeta}/JSON/sucursales.json', orient='records', lines=True, force_ascii=False),
+        'SQL': lambda: exportar_sql(df, f'{carpeta}/SQL/sucursales.sql', 'sucursales'),
+        'PARQUET': lambda: df.to_parquet(f'{carpeta}/PARQUET/sucursales.parquet', index=False),
+        'FEATHER': lambda: df.to_feather(f'{carpeta}/FEATHER/sucursales.feather'),
+        'EXCEL': lambda: df.to_excel(f'{carpeta}/XLSX/sucursales.xlsx', index=False)
     }
 
 # Ejecutar exportaciones
@@ -142,4 +137,4 @@ def exportar_sql(df, ruta, nombre_tabla):
 print(df_branches.head())
 exportar_branches(df_branches)
 num_branches = len(df_branches)
-print(f"\n✅ Se han generado y exportado {num_branches} sucursales en el archivo 'sucursales'.")
+print(f"\n✅ Se han generado y exportado {num_branches} sucursales internacionales en el archivo 'sucursales.csv'.")
