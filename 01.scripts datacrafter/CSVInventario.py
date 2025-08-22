@@ -1,48 +1,67 @@
 import pandas as pd
-from datetime import datetime
+import random
+from faker import Faker
+import os
 
-# Cargar inventario y compras
-inventario = pd.read_csv('inventario.csv')
-df_compras = pd.read_csv('compras.csv')
-df_productos = pd.read_csv('productos.csv')
+fake = Faker()
 
-# Convertir fecha a datetime
-df_compras['fecha_compra'] = pd.to_datetime(df_compras['fecha_compra'])
+# Cargar productos y sucursales si están disponibles
+df_productos = pd.read_csv("02.descargable/CSV/productos.csv", encoding='utf-8-sig')
+df_branches = pd.read_csv("02.descargable/CSV/sucursales.csv", encoding='utf-8-sig')
 
-# Procesar cada compra
-for _, compra in df_compras.iterrows():
-    branch_id = compra['branch_id']
-    product_id = compra['product_id']
-    cantidad = compra['cantidad']
-    fecha = compra['fecha_compra']
+# Generar inventario
+inventario = []
+inventory_id_counter = 1
 
-    # Buscar si ya existe el producto en esa sucursal
-    filtro = (inventario['branch_id'] == branch_id) & (inventario['product_id'] == product_id)
+for _, row in df_productos.iterrows():
+    product_id = row["product_id"]
+    branch_id = row["branch_id"]
 
-    if filtro.any():
-        # Actualizar stock y fecha
-        inventario.loc[filtro, 'stock'] += cantidad
-        inventario.loc[filtro, 'fecha_actualizacion'] = fecha
+    stock_minimo = random.randint(5, 20)
+    stock_actual = random.randint(0, 100)
+    fecha_ingreso = fake.date_between(start_date='-180d', end_date='today')
+
+    if stock_actual == 0:
+        estado = "Agotado"
+    elif stock_actual <= stock_minimo:
+        estado = "Bajo stock"
     else:
-        # Crear nuevo registro
-        producto = df_productos[df_productos['product_id'] == product_id].iloc[0]
-        unidad = 'unidad'  # Puedes mejorar esto con tu lógica de unidades por categoría
+        estado = "Disponible"
 
-        nuevo_registro = {
-            'branch_id': branch_id,
-            'product_id': product_id,
-            'stock': cantidad,
-            'stock_minimo': 5,
-            'stock_maximo': cantidad + 100,
-            'unidad_medida': unidad,
-            'fecha_actualizacion': fecha
-        }
+    inventario.append({
+        "inventory_id": f"I-{inventory_id_counter:06d}",
+        "branch_id": branch_id,
+        "product_id": product_id,
+        "stock_actual": stock_actual,
+        "stock_minimo": stock_minimo,
+        "fecha_ingreso": fecha_ingreso,
+        "estado": estado
+    })
+    inventory_id_counter += 1
 
-        inventario = pd.concat([inventario, pd.DataFrame([nuevo_registro])], ignore_index=True)
+# Crear DataFrame
+df_inventario = pd.DataFrame(inventario)
 
-# Exportar inventario actualizado
-inventario.to_csv('inventario.csv', index=False)
+# Exportar inventario
+def exportar_inventario(df, carpeta='02.descargable'):
+    formatos = {
+        'CSV': lambda: df.to_csv(f'{carpeta}/CSV/inventario.csv', index=False, encoding='utf-8-sig'),
+        'JSON': lambda: df.to_json(f'{carpeta}/JSON/inventario.json', orient='records', lines=True, force_ascii=False),
+        'EXCEL': lambda: df.to_excel(f'{carpeta}/XLSX/inventario.xlsx', index=False)
+    }
 
-print(inventario.head())
-print("\n✅ Inventario actualizado con compras y exportado a 'inventario.csv'.")
+    for formato in formatos:
+        carpeta_formato = os.path.join(carpeta, formato)
+        os.makedirs(carpeta_formato, exist_ok=True)
 
+    for nombre, funcion in formatos.items():
+        try:
+            funcion()
+            print(f"✅ Inventario exportado en formato {nombre}")
+        except Exception as e:
+            print(f"⚠️ Error al exportar inventario en {nombre}: {e}")
+
+# Mostrar y exportar
+print(df_inventario.head())
+exportar_inventario(df_inventario)
+print(f"\n✅ Se han generado y exportado {len(df_inventario)} registros de inventario.")

@@ -1,14 +1,15 @@
 import pandas as pd
 import random
 from faker import Faker
+from datetime import datetime, timedelta
+import os
 
-fake = Faker('es_ES')
+fake = Faker()
 
-# Cargar datos base
-df_clientes = pd.read_csv('clientes.csv')
-df_sucursales = pd.read_csv('sucursales.csv')
-df_empleados = pd.read_csv('empleados.csv')
-df_productos = pd.read_csv('productos.csv')
+# Cargar productos, inventario y empleados
+df_productos = pd.read_csv("02.descargable/CSV/productos.csv", encoding='utf-8-sig')
+df_inventario = pd.read_csv("02.descargable/CSV/inventario.csv", encoding='utf-8-sig')
+df_empleados = pd.read_csv("02.descargable/CSV/Empleados.csv", encoding='utf-8-sig')
 
 # Canales y ajustes
 canales = ['Presencial', 'Página Web', 'Amazon', 'Instagram', 'Distribuidor']
@@ -26,63 +27,95 @@ metodos_pago = {
     'Instagram': ['Bizum', 'Transferencia'],
     'Distribuidor': ['Transferencia']
 }
-categorias_por_canal = {
-    'Presencial': ['Snacks', 'Bebidas'],
-    'Página Web': ['Electrónica', 'Hogar'],
-    'Amazon': ['Libros', 'Tecnología'],
-    'Instagram': ['Moda', 'Belleza'],
-    'Distribuidor': ['Industrial']
-}
 
-ventas = []
-detalle_ventas = []
+# Índice rápido de stock disponible
+stock_map = df_inventario.set_index("product_id")[["stock_actual", "branch_id"]].to_dict("index")
 
-for i in range(1, 151):
-    cliente = df_clientes.sample(1).iloc[0]
-    sucursal = df_sucursales.sample(1).iloc[0]
-    empleados_sucursal = df_empleados[df_empleados['branch_id'] == sucursal['branch_id']]
-    
-    if empleados_sucursal.empty:
-        continue
-    
-    empleado = empleados_sucursal.sample(1).iloc[0]
+# Índice de empleados activos por sucursal
+empleados_por_sucursal = (
+    df_empleados[df_empleados["status"] == "Activo"]
+    .groupby("branch_id")["employee_id"]
+    .apply(list)
+    .to_dict()
+)
+
+compras = []
+detalles = []
+purchase_id_counter = 1
+
+# Simular compras
+num_compras = 5000
+for _ in range(num_compras):
+    purchase_id = f"C-{purchase_id_counter:06d}"
+    cliente = fake.name()
+    fecha = fake.date_between(start_date='-90d', end_date='today')
     canal = random.choice(canales)
-    metodo = random.choice(metodos_pago[canal])
-    venta_id = f"VT-{i:05d}"
-    
-    ventas.append({
-        'venta_id': venta_id,
-        'fecha': fake.date_between(start_date='-1y', end_date='today'),
-        'client_id': cliente['client_id'],
-        'branch_id': sucursal['branch_id'],
-        'employee_id': empleado['employee_id'],
-        'canal_venta': canal,
-        'metodo_pago': metodo
-    })
-    
-    categorias = categorias_por_canal[canal]
-    productos_filtrados = df_productos[df_productos['category'].isin(categorias)]
-    
-    if productos_filtrados.empty:
-        productos_filtrados = df_productos.sample(3)
-    else:
-        productos_filtrados = productos_filtrados.sample(min(3, len(productos_filtrados)))
-    
-    for _, prod in productos_filtrados.iterrows():
-        cantidad = random.randint(1, 3)
-        precio_ajustado = round(prod['price'] * ajustes_precio[canal], 2)
-        detalle_ventas.append({
-            'venta_id': venta_id,
-            'product_id': prod['product_id'],
-            'cantidad': cantidad,
-            'precio_unitario': precio_ajustado
+    metodo_pago = random.choice(metodos_pago[canal])
+    ajuste = ajustes_precio[canal]
+
+    productos_compra = df_productos.sample(random.randint(1, 5))
+    total_compra = 0
+    branch_id = None
+
+    for _, prod in productos_compra.iterrows():
+        product_id = prod["product_id"]
+        precio_base = prod["price"]
+        branch_id = prod["branch_id"]
+
+        stock_info = stock_map.get(product_id)
+        if not stock_info or stock_info["stock_actual"] <= 0:
+            continue
+
+        cantidad = random.randint(1, min(5, stock_info["stock_actual"]))
+        precio_ajustado = round(precio_base * ajuste, 2)
+        subtotal = round(cantidad * precio_ajustado, 2)
+        total_compra += subtotal
+
+        detalles.append({
+            "purchase_id": purchase_id,
+            "product_id": product_id,
+            "cantidad": cantidad,
+            "precio_unitario": precio_ajustado,
+            "subtotal": subtotal
         })
 
-# Exportar CSV
-pd.DataFrame(ventas).to_csv('ventas.csv', index=False)
-pd.DataFrame(detalle_ventas).to_csv('detalle_venta.csv', index=False)
+        stock_map[product_id]["stock_actual"] -= cantidad
 
-# Mostrar ejemplo
-print(pd.DataFrame(ventas).head())
-print(pd.DataFrame(detalle_ventas).head())
-print("✅ Datos generados con canal, método de pago y ajuste de precio.")
+    if total_compra > 0:
+        empleados_disponibles = empleados_por_sucursal.get(branch_id, [])
+        employee_id = random.choice(empleados_disponibles) if empleados_disponibles else None
+
+        compras.append({
+            "purchase_id": purchase_id,
+            "branch_id": branch_id,
+            "cliente": cliente,
+            "fecha": fecha,
+            "canal": canal,
+            "metodo_pago": metodo_pago,
+            "employee_id": employee_id,
+            "total": round(total_compra, 2)
+        })
+        purchase_id_counter += 1
+
+# Crear DataFrames
+df_compras = pd.DataFrame(compras)
+df_detalles = pd.DataFrame(detalles)
+
+# Exportar
+def exportar_compras(df1, df2, carpeta='02.descargable'):
+    rutas = {
+        "ventas.csv": df1,
+        "detalle_ventas.csv": df2
+    }
+    for nombre, df in rutas.items():
+        ruta = os.path.join(carpeta, "CSV", nombre)
+        os.makedirs(os.path.dirname(ruta), exist_ok=True)
+        df.to_csv(ruta, index=False, encoding='utf-8-sig')
+        print(f"✅ Exportado: {nombre}")
+
+# Mostrar y exportar
+print(df_compras.head())
+print(df_detalles.head())
+exportar_compras(df_compras, df_detalles)
+print(f"\n✅ Se han generado {len(df_compras)} compras y {len(df_detalles)} líneas de detalle.")
+
