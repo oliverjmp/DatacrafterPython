@@ -52,5 +52,17 @@ Se utilizó la librería Faker para generar datos realistas como nombres, direcc
 🔐 Protección de Datos
 ⚠️ Aviso: Este software genera datos ficticios con fines educativos. No contiene ni utiliza información personal real. Cualquier coincidencia con personas, empresas o ubicaciones reales es puramente accidental.
 
-🔐 Protección de Datos
-⚠️ Aviso: Este software genera datos ficticios con fines educativos. No contiene ni utiliza información personal real. Cualquier coincidencia con personas, empresas o ubicaciones reales es puramente accidental.
+🔒 Contribuciones y Protección del Código
+Este repositorio está protegido para mantener la integridad del proyecto:
+
+La rama principal (main) está protegida contra cambios directos.
+Todos los cambios deben realizarse mediante pull requests, que serán revisados antes de ser aceptados.
+Se requiere al menos una aprobación antes de fusionar cualquier cambio.
+Los datos generados son ficticios y no representan información real.
+🧑‍💻 ¿Quieres contribuir?
+Si deseas proponer mejoras o colaborar:
+
+Haz un fork del repositorio.
+Crea una nueva rama para tus cambios.
+Realiza un pull request explicando tus modificaciones.
+Espera la revisión y aprobación.
