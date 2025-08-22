@@ -99,7 +99,7 @@ df_providers = pd.DataFrame(provider)
 
 def exportar_providers(df, carpeta='02.descargable'):
     formatos = {
-        'CSV': lambda: df_providers.to_csv(f'{carpeta}/CSV/proveedores.csv', index=False),
+        'CSV': lambda: df_providers.to_csv(f'{carpeta}/CSV/proveedores.csv', index=False, encoding='utf-8-sig'),
         'JSON': lambda: df_providers.to_json(f'{carpeta}/JSON/proveedores.json', orient='records', lines=True, force_ascii=False),
         'SQL': lambda: exportar_sql(df_providers, f'{carpeta}/SQL/proveedores.sql', 'proveedores'),
         'PARQUET': lambda: df_providers.to_parquet(f'{carpeta}/PARQUET/proveedores.parquet', index=False),

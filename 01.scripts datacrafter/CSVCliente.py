@@ -39,6 +39,11 @@ def generar_identidad_ficticia():
         numero_convertido = conversion[letra_inicial] + f"{numero_base:06d}"
         letra_final = calcular_letra(numero_convertido)
         return f"SIM-{letra_inicial}{numero_convertido}{letra_final}"
+    
+# Función para generar teléfono con prefijo según país
+def generar_telefono_por_pais(prefijo):
+    numero_local = random.randint(600000000, 699999999)
+    return f"{prefijo} {numero_local}"
 
 # Número total de clientes
 num_clients = 10000
@@ -60,7 +65,7 @@ for i in range(1, num_clients + 1):
         'lastname': fake_local.last_name(),
         'ID': generar_identidad_ficticia(),
         'email': fake_local.email(),
-        'phone': telefono,
+        'phone': generar_telefono_por_pais(config['prefix']),
         'country': pais,
         'city': ciudad,
         'address': direccion,
@@ -80,7 +85,7 @@ df_clients = pd.DataFrame(clients)
 
 def exportar_clientes(df, carpeta='02.descargable'):
     formatos = {
-        'CSV': lambda: df_clients.to_csv(f'{carpeta}/CSV/clientes.csv', index=False),
+        'CSV': lambda: df_clients.to_csv(f'{carpeta}/CSV/clientes.csv', index=False, encoding='utf-8-sig'),
         'JSON': lambda: df_clients.to_json(f'{carpeta}/JSON/clientes.json', orient='records', lines=True, force_ascii=False),
         'SQL': lambda: exportar_sql(df_clients, f'{carpeta}/SQL/clientes.sql', 'clientes'),
         'PARQUET': lambda: df_clients.to_parquet(f'{carpeta}/PARQUET/clientes.parquet', index=False),
