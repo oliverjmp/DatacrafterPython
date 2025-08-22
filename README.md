@@ -1,4 +1,4 @@
-🛒 Simulación de Base de Datos para Tienda Minorista
+🛒 Simulación de Base de Datos para un Cadena de Tiendas
 📌 Descripción del Proyecto
 Este proyecto simula una base de datos relacional para una tienda minorista de gran escala, con el objetivo de practicar habilidades en:
 
@@ -66,3 +66,11 @@ Haz un fork del repositorio.
 Crea una nueva rama para tus cambios.
 Realiza un pull request explicando tus modificaciones.
 Espera la revisión y aprobación.
+
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT. Puedes consultar el archivo [`LICENSE para más detalles.
+
+> Nota: Este software genera datos ficticios con fines educativos. No contiene ni utiliza información personal real.
+
