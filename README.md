@@ -1,75 +1,86 @@
-🛒 Simulación de Base de Datos para un Cadena de Tiendas
-📌 Descripción del Proyecto
-Este proyecto simula una base de datos relacional para una tienda minorista de gran escala, con el objetivo de practicar habilidades en:
+# 🛒 Simulación de Base de Datos para una Cadena de Tiendas
 
-Modelado de datos en SQL
+## 📌 Descripción del Proyecto
 
-Generación de datos simulados con Python
+Este proyecto simula una base de datos relacional para una cadena de tiendas minoristas de gran escala. Su propósito es servir como entorno de práctica para:
 
-Visualización con Power BI
+- 📐 Modelado de datos en SQL
+- 🐍 Generación de datos simulados con Python
+- 📊 Visualización con Power BI
+- 🧮 Manipulación de datos con Pandas y SQLAlchemy
 
-Manipulación de datos con Pandas y SQLAlchemy
+La base de datos incluye información sobre productos, clientes, ventas, inventario, proveedores, sucursales, empleados y más.
 
-La base de datos incluye información sobre productos, clientes, ventas, inventario, proveedores y más.
+---
 
-🧰 Tecnologías Utilizadas
-MySQL – Gestión de base de datos relacional
+## 🧰 Tecnologías Utilizadas
 
-Python – Generación de datos simulados con Faker
+- **MySQL** – Gestión de base de datos relacional  
+- **Python** – Generación de datos simulados con [Faker](https://faker.readthedocs.io/)  
+- **Power BI** – Visualización de datos  
+- **Pandas / SQLAlchemy** – Manipulación y carga de datos
 
-Power BI – Visualización de datos
+---
 
-Pandas / SQLAlchemy – Manipulación y carga de datos
+## 🗃️ Estructura de la Base de Datos
 
-🗃️ Estructura de la Base de Datos
 La base de datos contiene las siguientes tablas principales:
 
-clientes
+- `clientes`
+- `productos`
+- `categorias`
+- `ventas`
+- `detalles_venta`
+- `empleados`
+- `sucursales`
+- `inventario`
+- `proveedores`
+- `compras`
 
-productos
+Todas las tablas están relacionadas mediante claves primarias y foráneas para mantener la integridad referencial. Puedes consultar el archivo [`diccionario_relacional.md`](./diccionario_relacional.md) para ver el esquema completo.
 
-categorias
+---
 
-ventas
+## 🧪 Generación de Datos Simulados
 
-detalles_venta
+Se utiliza la librería **Faker** para generar datos realistas como nombres, direcciones, fechas y más. Además, se emplean funciones aleatorias para simular cantidades, precios y relaciones entre entidades.
 
-empleados
+Los datos se exportan en múltiples formatos: CSV, JSON, Excel, Parquet, Feather y SQL, organizados en la carpeta `02.descargable`.
 
-sucursales
+---
 
-inventario
+## 🔐 Protección de Datos
 
-proveedores
+⚠️ Este software genera datos completamente ficticios con fines educativos.  
+No contiene ni utiliza información personal real.  
+Cualquier coincidencia con personas, empresas o ubicaciones reales es puramente accidental.
 
-compras
+---
 
-Todas las tablas están relacionadas mediante claves primarias y foráneas para mantener la integridad referencial.
+## 🧑‍💻 Contribuciones
 
-🧪 Generación de Datos Simulados
-Se utilizó la librería Faker para generar datos realistas como nombres, direcciones, fechas y más. Además, se emplearon funciones aleatorias para simular cantidades, precios y relaciones entre entidades.
+Este repositorio está abierto a contribuciones. Para colaborar:
 
-🔐 Protección de Datos
-⚠️ Aviso: Este software genera datos ficticios con fines educativos. No contiene ni utiliza información personal real. Cualquier coincidencia con personas, empresas o ubicaciones reales es puramente accidental.
+1. Haz un **fork** del repositorio  
+2. Crea una **nueva rama** para tus cambios  
+3. Realiza un **pull request** explicando tus modificaciones  
+4. Espera la revisión y aprobación
 
-🔒 Contribuciones y Protección del Código
-Este repositorio está abierto a contribuciones. Actualmente, la rama principal (main) no tiene reglas de protección activadas, pero se recomienda seguir buenas prácticas para mantener la integridad del proyecto:
+> 💡 Se recomienda seguir buenas prácticas de desarrollo y documentación para mantener la integridad del proyecto.
 
-Realiza los cambios mediante pull requests para facilitar la revisión.
-Explica claramente tus modificaciones en la descripción del pull request.
-Los datos generados son ficticios y no representan información real.
-🧑‍💻 ¿Quieres contribuir?
-Si deseas proponer mejoras o colaborar:
-
-Haz un fork del repositorio.
-Crea una nueva rama para tus cambios.
-Realiza un pull request explicando tus modificaciones.
-Espera la revisión y aprobación.
-
+---
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT. Puedes consultar el archivo `LICENSE`  para más detalles.
+Este proyecto está bajo la **Licencia MIT**.  
+Consulta el archivo [`LICENSE`](./LICENSE) para más detalles.
 
-> Nota: Este software genera datos ficticios con fines educativos. No contiene ni utiliza información personal real.
+---
+
+## ✨ Créditos
+
+Creado por [@oliverjmp](https://github.com/oliverjmp)  
+Diseñado para fines educativos, exploratorios y de entrenamiento en ciencia de datos.
+
+
 
