@@ -33,19 +33,20 @@ categorias_subcategorias = {
     'Productos de Limpieza': ['Desinfectantes', 'Detergentes', 'Ambientadores', 'Limpiadores multiusos', 'Escobas y utensilios']
 }
 
-# Función para generar NIF español ficticio
+# Condiciones de pago y probabilidades ajustadas
+condiciones_pago = ['Contado', '30 días', '60 días', '90 días']
+probabilidades_pago = [0.1, 0.2, 0.3, 0.4]
+
 def generar_vat_espanol():
     letras = 'ABCDEFGHJNPQRSUVW'
     letra = random.choice(letras)
     numero = random.randint(10000000, 99999999)
     return f"{letra}{numero}"
 
-# Función para generar teléfono con prefijo según país
 def generar_telefono_por_pais(prefijo):
     numero_local = random.randint(600000000, 699999999)
     return f"{prefijo} {numero_local}"
 
-# Generar datos ficticios de proveedor
 provider = []
 provider_id_counter = 1
 
@@ -66,7 +67,8 @@ for pais, config in paises_ciudades.items():
                 'city': ciudad,
                 'address': fake_local.address().replace('\n', ', '),
                 'category': categoria,
-                'subcategory': subcategoria
+                'subcategory': subcategoria,
+                'condicion_pago': random.choices(condiciones_pago, weights=probabilidades_pago)[0]
             })
             provider_id_counter += 1
 
@@ -90,7 +92,8 @@ while provider_id_counter <= 1500:
         'city': ciudad,
         'address': fake_local.address().replace('\n', ', '),
         'category': categoria,
-        'subcategory': subcategoria
+        'subcategory': subcategoria,
+        'condicion_pago': random.choices(condiciones_pago, weights=probabilidades_pago)[0]
     })
     provider_id_counter += 1
 
@@ -99,15 +102,14 @@ df_providers = pd.DataFrame(provider)
 
 def exportar_providers(df, carpeta='02.descargable'):
     formatos = {
-        'CSV': lambda: df_providers.to_csv(f'{carpeta}/CSV/proveedores.csv', index=False, encoding='utf-8-sig'),
-        'JSON': lambda: df_providers.to_json(f'{carpeta}/JSON/proveedores.json', orient='records', lines=True, force_ascii=False),
-        'SQL': lambda: exportar_sql(df_providers, f'{carpeta}/SQL/proveedores.sql', 'proveedores'),
-        'PARQUET': lambda: df_providers.to_parquet(f'{carpeta}/PARQUET/proveedores.parquet', index=False),
-        'FEATHER': lambda: df_providers.to_feather(f'{carpeta}/FEATHER/proveedores.feather'),
-        'EXCEL': lambda: df_providers.to_excel(f'{carpeta}/XLSX/proveedores.xlsx', index=False)
+        'CSV': lambda: df.to_csv(f'{carpeta}/CSV/proveedores.csv', index=False, encoding='utf-8-sig'),
+        'JSON': lambda: df.to_json(f'{carpeta}/JSON/proveedores.json', orient='records', lines=True, force_ascii=False),
+        'SQL': lambda: exportar_sql(df, f'{carpeta}/SQL/proveedores.sql', 'proveedores'),
+        'PARQUET': lambda: df.to_parquet(f'{carpeta}/PARQUET/proveedores.parquet', index=False),
+        'FEATHER': lambda: df.to_feather(f'{carpeta}/FEATHER/proveedores.feather'),
+        'EXCEL': lambda: df.to_excel(f'{carpeta}/XLSX/proveedores.xlsx', index=False)
     }
 
-# Ejecutar exportaciones
     for nombre, funcion in formatos.items():
         try:
             funcion()
@@ -124,5 +126,4 @@ def exportar_sql(df, ruta, nombre_tabla):
 
 print(df_providers.head())
 exportar_providers(df_providers)
-num_providers = len(df_providers)
-print(f"\n✅ Se han generado y exportado {num_providers} proveedores internacionales en el archivo 'proveedores .csv'.")
+print(f"\n✅ Se han generado y exportado {len(df_providers)} proveedores con condición de pago.")
