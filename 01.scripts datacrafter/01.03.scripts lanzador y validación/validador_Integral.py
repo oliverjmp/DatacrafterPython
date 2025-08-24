@@ -1,15 +1,15 @@
 import pandas as pd
 
 # Cargar tablas base
-df_clientes = pd.read_csv("02.descargable/CSV/clientes.csv", encoding='utf-8-sig')
-df_ventas = pd.read_csv("02.descargable/CSV/ventas.csv", encoding='utf-8-sig')
-df_detalle = pd.read_csv("02.descargable/CSV/detalle_ventas.csv", encoding='utf-8-sig')
-df_productos = pd.read_csv("02.descargable/CSV/productos.csv", encoding='utf-8-sig')
-df_devoluciones = pd.read_csv("02.descargable/CSV/devoluciones.csv", encoding='utf-8-sig')
-df_entregas = pd.read_csv("02.descargable/CSV/entregas.csv", encoding='utf-8-sig')
-df_inventario = pd.read_csv("02.descargable/CSV/inventario.csv", encoding='utf-8-sig')
-df_reseñas = pd.read_csv("02.descargable/CSV/reseñas.csv", encoding='utf-8-sig')
-df_fidelizacion = pd.read_csv("02.descargable/CSV/fidelizacion.csv", encoding='utf-8-sig')
+df_clientes = pd.read_csv("02.descargable/CSV/01.CSV correctos/clientes.csv", encoding='utf-8-sig')
+df_ventas = pd.read_csv("02.descargable/CSV/01.CSV correctos/ventas.csv", encoding='utf-8-sig')
+df_detalle = pd.read_csv("02.descargable/CSV/01.CSV correctos/detalle_ventas.csv", encoding='utf-8-sig')
+df_productos = pd.read_csv("02.descargable/CSV/01.CSV correctos/productos.csv", encoding='utf-8-sig')
+df_devoluciones = pd.read_csv("02.descargable/CSV/01.CSV correctos/devoluciones.csv", encoding='utf-8-sig')
+df_entregas = pd.read_csv("02.descargable/CSV/01.CSV correctos/entregas.csv", encoding='utf-8-sig')
+df_inventario = pd.read_csv("02.descargable/CSV/01.CSV correctos/inventario.csv", encoding='utf-8-sig')
+df_reseñas = pd.read_csv("02.descargable/CSV/01.CSV correctos/reseñas.csv", encoding='utf-8-sig')
+df_fidelizacion = pd.read_csv("02.descargable/CSV/01.CSV correctos/fidelizacion.csv", encoding='utf-8-sig')
 
 # Función para validar duplicados
 def validar_duplicados(df, clave):

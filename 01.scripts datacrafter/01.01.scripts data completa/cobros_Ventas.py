@@ -46,6 +46,9 @@ for i, venta in df_ventas.iterrows():
 # Crear DataFrame
 df_cobros = pd.DataFrame(cobros)
 
+# Convertir fecha_cobro a datetime64[ns] para compatibilidad con Parquet y Feather
+df_cobros['fecha_cobro'] = pd.to_datetime(df_cobros['fecha_cobro'])
+
 # Función para exportar en SQL
 def exportar_sql(df, ruta, nombre_tabla):
     with open(ruta, 'w', encoding='utf-8') as f:
@@ -77,5 +80,6 @@ def exportar_cobros(df, carpeta='02.descargable'):
 print(df_cobros.head())
 exportar_cobros(df_cobros)
 print(f"\n✅ Se han generado y exportado {len(df_cobros)} registros de cobros basados en ventas reales.")
+
 
 
