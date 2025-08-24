@@ -1,14 +1,15 @@
 import pandas as pd
 import random
 from faker import Faker
+import os
 
 fake = Faker('es_ES')
 
 # Cargar datos base
-df_ventas = pd.read_csv('02.descargable/CSV/ventas.csv', encoding='utf-8-sig')
-df_detalle = pd.read_csv('02.descargable/CSV/detalle_ventas.csv', encoding='utf-8-sig')
-df_productos = pd.read_csv('02.descargable/CSV/productos.csv', encoding='utf-8-sig')
-df_entregas = pd.read_csv('02.descargable/CSV/entregas.csv', encoding='utf-8-sig')
+df_ventas = pd.read_csv('02.descargable/CSV/01.CSV correctos/ventas.csv', encoding='utf-8-sig')
+df_detalle = pd.read_csv('02.descargable/CSV/01.CSV correctos/detalle_ventas.csv', encoding='utf-8-sig')
+df_productos = pd.read_csv('02.descargable/CSV/01.CSV correctos/productos.csv', encoding='utf-8-sig')
+df_entregas = pd.read_csv('02.descargable/CSV/01.CSV correctos/entregas.csv', encoding='utf-8-sig')
 
 # Filtrar entregas completadas
 entregas_entregadas = df_entregas[df_entregas['estado'] == 'Entregado']
@@ -53,7 +54,7 @@ for i in range(1, 101):
     devoluciones.append({
         'devolucion_id': f"DV-{i:05d}",
         'venta_id': venta_id,
-        'client_id': venta['client_id'],  # ← Normalizado
+        'client_id': venta['client_id'],
         'entrega_id': entrega_id,
         'product_id': product_id,
         'provider_id': proveedor_id,
@@ -64,10 +65,37 @@ for i in range(1, 101):
         'estado': random.choice(estados)
     })
 
-# Exportar a CSV
+# Crear DataFrame
 df_devoluciones = pd.DataFrame(devoluciones)
-df_devoluciones.to_csv('02.descargable/CSV/devoluciones.csv', index=False, encoding='utf-8-sig')
 
+# Función para exportar en SQL
+def exportar_sql(df, ruta, nombre_tabla):
+    with open(ruta, 'w', encoding='utf-8') as f:
+        for _, row in df.iterrows():
+            columnas = ', '.join(df.columns)
+            valores = ', '.join([f"'{str(valor).replace('\'', '\'\'')}'" for valor in row])
+            f.write(f"INSERT INTO {nombre_tabla} ({columnas}) VALUES ({valores});\n")
+
+# Función para exportar en múltiples formatos
+def exportar_devoluciones(df, carpeta='02.descargable'):
+    formatos = {
+        'CSV': lambda: df.to_csv(f'{carpeta}/CSV/01.CSV correctos/devoluciones.csv', index=False, encoding='utf-8-sig'),
+        'JSON': lambda: df.to_json(f'{carpeta}/JSON/01.JSON correctos/devoluciones.json', orient='records', lines=True, force_ascii=False),
+        'JSON_EXCEL': lambda: df.to_json(f'{carpeta}/JSON para excel/01.JSON para excel correctos/devoluciones.json', orient='table'),
+        'SQL': lambda: exportar_sql(df, f'{carpeta}/SQL/01.SQL correctos/devoluciones.sql', 'Devoluciones'),
+        'PARQUET': lambda: df.to_parquet(f'{carpeta}/PARQUET/01.PARQUET correctos/devoluciones.parquet', index=False),
+        'FEATHER': lambda: df.to_feather(f'{carpeta}/FEATHER/01.FEATHER correctos/devoluciones.feather'),
+        'EXCEL': lambda: df.to_excel(f'{carpeta}/XLSX/01.XLSX correctos/devoluciones.xlsx', index=False)
+    }
+
+    for nombre, funcion in formatos.items():
+        try:
+            funcion()
+            print(f"✅ Exportado en formato {nombre}")
+        except Exception as e:
+            print(f"⚠️ Error al exportar en {nombre}: {e}")
+
+# Mostrar y exportar
 print(df_devoluciones.head())
-print(f"✅ Se han generado {len(df_devoluciones)} devoluciones con client_id normalizado, solo de entregas completadas.")
-
+exportar_devoluciones(df_devoluciones)
+print(f"\n✅ Se han generado y exportado {len(df_devoluciones)} devoluciones con client_id normalizado, solo de entregas completadas.")

@@ -6,13 +6,13 @@ import os
 fake = Faker()
 
 # Cargar sucursales
-df_branches = pd.read_csv('02.descargable/CSV/sucursales.csv', encoding='utf-8-sig')
+df_branches = pd.read_csv('02.descargable/CSV/01.CSV correctos/sucursales.csv', encoding='utf-8-sig')
 
 # Cargar productos
-df_productos = pd.read_csv('02.descargable/CSV/productos.csv', encoding='utf-8-sig')
+df_productos = pd.read_csv('02.descargable/CSV/01.CSV correctos/productos.csv', encoding='utf-8-sig')
 
 # Cargar proveedores
-df_proveedores = pd.read_csv("02.descargable/CSV/proveedores.csv")
+df_proveedores = pd.read_csv("02.descargable/CSV/01.CSV correctos/proveedores.csv")
 
 # Validar columnas necesarias
 required_columns = ["provider_id", "name", "country", "subcategory"]
@@ -55,24 +55,32 @@ for idx, row in df_productos.iterrows():
 sin_proveedor = df_productos["provider_id"].isna().sum()
 print(f"🔍 Productos sin proveedor asignado: {sin_proveedor} de {len(df_productos)}")
 
+def exportar_sql(df, ruta, nombre_tabla):
+    with open(ruta, 'w', encoding='utf-8') as f:
+        for _, row in df.iterrows():
+            columnas = ', '.join(df.columns)
+            valores = ', '.join([f"'{str(valor).replace('\'', '\'\'')}'" for valor in row])
+            f.write(f"INSERT INTO {nombre_tabla} ({columnas}) VALUES ({valores});\n")
+
 # Exportar productos enriquecidos
 def exportar_productos(df, carpeta='02.descargable'):
     formatos = {
-        'CSV': lambda: df.to_csv(f'{carpeta}/CSV/productos.csv', index=False, encoding='utf-8-sig'),
-        'JSON': lambda: df.to_json(f'{carpeta}/JSON/productos.json', orient='records', lines=True, force_ascii=False),
-        'EXCEL': lambda: df.to_excel(f'{carpeta}/XLSX/productos.xlsx', index=False)
+        'CSV': lambda: df.to_csv(f'{carpeta}/CSV/01.CSV correctos/productos.csv', index=False, encoding='utf-8-sig'),
+        'JSON': lambda: df.to_json(f'{carpeta}/JSON/01.JSON correctos/productos.json', orient='records', lines=True, force_ascii=False),
+        'JSON_EXCEL': lambda: df.to_json(f'{carpeta}/JSON para excel/01.JSON para excel correctos/productos.json', orient='table'),
+        'SQL': lambda: exportar_sql(df, f'{carpeta}/SQL/01.SQL correctos/productos.sql', 'Productos'),
+        'PARQUET': lambda: df.to_parquet(f'{carpeta}/PARQUET/01.PARQUET correctos/productos.parquet', index=False),
+        'FEATHER': lambda: df.to_feather(f'{carpeta}/FEATHER/01.FEATHER correctos/productos.feather'),
+        'EXCEL': lambda: df.to_excel(f'{carpeta}/XLSX/01.XLSX correctos/productos.xlsx', index=False)
     }
 
-    for formato in formatos:
-        carpeta_formato = os.path.join(carpeta, formato)
-        os.makedirs(carpeta_formato, exist_ok=True)
-
+# Ejecutar exportaciones
     for nombre, funcion in formatos.items():
         try:
             funcion()
-            print(f"✅ Productos exportados en formato {nombre}")
+            print(f"✅ Exportado en formato {nombre}")
         except Exception as e:
-            print(f"⚠️ Error al exportar productos en {nombre}: {e}")
+            print(f"⚠️ Error al exportar en {nombre}: {e}")
 
 # Mostrar y exportar
 print(df_productos.head())

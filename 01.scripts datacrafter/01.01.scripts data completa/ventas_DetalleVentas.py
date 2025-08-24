@@ -7,10 +7,10 @@ import os
 fake = Faker()
 
 # Cargar datos base
-df_productos = pd.read_csv("02.descargable/CSV/productos.csv", encoding='utf-8-sig')
-df_inventario = pd.read_csv("02.descargable/CSV/inventario.csv", encoding='utf-8-sig')
-df_empleados = pd.read_csv("02.descargable/CSV/Empleados.csv", encoding='utf-8-sig')
-df_clientes = pd.read_csv("02.descargable/CSV/clientes.csv", encoding='utf-8-sig')
+df_productos = pd.read_csv("02.descargable/CSV/01.CSV correctos/productos.csv", encoding='utf-8-sig')
+df_inventario = pd.read_csv("02.descargable/CSV/01.CSV correctos/inventario.csv", encoding='utf-8-sig')
+df_empleados = pd.read_csv("02.descargable/CSV/01.CSV correctos/Empleados.csv", encoding='utf-8-sig')
+df_clientes = pd.read_csv("02.descargable/CSV/01.CSV correctos/clientes.csv", encoding='utf-8-sig')
 
 # Extraer lista de client_id
 client_ids = df_clientes["client_id"].tolist()

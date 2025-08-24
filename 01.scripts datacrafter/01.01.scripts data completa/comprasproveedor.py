@@ -7,8 +7,8 @@ import os
 fake = Faker()
 
 # Cargar productos e inventario
-df_productos = pd.read_csv("02.descargable/CSV/productos.csv", encoding='utf-8-sig')
-df_inventario = pd.read_csv("02.descargable/CSV/inventario.csv", encoding='utf-8-sig')
+df_productos = pd.read_csv("02.descargable/CSV/01.CSV correctos/productos.csv", encoding='utf-8-sig')
+df_inventario = pd.read_csv("02.descargable/CSV/01.CSV correctos/inventario.csv", encoding='utf-8-sig')
 
 # Crear índice rápido de productos
 producto_map = df_productos.set_index("product_id")[["provider_id", "provider_name", "price"]].to_dict("index")
@@ -52,22 +52,32 @@ for _, row in df_inventario.iterrows():
 # Crear DataFrame
 df_ordenes = pd.DataFrame(ordenes)
 
+def exportar_sql(df, ruta, nombre_tabla):
+    with open(ruta, 'w', encoding='utf-8') as f:
+        for _, row in df.iterrows():
+            columnas = ', '.join(df.columns)
+            valores = ', '.join([f"'{str(valor).replace('\'', '\'\'')}'" for valor in row])
+            f.write(f"INSERT INTO {nombre_tabla} ({columnas}) VALUES ({valores});\n")
+
 # Exportar
 def exportar_ordenes(df, carpeta='02.descargable'):
     formatos = {
-        'CSV': lambda: df.to_csv(f'{carpeta}/CSV/compras_proveedor.csv', index=False, encoding='utf-8-sig'),
-        'JSON': lambda: df.to_json(f'{carpeta}/JSON/compras_proveedor.json', orient='records', lines=True, force_ascii=False),
-        'EXCEL': lambda: df.to_excel(f'{carpeta}/XLSX/compras_proveedor.xlsx', index=False)
+        'CSV': lambda: df_ordenes.to_csv(f'{carpeta}/CSV/01.CSV correctos/compras_proveedor.csv', index=False, encoding='utf-8-sig'),
+        'JSON': lambda: df_ordenes.to_json(f'{carpeta}/JSON/01.JSON correctos/compras_proveedor.json', orient='records', lines=True, force_ascii=False),
+        'JSON_EXCEL': lambda: df_ordenes.to_json(f'{carpeta}/JSON para excel/01.JSON para excel correctos/compras_proveedor.json', orient='table'),
+        'SQL': lambda: exportar_sql(df_ordenes, f'{carpeta}/SQL/01.SQL correctos/compras_proveedor.sql', 'ComprasProveedor'),
+        'PARQUET': lambda: df_ordenes.to_parquet(f'{carpeta}/PARQUET/01.PARQUET correctos/compras_proveedor.parquet', index=False),
+        'FEATHER': lambda: df_ordenes.to_feather(f'{carpeta}/FEATHER/01.FEATHER correctos/compras_proveedor.feather'),
+        'EXCEL': lambda: df_ordenes.to_excel(f'{carpeta}/XLSX/01.XLSX correctos/compras_proveedor.xlsx', index=False)
     }
 
+   # Ejecutar exportaciones
     for nombre, funcion in formatos.items():
-        carpeta_formato = os.path.join(carpeta, nombre.split('/')[0])
-        os.makedirs(carpeta_formato, exist_ok=True)
         try:
             funcion()
-            print(f"✅ Exportado: {nombre}")
+            print(f"✅ Exportado en formato {nombre}")
         except Exception as e:
-            print(f"⚠️ Error al exportar {nombre}: {e}")
+            print(f"⚠️ Error al exportar en {nombre}: {e}")
 
 # Mostrar y exportar
 print(df_ordenes.head())

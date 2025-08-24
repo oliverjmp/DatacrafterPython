@@ -1,12 +1,13 @@
 import pandas as pd
 import random
 from faker import Faker
+import os
 
 fake = Faker('es_ES')
 
 # Cargar datos base
-df_ventas = pd.read_csv('02.descargable/CSV/ventas.csv', encoding='utf-8-sig')
-df_detalle = pd.read_csv('02.descargable/CSV/detalle_ventas.csv', encoding='utf-8-sig')
+df_ventas = pd.read_csv('02.descargable/CSV/01.CSV correctos/ventas.csv', encoding='utf-8-sig')
+df_detalle = pd.read_csv('02.descargable/CSV/01.CSV correctos/detalle_ventas.csv', encoding='utf-8-sig')
 
 # Estados posibles y probabilidades realistas
 estados_pago = ['Completado', 'Pendiente', 'Fallido']
@@ -42,10 +43,39 @@ for i, venta in df_ventas.iterrows():
         'estado_pago': estado
     })
 
-# Exportar CSV
+# Crear DataFrame
 df_cobros = pd.DataFrame(cobros)
-df_cobros.to_csv('02.descargable/CSV/cobros.csv', index=False, encoding='utf-8-sig')
 
+# Función para exportar en SQL
+def exportar_sql(df, ruta, nombre_tabla):
+    with open(ruta, 'w', encoding='utf-8') as f:
+        for _, row in df.iterrows():
+            columnas = ', '.join(df.columns)
+            valores = ', '.join([f"'{str(valor).replace('\'', '\'\'')}'" for valor in row])
+            f.write(f"INSERT INTO {nombre_tabla} ({columnas}) VALUES ({valores});\n")
+
+# Función para exportar en múltiples formatos
+def exportar_cobros(df, carpeta='02.descargable'):
+    formatos = {
+        'CSV': lambda: df.to_csv(f'{carpeta}/CSV/01.CSV correctos/cobros.csv', index=False, encoding='utf-8-sig'),
+        'JSON': lambda: df.to_json(f'{carpeta}/JSON/01.JSON correctos/cobros.json', orient='records', lines=True, force_ascii=False),
+        'JSON_EXCEL': lambda: df.to_json(f'{carpeta}/JSON para excel/01.JSON para excel correctos/cobros.json', orient='table'),
+        'SQL': lambda: exportar_sql(df, f'{carpeta}/SQL/01.SQL correctos/cobros.sql', 'Cobros'),
+        'PARQUET': lambda: df.to_parquet(f'{carpeta}/PARQUET/01.PARQUET correctos/cobros.parquet', index=False),
+        'FEATHER': lambda: df.to_feather(f'{carpeta}/FEATHER/01.FEATHER correctos/cobros.feather'),
+        'EXCEL': lambda: df.to_excel(f'{carpeta}/XLSX/01.XLSX correctos/cobros.xlsx', index=False)
+    }
+
+    for nombre, funcion in formatos.items():
+        try:
+            funcion()
+            print(f"✅ Exportado en formato {nombre}")
+        except Exception as e:
+            print(f"⚠️ Error al exportar en {nombre}: {e}")
+
+# Mostrar y exportar
 print(df_cobros.head())
-print(f"✅ Se han generado {len(df_cobros)} registros de cobros basados en ventas reales.")
+exportar_cobros(df_cobros)
+print(f"\n✅ Se han generado y exportado {len(df_cobros)} registros de cobros basados en ventas reales.")
+
 

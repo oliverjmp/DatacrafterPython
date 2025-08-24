@@ -1,9 +1,10 @@
 import pandas as pd
 from datetime import datetime
+import os
 
 # Cargar inventario y productos
-df_inventario = pd.read_csv('02.descargable/CSV/inventario.csv', encoding='utf-8-sig')
-df_productos = pd.read_csv('02.descargable/CSV/productos.csv', encoding='utf-8-sig')
+df_inventario = pd.read_csv('02.descargable/CSV/01.CSV correctos/inventario.csv', encoding='utf-8-sig')
+df_productos = pd.read_csv('02.descargable/CSV/01.CSV correctos/productos.csv', encoding='utf-8-sig')
 
 # Filtrar productos con stock bajo
 df_alertas = df_inventario[df_inventario['stock_actual'] <= df_inventario['stock_minimo']].copy()
@@ -33,9 +34,36 @@ df_alertas = df_alertas[[
     'fecha_actualizacion', 'fecha_alerta', 'prioridad', 'provider_id', 'provider_name'
 ]]
 
-# Exportar
-df_alertas.to_csv('02.descargable/CSV/alertas_stock.csv', index=False, encoding='utf-8-sig')
+# Función para exportar en SQL
+def exportar_sql(df, ruta, nombre_tabla):
+    with open(ruta, 'w', encoding='utf-8') as f:
+        for _, row in df.iterrows():
+            columnas = ', '.join(df.columns)
+            valores = ', '.join([f"'{str(valor).replace('\'', '\'\'')}'" for valor in row])
+            f.write(f"INSERT INTO {nombre_tabla} ({columnas}) VALUES ({valores});\n")
 
+# Función para exportar en múltiples formatos
+def exportar_alertas(df, carpeta='02.descargable'):
+    formatos = {
+        'CSV': lambda: df.to_csv(f'{carpeta}/CSV/01.CSV correctos/alertas_stock.csv', index=False, encoding='utf-8-sig'),
+        'JSON': lambda: df.to_json(f'{carpeta}/JSON/01.JSON correctos/alertas_stock.json', orient='records', lines=True, force_ascii=False),
+        'JSON_EXCEL': lambda: df.to_json(f'{carpeta}/JSON para excel/01.JSON para excel correctos/alertas_stock.json', orient='table'),
+        'SQL': lambda: exportar_sql(df, f'{carpeta}/SQL/01.SQL correctos/alertas_stock.sql', 'AlertasStock'),
+        'PARQUET': lambda: df.to_parquet(f'{carpeta}/PARQUET/01.PARQUET correctos/alertas_stock.parquet', index=False),
+        'FEATHER': lambda: df.to_feather(f'{carpeta}/FEATHER/01.FEATHER correctos/alertas_stock.feather'),
+        'EXCEL': lambda: df.to_excel(f'{carpeta}/XLSX/01.XLSX correctos/alertas_stock.xlsx', index=False)
+    }
+
+    for nombre, funcion in formatos.items():
+        try:
+            funcion()
+            print(f"✅ Exportado en formato {nombre}")
+        except Exception as e:
+            print(f"⚠️ Error al exportar en {nombre}: {e}")
+
+# Mostrar y exportar
 print(df_alertas.head())
-print(f"\n⚠️ Se han generado {len(df_alertas)} alertas de stock bajo con prioridad y proveedor vinculado.")
+exportar_alertas(df_alertas)
+print(f"\n⚠️ Se han generado y exportado {len(df_alertas)} alertas de stock bajo con prioridad y proveedor vinculado.")
+
 

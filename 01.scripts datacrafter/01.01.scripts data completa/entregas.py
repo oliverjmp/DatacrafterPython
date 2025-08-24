@@ -7,7 +7,7 @@ import os
 fake = Faker('es_ES')
 
 # Cargar ventas existentes
-df_ventas = pd.read_csv('02.descargable/CSV/ventas.csv', encoding='utf-8-sig')
+df_ventas = pd.read_csv('02.descargable/CSV/01.CSV correctos/ventas.csv', encoding='utf-8-sig')
 
 # Filtrar solo ventas que requieren entrega
 canales_con_entrega = ['Página Web', 'Amazon', 'Instagram', 'Uber Eats']
@@ -34,10 +34,8 @@ for i, venta in df_ventas_envio.iterrows():
     elif estado == 'Entregado':
         fecha_envio = fake.date_between(start_date=fecha_venta, end_date=fecha_venta + timedelta(days=3))
         fecha_entrega = fake.date_between(start_date=fecha_envio, end_date=fecha_envio + timedelta(days=5))
-        # Evaluar cumplimiento de 72h
-        if fecha_envio and fecha_entrega:
-            delta = (fecha_entrega - fecha_envio).days
-            cumplimiento = 'Entregado a tiempo' if delta <= 3 else 'Retrasado'
+        delta = (fecha_entrega - fecha_envio).days
+        cumplimiento = 'Entregado a tiempo' if delta <= 3 else 'Retrasado'
     elif estado == 'Cancelado':
         fecha_envio = fake.date_between(start_date=fecha_venta, end_date=fecha_venta + timedelta(days=2))
 
@@ -54,12 +52,37 @@ for i, venta in df_ventas_envio.iterrows():
         'cumplimiento_72h': cumplimiento
     })
 
-# Guardar entregas.csv
+# Crear DataFrame
 df_entregas = pd.DataFrame(entregas)
-ruta_entregas = os.path.join('02.descargable', 'CSV', 'entregas.csv')
-os.makedirs(os.path.dirname(ruta_entregas), exist_ok=True)
-df_entregas.to_csv(ruta_entregas, index=False, encoding='utf-8-sig')
 
+# Función para exportar en SQL
+def exportar_sql(df, ruta, nombre_tabla):
+    with open(ruta, 'w', encoding='utf-8') as f:
+        for _, row in df.iterrows():
+            columnas = ', '.join(df.columns)
+            valores = ', '.join([f"'{str(valor).replace('\'', '\'\'')}'" for valor in row])
+            f.write(f"INSERT INTO {nombre_tabla} ({columnas}) VALUES ({valores});\n")
+
+# Función para exportar en múltiples formatos
+def exportar_entregas(df, carpeta='02.descargable'):
+    formatos = {
+        'CSV': lambda: df.to_csv(f'{carpeta}/CSV/01.CSV correctos/entregas.csv', index=False, encoding='utf-8-sig'),
+        'JSON': lambda: df.to_json(f'{carpeta}/JSON/01.JSON correctos/entregas.json', orient='records', lines=True, force_ascii=False),
+        'JSON_EXCEL': lambda: df.to_json(f'{carpeta}/JSON para excel/01.JSON para excel correctos/entregas.json', orient='table'),
+        'SQL': lambda: exportar_sql(df, f'{carpeta}/SQL/01.SQL correctos/entregas.sql', 'Entregas'),
+        'PARQUET': lambda: df.to_parquet(f'{carpeta}/PARQUET/01.PARQUET correctos/entregas.parquet', index=False),
+        'FEATHER': lambda: df.to_feather(f'{carpeta}/FEATHER/01.FEATHER correctos/entregas.feather'),
+        'EXCEL': lambda: df.to_excel(f'{carpeta}/XLSX/01.XLSX correctos/entregas.xlsx', index=False)
+    }
+
+    for nombre, funcion in formatos.items():
+        try:
+            funcion()
+            print(f"✅ Exportado en formato {nombre}")
+        except Exception as e:
+            print(f"⚠️ Error al exportar en {nombre}: {e}")
+
+# Mostrar y exportar
 print(df_entregas.head())
-print(f"✅ Se han generado {len(df_entregas)} entregas con evaluación de cumplimiento en 72h.")
-
+exportar_entregas(df_entregas)
+print(f"\n✅ Se han generado y exportado {len(df_entregas)} entregas con evaluación de cumplimiento en 72h.")

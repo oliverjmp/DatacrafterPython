@@ -7,8 +7,8 @@ import os
 fake = Faker('es_ES')
 
 # Cargar datos base
-df_ordenes = pd.read_csv("02.descargable/CSV/compras_proveedor.csv", encoding='utf-8-sig')
-df_proveedores = pd.read_csv("02.descargable/CSV/proveedores.csv", encoding='utf-8-sig')
+df_ordenes = pd.read_csv("02.descargable/CSV/01.CSV correctos/compras_proveedor.csv", encoding='utf-8-sig')
+df_proveedores = pd.read_csv("02.descargable/CSV/01.CSV correctos/proveedores.csv", encoding='utf-8-sig')
 
 # Crear índice rápido de condición de pago por proveedor
 condiciones_map = df_proveedores.set_index("provider_id")["condicion_pago"].to_dict()
@@ -59,23 +59,35 @@ for i, orden in df_ordenes.iterrows():
 # Crear DataFrame
 df_pagos = pd.DataFrame(pagos)
 
-# Exportar
+# Función para exportar en SQL
+def exportar_sql(df, ruta, nombre_tabla):
+    with open(ruta, 'w', encoding='utf-8') as f:
+        for _, row in df.iterrows():
+            columnas = ', '.join(df.columns)
+            valores = ', '.join([f"'{str(valor).replace('\'', '\'\'')}'" for valor in row])
+            f.write(f"INSERT INTO {nombre_tabla} ({columnas}) VALUES ({valores});\n")
+
+# Función para exportar en múltiples formatos
 def exportar_pagos(df, carpeta='02.descargable'):
     formatos = {
-        'CSV': lambda: df.to_csv(f'{carpeta}/CSV/pagos_proveedor.csv', index=False, encoding='utf-8-sig'),
-        'EXCEL': lambda: df.to_excel(f'{carpeta}/XLSX/pagos_proveedor.xlsx', index=False)
+        'CSV': lambda: df.to_csv(f'{carpeta}/CSV/01.CSV correctos/pagos_proveedor.csv', index=False, encoding='utf-8-sig'),
+        'JSON': lambda: df.to_json(f'{carpeta}/JSON/01.JSON correctos/pagos_proveedor.json', orient='records', lines=True, force_ascii=False),
+        'JSON_EXCEL': lambda: df.to_json(f'{carpeta}/JSON para excel/01.JSON para excel correctos/pagos_proveedor.json', orient='table'),
+        'SQL': lambda: exportar_sql(df, f'{carpeta}/SQL/01.SQL correctos/pagos_proveedor.sql', 'PagosProveedor'),
+        'PARQUET': lambda: df.to_parquet(f'{carpeta}/PARQUET/01.PARQUET correctos/pagos_proveedor.parquet', index=False),
+        'FEATHER': lambda: df.to_feather(f'{carpeta}/FEATHER/01.FEATHER correctos/pagos_proveedor.feather'),
+        'EXCEL': lambda: df.to_excel(f'{carpeta}/XLSX/01.XLSX correctos/pagos_proveedor.xlsx', index=False)
     }
 
     for nombre, funcion in formatos.items():
-        carpeta_formato = os.path.join(carpeta, nombre.split('/')[0])
-        os.makedirs(carpeta_formato, exist_ok=True)
         try:
             funcion()
-            print(f"✅ Exportado: {nombre}")
+            print(f"✅ Exportado en formato {nombre}")
         except Exception as e:
-            print(f"⚠️ Error al exportar {nombre}: {e}")
+            print(f"⚠️ Error al exportar en {nombre}: {e}")
 
 # Mostrar y exportar
 print(df_pagos.head())
 exportar_pagos(df_pagos)
 print(f"\n✅ Se han generado y exportado {len(df_pagos)} pagos a proveedores con fechas de vencimiento y estado.")
+

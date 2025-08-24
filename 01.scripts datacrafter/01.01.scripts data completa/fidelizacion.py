@@ -6,7 +6,7 @@ import os
 fake = Faker('es_ES')
 
 # Cargar clientes
-df_clientes = pd.read_csv("02.descargable/CSV/clientes.csv", encoding='utf-8-sig')
+df_clientes = pd.read_csv("02.descargable/CSV/01.CSV correctos/clientes.csv", encoding='utf-8-sig')
 client_ids = df_clientes["client_id"].dropna().unique()
 
 # Niveles y beneficios
@@ -34,11 +34,38 @@ for i, client_id in enumerate(client_ids, start=1):
         'fecha_ultima_actividad': fecha_actividad
     })
 
-# Exportar
+# Crear DataFrame
 df_fidelizacion = pd.DataFrame(fidelizacion)
-ruta = "02.descargable/CSV/fidelizacion.csv"
-os.makedirs(os.path.dirname(ruta), exist_ok=True)
-df_fidelizacion.to_csv(ruta, index=False, encoding='utf-8-sig')
 
+# Función para exportar en SQL
+def exportar_sql(df, ruta, nombre_tabla):
+    with open(ruta, 'w', encoding='utf-8') as f:
+        for _, row in df.iterrows():
+            columnas = ', '.join(df.columns)
+            valores = ', '.join([f"'{str(valor).replace('\'', '\'\'')}'" for valor in row])
+            f.write(f"INSERT INTO {nombre_tabla} ({columnas}) VALUES ({valores});\n")
+
+# Función para exportar en múltiples formatos
+def exportar_fidelizacion(df, carpeta='02.descargable'):
+    formatos = {
+        'CSV': lambda: df.to_csv(f'{carpeta}/CSV/01.CSV correctos/fidelizacion.csv', index=False, encoding='utf-8-sig'),
+        'JSON': lambda: df.to_json(f'{carpeta}/JSON/01.JSON correctos/fidelizacion.json', orient='records', lines=True, force_ascii=False),
+        'JSON_EXCEL': lambda: df.to_json(f'{carpeta}/JSON para excel/01.JSON para excel correctos/fidelizacion.json', orient='table'),
+        'SQL': lambda: exportar_sql(df, f'{carpeta}/SQL/01.SQL correctos/fidelizacion.sql', 'Fidelizacion'),
+        'PARQUET': lambda: df.to_parquet(f'{carpeta}/PARQUET/01.PARQUET correctos/fidelizacion.parquet', index=False),
+        'FEATHER': lambda: df.to_feather(f'{carpeta}/FEATHER/01.FEATHER correctos/fidelizacion.feather'),
+        'EXCEL': lambda: df.to_excel(f'{carpeta}/XLSX/01.XLSX correctos/fidelizacion.xlsx', index=False)
+    }
+
+    for nombre, funcion in formatos.items():
+        try:
+            funcion()
+            print(f"✅ Exportado en formato {nombre}")
+        except Exception as e:
+            print(f"⚠️ Error al exportar en {nombre}: {e}")
+
+# Mostrar y exportar
 print(df_fidelizacion.head())
-print(f"✅ Se han generado {len(df_fidelizacion)} registros de fidelización con client_id normalizado.")
+exportar_fidelizacion(df_fidelizacion)
+print(f"\n✅ Se han generado y exportado {len(df_fidelizacion)} registros de fidelización con client_id normalizado.")
+
