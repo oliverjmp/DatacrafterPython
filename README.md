@@ -71,7 +71,7 @@ Consulta el archivo [`LICENSE`](https://github.com/oliverjmp/DatacrafterPython/b
 ## ✨ Créditos
 
 Creado por [@oliverjmp](https://github.com/oliverjmp)  
-Diseñado para fines educativos, exploratorios y de entrenamiento en ciencia de ççdatos.
+Diseñado para fines educativos, exploratorios y de entrenamiento en ciencia de datos.
 
 # 🛒 Simulated Retail Database for a Multi-Store Chain
 
