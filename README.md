@@ -72,3 +72,79 @@ Consulta el archivo [`LICENSE`](https://github.com/oliverjmp/DatacrafterPython/b
 
 Creado por [@oliverjmp](https://github.com/oliverjmp)  
 Diseñado para fines educativos, exploratorios y de entrenamiento en ciencia de ççdatos.
+
+# 🛒 Simulated Retail Database for a Multi-Store Chain
+
+## 📌 Project Overview
+
+This project simulates a relational database for a large-scale retail chain. It serves as a practice environment for:
+
+- 📐 Data modeling in SQL  
+- 🐍 Synthetic data generation with Python  
+- 📊 Data visualization using Power BI  
+- 🧮 Data manipulation with Pandas and SQLAlchemy  
+
+The database includes information on products, customers, sales, inventory, suppliers, branches, employees, and more. Additional modules such as payments, returns, reviews, and loyalty programs have been added to enrich the data ecosystem.
+
+## 🧰 Technologies Used
+
+- **MySQL** – Relational database management  
+- **Python** – Data simulation using [Faker](https://faker.readthedocs.io/)  
+- **Power BI** – Data visualization  
+- **Pandas / SQLAlchemy** – Data manipulation and loading  
+
+## 🗃️ Database Structure
+
+The database contains the following core tables:
+
+- `clientes` (customers)  
+- `productos` (products)  
+- `categorias` (categories)  
+- `ventas` (sales)  
+- `detalles_venta` (sales details)  
+- `empleados` (employees)  
+- `sucursales` (branches)  
+- `inventario` (inventory)  
+- `proveedores` (suppliers)  
+- `compras` (purchases)  
+- `cobros` (payments)  
+- `devoluciones` (returns)  
+- `reseñas` (reviews)  
+- `fidelizacion` (loyalty)  
+- `alertas_stock` (stock alerts)  
+
+All tables are linked through primary and foreign keys to preserve referential integrity. You can explore the full schema in [`diccionario_relacional.md`](https://github.com/oliverjmp/DatacrafterPython/blob/main/diccionario_relacional.md).
+
+## 🧪 Synthetic Data Generation
+
+The **Faker** library is used to generate realistic data such as names, addresses, dates, and more. Randomized logic is applied to simulate quantities, prices, and relationships between entities.
+
+All data is exported in multiple formats: `CSV`, `JSON`, `Excel`, `Parquet`, `Feather`, and `SQL`, organized under the `02.descargable` directory. Error-injected versions are also generated for data cleaning and validation exercises.
+
+## 🔐 Data Protection
+
+⚠️ This software generates entirely fictitious data for educational purposes.  
+It does not contain or use any real personal information.  
+Any resemblance to actual people, companies, or locations is purely coincidental.
+
+## 🧑‍💻 Contributions
+
+This repository is open to contributions. To collaborate:
+
+1. Fork the repository  
+2. Create a new branch for your changes  
+3. Submit a pull request explaining your modifications  
+4. Wait for review and approval  
+
+💡 Please follow best practices in development and documentation to maintain project integrity.
+
+## 📄 License
+
+This project is licensed under the **MIT License**.  
+See the [`LICENSE`](https://github.com/oliverjmp/DatacrafterPython/blob/main/LICENSE) file for details.
+
+## ✨ Credits
+
+Created by [@oliverjmp](https://github.com/oliverjmp)  
+Designed for educational, exploratory, and data science training purposes.
+
