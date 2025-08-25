@@ -45,7 +45,7 @@ for i, orden in df_ordenes.iterrows():
 
     pagos.append({
         "pago_id": f"PP-{i+1:06d}",
-        "order_id": orden["order_id"],
+        "order_proveedor_id": orden["order_proveedor_id"],
         "provider_id": provider_id,
         "provider_name": orden["provider_name"],
         "fecha_orden": fecha_orden.date(),
@@ -57,7 +57,7 @@ for i, orden in df_ordenes.iterrows():
     })
 
 # Crear DataFrame
-df_pagos = pd.DataFrame(pagos)
+df_pagos_proveedor = pd.DataFrame(pagos)
 
 # Función para exportar en SQL
 def exportar_sql(df, ruta, nombre_tabla):
@@ -87,7 +87,7 @@ def exportar_pagos(df, carpeta='02.descargable'):
             print(f"⚠️ Error al exportar en {nombre}: {e}")
 
 # Mostrar y exportar
-print(df_pagos.head())
-exportar_pagos(df_pagos)
-print(f"\n✅ Se han generado y exportado {len(df_pagos)} pagos a proveedores con fechas de vencimiento y estado.")
+print(df_pagos_proveedor.head())
+exportar_pagos(df_pagos_proveedor)
+print(f"\n✅ Se han generado y exportado {len(df_pagos_proveedor)} pagos a proveedores con fechas de vencimiento y estado.")
 

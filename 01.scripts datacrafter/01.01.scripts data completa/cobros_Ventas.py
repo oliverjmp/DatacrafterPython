@@ -35,7 +35,7 @@ for i, venta in df_ventas.iterrows():
         fecha_cobro = fecha_venta
 
     cobros.append({
-        'pago_id': f"PG-{i+1:05d}",
+        'cobro_id': f"PG-{i+1:05d}",
         'venta_id': venta_id,
         'fecha_cobro': fecha_cobro,
         'monto_total': round(total, 2),
@@ -44,10 +44,10 @@ for i, venta in df_ventas.iterrows():
     })
 
 # Crear DataFrame
-df_cobros = pd.DataFrame(cobros)
+df_cobros_ventas = pd.DataFrame(cobros)
 
 # Convertir fecha_cobro a datetime64[ns] para compatibilidad con Parquet y Feather
-df_cobros['fecha_cobro'] = pd.to_datetime(df_cobros['fecha_cobro'])
+df_cobros_ventas['fecha_cobro'] = pd.to_datetime(df_cobros_ventas['fecha_cobro'])
 
 # Función para exportar en SQL
 def exportar_sql(df, ruta, nombre_tabla):
@@ -77,9 +77,9 @@ def exportar_cobros(df, carpeta='02.descargable'):
             print(f"⚠️ Error al exportar en {nombre}: {e}")
 
 # Mostrar y exportar
-print(df_cobros.head())
-exportar_cobros(df_cobros)
-print(f"\n✅ Se han generado y exportado {len(df_cobros)} registros de cobros basados en ventas reales.")
+print(df_cobros_ventas.head())
+exportar_cobros(df_cobros_ventas)
+print(f"\n✅ Se han generado y exportado {len(df_cobros_ventas)} registros de cobros basados en ventas reales.")
 
 
 

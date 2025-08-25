@@ -18,8 +18,12 @@ scripts = [
     "01.scripts datacrafter/01.01.scripts data completa/pagosproveedores.py",
     "01.scripts datacrafter/01.01.scripts data completa/cobros_Ventas.py",
     "01.scripts datacrafter/01.01.scripts data completa/generador_AlertasInv.py",
+    "01.scripts datacrafter/01.02.scripts data con errores/clientesError.py",
+    "01.scripts datacrafter/01.02.scripts data con errores/cobroclienteError.py",
+    "01.scripts datacrafter/01.02.scripts data con errores/inventarioError.py",
+    "01.scripts datacrafter/01.02.scripts data con errores/ventasError.py",
     "01.scripts datacrafter/01.03.scripts lanzador y validación/validador_Integral.py"
-]
+]   
 
 print("\n🛠️ INICIO DE ACTUALIZACIÓN GLOBAL\n")
 
