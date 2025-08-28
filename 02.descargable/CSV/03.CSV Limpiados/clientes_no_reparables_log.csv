@@ -1,0 +1,1781 @@
+client_id,nombre,email,telefono,genero,fecha_registro,registro_valido,motivo_descarte
+CL-10001,Bonifacio Caballero Solano,correo@.com,2680448995876,Femenino,2024-10-07,False,Email inválido
+CL-00016,Nico Samu Corbacho Escribano,amadorinocencio@example.org,5851515463034,No especificado,2024-08-19,False,Género inválido
+CL-10005,María Luisa Catalán Hervás,mariano73@example.net,,No especificado,2025-06-10,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-00030,@Oliver,@gmail.com,9796171935586,Femenino,2024-02-09,False,Email inválido
+CL-00032,Manuelita Mendoza Cornejo,angulobernardita@example.com,5405530193914,No especificado,2023-11-18,False,Género inválido
+CL-00036,Encarna Natalia Borrell Hervia,odalys69@example.org,,Femenino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-10007,Raquel Nevado Arana,correo@.com,7813161947990,No especificado,2025-04-23,False,"Email inválido, Género inválido"
+CL-00056,Florentina García Torres,angelitanoguera@example.com,6982277435120,No especificado,2024-11-01,False,Género inválido
+CL-10013,123,correo@.com,,Femenino,2024-09-28,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-00064,Armida Azcona Vega,eduardovicens@example.net,2029697045058,No especificado,2024-06-01,False,Género inválido
+CL-00070,Osvaldo Gil,,7874496468933,Femenino,2023-11-30,False,Email inválido
+CL-10018,Ciríaco Berenguer,nhernandez@example.net,,Femenino,2025-04-21,False,"Teléfono inválido, Teléfono ausente"
+CL-10020,Evelia Enríquez,,6582851075995,No especificado,2024-05-29,False,"Email inválido, Género inválido"
+CL-00084,Herminia Escrivá Andrés,dimas18@example.net,,Masculino,2024-05-26,False,"Teléfono inválido, Teléfono ausente"
+CL-00088,Pili de Vergara,macarena88@example.org,4448669686212,No especificado,2024-11-24,False,Género inválido
+CL-00090,Ariadna del Pagès,correo@.com,8222491735884,Femenino,2026-01-01,False,Email inválido
+CL-00096,Luciano Ferrández Soriano,eleuterio42@example.org,,No especificado,2024-02-04,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10025,Toribio Llamas Escamilla,,7587575340704,Femenino,2024-04-18,False,Email inválido
+CL-00104,Héctor Demetrio Ferrán Borrell,andres-felipe37@example.net,4540980087197,No especificado,2025-02-06,False,Género inválido
+CL-00108,Sol Francisco Calderon,rcarretero@example.net,,Femenino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-00112,América Blasco Bustos,taguilo@example.net,3860546171228,No especificado,2024-09-08,False,Género inválido
+CL-10031,123,,34975995327,Masculino,2024-02-18,False,Email inválido
+CL-00128,Agustina Laguna Flores,nicoexposito@example.org,8408306647903,No especificado,2025-06-02,False,Género inválido
+CL-00130,Modesta Pujol Vergara,correo@.com,3622722537256,Femenino,2023-09-03,False,Email inválido
+CL-00132,Jacinta Perez Baquero,leyre04@example.com,,Masculino,2024-10-06,False,"Teléfono inválido, Teléfono ausente"
+CL-00140,Dan Aguilar Garay,,1295404765970,Masculino,2025-03-31,False,Email inválido
+CL-00144,Angelina Villena Marco,eamor@example.com,34873975214,No especificado,2026-01-01,False,Género inválido
+CL-00150,@Oliver,correo@.com,3756527359589,Femenino,2024-01-25,False,Email inválido
+CL-00152,Lucía de Fernández,patinoani@example.com,2099075335671,No especificado,2025-04-15,False,Género inválido
+CL-10035,Isa Rosado-Viñas,pinedavalero@example.com,,Masculino,2024-09-14,False,"Teléfono inválido, Teléfono ausente"
+CL-10036,Luis Ángel Pedro,saavedrapancho@example.net,9779227581533,No especificado,2024-02-17,False,Género inválido
+CL-10041,Elena Luz Higueras,inigo97@example.com,34943558370,No especificado,2025-04-14,False,Género inválido
+CL-10043,Jose Carlos Aguiló González,,9412088825101,Masculino,2023-12-25,False,Email inválido
+CL-00176,Pepito Riquelme Roca,vinicio99@example.com,0741646655278,No especificado,2024-11-16,False,Género inválido
+CL-10047,123,sebastianarsenio@example.com,,Femenino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-00184,Jose Angel Benjamín Lillo Berrocal,hipolito14@example.org,1589634626507,No especificado,2024-06-20,False,Género inválido
+CL-00190,Anita del Cámara,@gmail.com,4320363167827,Femenino,2025-04-26,False,Email inválido
+CL-00200,Elvira Catalán Montesinos,,7814673729194,No especificado,2024-10-19,False,"Email inválido, Género inválido"
+CL-10054,José Luis Bayona Busquets,mauricio58@example.org,,Femenino,2024-08-17,False,"Teléfono inválido, Teléfono ausente"
+CL-00216,Ámbar de Solís,zorrillahilda@example.org,,Femenino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-10060,Arsenio Barbero Gomila,marcarrion@example.com,9124758805005,No especificado,2024-08-09,False,Género inválido
+CL-00230,Brígida Campos Espada,@gmail.com,2550585943794,Masculino,2025-06-20,False,Email inválido
+CL-10062,Abraham Español Mínguez,ricardoripoll@example.org,9326997127320,No especificado,2025-06-12,False,Género inválido
+CL-10064,@Oliver,,,Femenino,2023-11-04,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-10072,Matías Bustamante Carbó,@gmail.com,2333034043965,Masculino,2025-07-18,False,Email inválido
+CL-00264,Espiridión Torres Blanes,egamez@example.net,,No especificado,2024-06-30,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-00270,,correo@.com,1256365739603,Masculino,2023-11-30,False,Email inválido
+CL-00288,Chus Tenorio Valera,guzmancrescencia@example.org,,No especificado,2026-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10084,Vilma Casas Pastor,@gmail.com,1022977551799,Masculino,2024-05-06,False,Email inválido
+CL-10085,Violeta Carmen Ochoa Trujillo,bsegura@example.net,9806896909864,No especificado,2025-04-12,False,Género inválido
+CL-10087,Imelda Carlos Izaguirre,,,Femenino,2024-05-12,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-10091,Flavio de Julián,,4365058148419,Masculino,2023-11-03,False,Email inválido
+CL-00312,Darío Ayuso Morillo,jordibelda@example.net,,Masculino,2024-12-22,False,"Teléfono inválido, Teléfono ausente"
+CL-10095,Vilma de Montoya,correo@.com,2553259359647,No especificado,2024-02-19,False,"Email inválido, Género inválido"
+CL-10098,Estrella González Riba,noeliacoll@example.org,,Masculino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-10100,Adela Arteaga Anglada,jeremias67@example.net,7733907871386,No especificado,2024-08-10,False,Género inválido
+CL-00330,Jorge Tovar Torrent,,3338989408384,Femenino,2023-11-24,False,Email inválido
+CL-00336,Águeda Manjón-Grau,omar66@example.net,34820143796,No especificado,2024-10-14,False,Género inválido
+CL-10102,Che Amor Cortés,@gmail.com,7391657038235,Femenino,2024-03-19,False,Email inválido
+CL-10103,Odalys Marí Zamorano,kbaron@example.com,6040655160040,No especificado,2025-01-02,False,Género inválido
+CL-00350,Jose Ramón Rico Galiano,@gmail.com,0685707786863,Femenino,2024-09-21,False,Email inválido
+CL-00352,Manuela Plaza Cantón,zbosch@example.org,0124653227786,No especificado,2024-02-17,False,Género inválido
+CL-10111,123,,,Masculino,2024-06-19,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-00368,Andrea Roca,ibellido@example.org,5312525228272,No especificado,2024-09-09,False,Género inválido
+CL-00370,Angélica Diez-Corominas,,1991190455864,Femenino,2024-07-31,False,Email inválido
+CL-00372,Isaías Bustamante Olivé,almudena41@example.net,,Masculino,2025-06-22,False,"Teléfono inválido, Teléfono ausente"
+CL-00380,Manuelita Valentín Varela,,5024045805427,Masculino,2025-07-30,False,Email inválido
+CL-00384,Primitivo Capdevila Tejada,maria-fernanda19@example.org,,No especificado,2023-11-24,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-00390,Lupe Guitart Gomez,,7177086597548,Masculino,2025-02-26,False,Email inválido
+CL-00396,Marita del Miró,quirinorovira@example.com,,Femenino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-00400,Manu Folch Yuste,correo@.com,0022328505293,Masculino,2023-10-22,False,Email inválido
+CL-00408,Victoriano del Rosselló,viviana62@example.com,,No especificado,2024-04-19,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10128,Elisabet Reina Franco Menendez,,6744642640637,Masculino,2023-11-01,False,Email inválido
+CL-10131,,@gmail.com,34956621820,Femenino,2024-07-30,False,Email inválido
+CL-00424,Anita Camps,felipa31@example.org,1535797807363,No especificado,2025-02-02,False,Género inválido
+CL-00430,Elba Cobo,,2480843584319,Femenino,2024-04-01,False,Email inválido
+CL-00432,Jesusa Amaya Iborra,espanarosa-maria@example.org,,Femenino,2025-05-15,False,"Teléfono inválido, Teléfono ausente"
+CL-10136,Nazaret Briones-Tomé,correo@.com,8627988455741,Masculino,2025-08-17,False,Email inválido
+CL-00444,Pedro Luque Herrera,ximenapaez@example.org,,Masculino,2024-02-02,False,"Teléfono inválido, Teléfono ausente"
+CL-00450,,@gmail.com,1374354063716,Femenino,2025-01-27,False,Email inválido
+CL-00456,Ignacia Valenciano-Tomás,prudencio81@example.net,,No especificado,2024-12-15,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10141,Nicodemo Antúnez Balaguer,@gmail.com,2535116380844,Femenino,2024-11-06,False,Email inválido
+CL-00464,Áurea Montero Sobrino,egalan@example.com,9703714487407,No especificado,2024-11-21,False,Género inválido
+CL-00470,Seve Pascual Ponce,correo@.com,3970459390967,Femenino,2024-12-31,False,Email inválido
+CL-10148,María Manuela Gascón Alegria,correo@.com,,No especificado,2023-08-26,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-00492,Abigaíl Mayte Tejera Aller,mosqueraanabel@example.com,,Masculino,2024-02-20,False,"Teléfono inválido, Teléfono ausente"
+CL-10155,Melisa del Acevedo,africa94@example.org,9430253927558,No especificado,2023-11-19,False,Género inválido
+CL-00500,Manu de Martorell,correo@.com,5809427219099,Masculino,2025-01-15,False,Email inválido
+CL-00504,Zaida del Navarro,narcisapuig@example.org,,No especificado,2026-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10158,123,@gmail.com,7793917829370,Femenino,2025-02-03,False,Email inválido
+CL-10159,Dora Iñiguez Almeida,balaguerjulian@example.org,0429216366171,No especificado,2025-07-28,False,Género inválido
+CL-00516,Amparo Hervia Alegria,coelloblas@example.com,,Femenino,2023-09-12,False,"Teléfono inválido, Teléfono ausente"
+CL-10162,Eufemia del Diego,torrecillabelen@example.net,3358251578719,No especificado,2025-03-21,False,Género inválido
+CL-00528,Martín Viña Galan,yalegre@example.org,34985812366,No especificado,2024-03-13,False,Género inválido
+CL-10163,Olimpia Pérez Araujo,correo@.com,2028005377492,Femenino,2024-06-22,False,Email inválido
+CL-10168,123,rosamagdalena@example.org,,Masculino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-10169,Olalla Solano Rosselló,ricardaarjona@example.com,8035579529314,No especificado,2025-04-26,False,Género inválido
+CL-00550,Manuelita Gisbert Bonilla,@gmail.com,8507508692796,Femenino,2025-02-14,False,Email inválido
+CL-00552,Iván Jerez Almagro,tristanmacias@example.org,,Femenino,2023-11-02,False,"Teléfono inválido, Teléfono ausente"
+CL-00564,Susanita Gonzalez Carretero,manuelvirgilio@example.com,,Femenino,2024-06-05,False,"Teléfono inválido, Teléfono ausente"
+CL-10174,,correo@.com,2988032664057,Femenino,2025-07-28,False,Email inválido
+CL-00576,Rolando Guzman Paniagua,canterojennifer@example.net,,No especificado,2026-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-00580,Evelia Calatayud Martí,,7699135863131,Femenino,2024-09-01,False,Email inválido
+CL-00590,Adán Lucio Reguera Hernández,correo@.com,4245374861118,Masculino,2025-01-30,False,Email inválido
+CL-10181,Evelia Mercader Urrutia,fabricio81@example.net,1876361394841,No especificado,2025-07-05,False,Género inválido
+CL-10184,,,34828012311,Femenino,2023-10-07,False,Email inválido
+CL-10186,Aarón Juan Bautista Cabello Sanmiguel,casesgeraldo@example.org,5596456135994,No especificado,2025-05-06,False,Género inválido
+CL-00610,Severino Maldonado Canals,correo@.com,8999021908114,Masculino,2024-10-05,False,Email inválido
+CL-00612,Desiderio Moreno Cañizares,prudencia30@example.com,,Femenino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-00616,Victor Aparicio Quintana,atilio41@example.org,3892670781934,No especificado,2024-03-24,False,Género inválido
+CL-10190,Claudia Ponce Valenciano,,8647505572095,Masculino,2023-10-19,False,Email inválido
+CL-00624,Jenaro Noriega-Sebastián,gervasioalfonso@example.net,,No especificado,2025-06-29,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-00630,,,9905435034830,Femenino,2026-01-01,False,Email inválido
+CL-10196,Santiago Amancio Fuente Rosa,ocanton@example.net,,Femenino,2024-09-02,False,"Teléfono inválido, Teléfono ausente"
+CL-10198,Jenny Campillo-Lladó,@gmail.com,5907309897191,No especificado,2023-12-17,False,"Email inválido, Género inválido"
+CL-00648,Eusebia Camacho Acevedo,operal@example.com,34920302529,No especificado,2026-01-01,False,Género inválido
+CL-00650,Amelia Busquets Andrés,,4980033981442,Femenino,2024-10-05,False,Email inválido
+CL-10205,123,correo@.com,,Femenino,2025-04-12,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-00670,Wálter Hernán Martin Cerezo,correo@.com,6198643875866,Femenino,2024-01-19,False,Email inválido
+CL-00672,Melisa Polo Cuervo,erebollo@example.com,,Masculino,2025-02-20,False,"Teléfono inválido, Teléfono ausente"
+CL-10210,Daniel Piñeiro,correo@.com,7383978658202,No especificado,2024-03-10,False,"Email inválido, Género inválido"
+CL-10213,Bibiana de Vizcaíno,jose-ignacio51@example.com,0626779860414,No especificado,2025-08-24,False,Género inválido
+CL-00690,123,,2756578139914,Femenino,2024-10-21,False,Email inválido
+CL-00696,Amador Morata Carmona,bermudezrogelio@example.org,,No especificado,2025-04-17,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-00700,Benito Lastra Otero,,6985040560469,Femenino,2024-11-09,False,Email inválido
+CL-00708,Tecla Mir Ureña,tmontserrat@example.org,,Femenino,2024-04-08,False,"Teléfono inválido, Teléfono ausente"
+CL-10220,Ámbar de Rodriguez,correo@.com,7915154569741,Femenino,2024-05-07,False,Email inválido
+CL-00712,Elpidio Santiago Osorio,espanolroxana@example.com,4800256145174,No especificado,2025-07-10,False,Género inválido
+CL-10223,123,@gmail.com,34920690404,No especificado,2026-01-01,False,"Email inválido, Género inválido"
+CL-00728,Asdrubal Mateo Sanmartín,cuestaadrian@example.com,2233122782539,No especificado,2024-06-04,False,Género inválido
+CL-00730,Diana Casanova-Lasa,,1463811705152,Masculino,2024-10-28,False,Email inválido
+CL-00736,Jordana Tapia Leon,nmanrique@example.org,8889195046363,No especificado,2023-11-02,False,Género inválido
+CL-10230,Felicidad Borrás Lamas,correo@.com,0078253913823,Femenino,2024-03-05,False,Email inválido
+CL-10236,,,5689863791119,Masculino,2024-06-25,False,Email inválido
+CL-10238,Gerónimo Madrid,reynaolmedo@example.net,2752450937473,No especificado,2024-09-27,False,Género inválido
+CL-00756,Gabino Riquelme,jpenas@example.net,,Masculino,2024-03-18,False,"Teléfono inválido, Teléfono ausente"
+CL-00768,Domingo Millán Malo,plinio21@example.com,,No especificado,2025-04-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-00770,Guillermo Castro Reyes,,4021798361978,Masculino,2025-03-15,False,Email inválido
+CL-00776,Melania Pablo Bernal,vasco14@example.org,7186541142428,No especificado,2024-04-15,False,Género inválido
+CL-00780,123,@gmail.com,,Femenino,2024-08-12,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-00784,Íngrid Daza Carranza,brunocastrillo@example.com,4904329283361,No especificado,2025-02-21,False,Género inválido
+CL-00792,Dani Casal Galán,dduenas@example.com,,No especificado,2000-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10253,Pilar Anguita,,1985466736710,Femenino,2025-02-15,False,Email inválido
+CL-00816,Reyes Rius Morillo,zluis@example.org,,Femenino,2024-10-11,False,"Teléfono inválido, Teléfono ausente"
+CL-10258,Martirio Ofelia Simó Lopez,,0594704261674,Masculino,2023-08-30,False,Email inválido
+CL-00824,Heliodoro Gonzalo Recio Mariscal,chus59@example.com,2845010821469,No especificado,2024-06-22,False,Género inválido
+CL-10263,Fulgencio de Castells,@gmail.com,8886196098614,Masculino,2024-09-03,False,Email inválido
+CL-10265,Esperanza Flora Cabrero Luque,lujanmohamed@example.org,6816621146653,No especificado,2024-04-06,False,Género inválido
+CL-10268,123,correo@.com,,No especificado,2025-04-07,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-00848,Severino Luz-Oliver,marcianofeijoo@example.com,1555118598394,No especificado,2023-11-04,False,Género inválido
+CL-00850,Haydée Querol Márquez,,3654820439329,Masculino,2024-09-18,False,Email inválido
+CL-10271,Emperatriz Elba Cruz Pulido,chigueras@example.com,,Femenino,2024-07-25,False,"Teléfono inválido, Teléfono ausente"
+CL-00856,Fernando Matas-Ureña,ana36@example.net,6921416253582,No especificado,2025-08-03,False,Género inválido
+CL-00860,Eugenia Carrión Jordá,correo@.com,5803975841486,Femenino,2024-01-04,False,Email inválido
+CL-00864,Yéssica del Montero,sevillanonicolasa@example.com,,Femenino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-00870,,@gmail.com,6824230508923,Femenino,2024-11-17,False,Email inválido
+CL-10279,Elvira del Terrón,gotero@example.com,,Femenino,2025-08-24,False,"Teléfono inválido, Teléfono ausente"
+CL-10280,Paz Vázquez Coca,,6550187555078,Masculino,2023-11-01,False,Email inválido
+CL-10283,Vicente Abril-Aguilar,francisco-jose90@example.org,,No especificado,2024-03-05,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-00890,Adelina Rius,correo@.com,9292850504831,Masculino,2025-03-01,False,Email inválido
+CL-10284,Nidia Talavera Coloma,zbautista@example.net,1751314262532,No especificado,2024-03-13,False,Género inválido
+CL-10286,,,,Masculino,2024-06-09,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-00910,Sandalio Crespo Egea,,0320173361033,Femenino,2024-03-16,False,Email inválido
+CL-00912,Noa Velázquez Avilés,pili78@example.net,,No especificado,2024-06-20,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10291,Marino Sierra Benavent,,4315808315066,No especificado,2024-01-15,False,"Email inválido, Género inválido"
+CL-00924,Sabina Saldaña Almeida,quinterocristian@example.net,,Femenino,2024-08-03,False,"Teléfono inválido, Teléfono ausente"
+CL-00930,123,,0083375410011,Femenino,2024-09-23,False,Email inválido
+CL-00936,Florencia de Álamo,vcabezas@example.com,34848036544,No especificado,2023-11-22,False,Género inválido
+CL-10297,Jacinta Báez-Alemán,,9306427133390,Masculino,2025-06-09,False,Email inválido
+CL-10302,Ana Sofía Leon Borrego,roxana33@example.org,,Femenino,2024-07-21,False,"Teléfono inválido, Teléfono ausente"
+CL-00950,Sebastian Morell Jaén,correo@.com,6396035292119,Masculino,2024-09-27,False,Email inválido
+CL-10303,Antonio Arellano Guerra,climacojordan@example.org,6126437492321,No especificado,2024-01-01,False,Género inválido
+CL-10305,123,correo@.com,34975353764,No especificado,2024-08-29,False,"Email inválido, Género inválido"
+CL-00970,Eugenia Feijoo Franco,,9171556028405,Femenino,2024-12-12,False,Email inválido
+CL-10309,Sara Salinas Coll,tamayoalma@example.org,2131557498603,No especificado,2023-12-16,False,Género inválido
+CL-10310,Ramón Cases Arregui,,6670895812760,Femenino,2023-10-24,False,Email inválido
+CL-00990,123,@gmail.com,6946001149503,Femenino,2026-01-01,False,Email inválido
+CL-10314,Víctor Valle Iñiguez,brigida34@example.org,8350656440631,No especificado,2024-05-26,False,Género inválido
+CL-00996,Nidia del Girona,landairis@example.org,,Masculino,2024-06-05,False,"Teléfono inválido, Teléfono ausente"
+CL-01000,Azeneth del Olmedo,,9798999477180,No especificado,2024-12-13,False,"Email inválido, Género inválido"
+CL-01008,Mateo Rivas Sedano,mercaderernesto@example.net,34846927139,No especificado,2000-01-01,False,Género inválido
+CL-10321,Gabino Morán Alcalá,@gmail.com,7040299150091,Femenino,2024-12-06,False,Email inválido
+CL-10325,,@gmail.com,,Femenino,2024-12-22,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-01024,Blanca Coello Villalba,galanmarco@example.org,8022573648889,No especificado,2023-10-01,False,Género inválido
+CL-01030,Amado Carrasco,@gmail.com,6009496174907,Femenino,2024-05-11,False,Email inválido
+CL-01032,Graciana Gallego-Solano,dhoyos@example.net,,Femenino,2024-05-04,False,"Teléfono inválido, Teléfono ausente"
+CL-10334,Emperatriz Gomis Benítez,ribasrosario@example.net,,Masculino,2024-07-25,False,"Teléfono inválido, Teléfono ausente"
+CL-01048,Francisco Javier Espiridión Amores Calvo,rcalvo@example.com,1321491372573,No especificado,2024-01-30,False,Género inválido
+CL-10335,123,@gmail.com,5703370952524,Femenino,2024-12-03,False,Email inválido
+CL-01056,Jose Antonio Duran Macías,catalina17@example.com,,No especificado,2023-09-05,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-01060,Elisabet Alberto Arellano,@gmail.com,8198662522253,Masculino,2024-08-29,False,Email inválido
+CL-10337,Elisabet Riera-Rico,concha46@example.net,5560923351922,No especificado,2023-11-23,False,Género inválido
+CL-10338,Palmira Rodriguez-Escribano,loida95@example.com,,Masculino,2024-07-10,False,"Teléfono inválido, Teléfono ausente"
+CL-01072,Andrea Torrens Corominas,drodenas@example.net,4585134003559,No especificado,2025-05-06,False,Género inválido
+CL-10342,,,,No especificado,2026-01-01,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-01088,Eva María Otero Villalba,jguitart@example.org,2090684884357,No especificado,2024-09-06,False,Género inválido
+CL-10346,Nélida Perla Sabater Becerra,@gmail.com,6570904424483,Femenino,2024-10-19,False,Email inválido
+CL-01092,Dulce Vilaplana Llopis,aramos@example.com,,Masculino,2024-04-21,False,"Teléfono inválido, Teléfono ausente"
+CL-01096,Gracia Villegas Navarro,fermingarces@example.net,2949780751724,No especificado,2024-11-11,False,Género inválido
+CL-10348,Leoncio Domingo Zabaleta,correo@.com,8209094899107,Femenino,2025-05-30,False,Email inválido
+CL-01104,Edgardo Verdugo Maza,jmari@example.net,34926125387,No especificado,2024-09-10,False,Género inválido
+CL-10352,Geraldo Luque,,5236607321368,Femenino,2025-05-23,False,Email inválido
+CL-01116,Isabel Otero Luque,ema42@example.org,,Masculino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-10356,Aristides Jose Ignacio Mayoral Jerez,,9926661679992,Femenino,2025-06-18,False,Email inválido
+CL-10357,Gabino Guardia Navas,nromero@example.org,,No especificado,2023-09-25,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10358,Primitivo Toro Amor,@gmail.com,3045010635688,Masculino,2024-11-06,False,Email inválido
+CL-01136,Pascual Seguí Melero,sebastiangomez@example.com,2739677502028,No especificado,2024-05-08,False,Género inválido
+CL-01144,Baudelio Fábregas Blázquez,bonifaciomesa@example.com,2210314504168,No especificado,2024-09-24,False,Género inválido
+CL-10366,Jaime Camilo Castell Franco,@gmail.com,3492862247595,Masculino,2025-06-25,False,Email inválido
+CL-10367,Ciríaco Arrieta Diez,tenafelisa@example.net,,Femenino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-10374,Nerea Elías,murrutia@example.org,,Femenino,2025-02-27,False,"Teléfono inválido, Teléfono ausente"
+CL-01170,123,@gmail.com,3120770264799,Masculino,2000-01-01,False,Email inválido
+CL-01176,Maricruz Agustí Ortiz,ramiro09@example.com,,Masculino,2024-05-03,False,"Teléfono inválido, Teléfono ausente"
+CL-01180,Paca de Paz,correo@.com,3382129467681,Femenino,2023-10-16,False,Email inválido
+CL-01188,Bernarda Anunciación Blazquez Cánovas,kcabanas@example.org,,Femenino,2023-09-06,False,"Teléfono inválido, Teléfono ausente"
+CL-01190,Encarnacion Arana-Larrañaga,@gmail.com,7883002702703,Masculino,2024-10-25,False,Email inválido
+CL-10381,Cruz Castro Somoza,juan-carlos44@example.com,8894797476791,No especificado,2023-11-29,False,Género inválido
+CL-10386,,@gmail.com,,No especificado,2024-02-14,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10389,Judith de Serna,craya@example.org,3229343622365,No especificado,2023-10-09,False,Género inválido
+CL-01210,Américo Tomé Luque,correo@.com,5693321581169,Masculino,2023-11-29,False,Email inválido
+CL-01212,Anita Sobrino Sola,edulopez@example.org,,Femenino,2023-09-12,False,"Teléfono inválido, Teléfono ausente"
+CL-10394,Chita Noriega Barros,,1588630674892,Masculino,2024-09-19,False,Email inválido
+CL-01224,Pánfilo Morera Vendrell,igamez@example.com,,No especificado,2023-11-10,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10395,123,,4276019881379,Femenino,2025-03-01,False,Email inválido
+CL-01232,Josefa Marisol Quiroga Alfonso,amaro67@example.org,0114316060910,No especificado,2023-12-10,False,Género inválido
+CL-01236,Montserrat Sánchez Ballester,acevedoemelina@example.com,,Femenino,2025-04-21,False,"Teléfono inválido, Teléfono ausente"
+CL-01240,Máximo Samper Villanueva,,7601731763746,No especificado,2025-05-04,False,"Email inválido, Género inválido"
+CL-01248,Malena Losa,maximiliano00@example.org,,No especificado,2024-03-29,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-01250,Josep Cervantes Palomino,,9838995467507,Masculino,2024-06-27,False,Email inválido
+CL-10403,Narcisa Bartolomé Anaya,casadofeliciana@example.com,1737293761342,No especificado,2024-10-23,False,Género inválido
+CL-01260,123,@gmail.com,,Masculino,2025-02-01,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-10408,Emilia Solera Chamorro,@gmail.com,5382035363706,Femenino,2025-02-05,False,Email inválido
+CL-10409,Vidal Vives,felix13@example.com,,Masculino,2024-04-21,False,"Teléfono inválido, Teléfono ausente"
+CL-10412,Estrella del Macias,,3102124510092,No especificado,2023-10-27,False,"Email inválido, Género inválido"
+CL-01284,Georgina Amalia Paz Tudela,melania84@example.com,,Femenino,2024-08-22,False,"Teléfono inválido, Teléfono ausente"
+CL-01296,Purificación de Guerrero,tpatino@example.com,,Femenino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-10419,Maura Ojeda Lozano,@gmail.com,1290739622221,Masculino,2023-10-21,False,Email inválido
+CL-10422,Leocadio Fábregas,felisa90@example.org,,Femenino,2023-12-04,False,"Teléfono inválido, Teléfono ausente"
+CL-10425,Charo Gual Vizcaíno,lvidal@example.com,5042491309762,No especificado,2025-05-21,False,Género inválido
+CL-10428,@Oliver,correo@.com,,No especificado,2023-10-13,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-01330,Carina Frías Duran,@gmail.com,7292829017286,Femenino,2023-09-20,False,Email inválido
+CL-10432,Mohamed Escudero,sedanoemiliano@example.org,5677665796904,No especificado,2023-10-24,False,Género inválido
+CL-10435,Alejandra Escolano Mayo,correo@.com,0512718806858,Femenino,2023-10-13,False,Email inválido
+CL-10436,Cintia Alonso Ríos,llanofrancisco-javier@example.net,,Femenino,2024-04-21,False,"Teléfono inválido, Teléfono ausente"
+CL-01356,Micaela Duque Hidalgo,santiago68@example.org,,Femenino,2023-09-08,False,"Teléfono inválido, Teléfono ausente"
+CL-01360,Dalila Ponce López,,7158979857251,No especificado,2023-11-10,False,"Email inválido, Género inválido"
+CL-01368,Carmina Ochoa Hoyos,irenecarballo@example.org,,No especificado,2026-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10447,Pedro Sanchez Carpio,eric56@example.org,5691676628030,No especificado,2024-08-14,False,Género inválido
+CL-10448,,@gmail.com,,Masculino,2024-10-23,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-10451,Eustaquio Milla Becerra,salinasagata@example.net,0254571132938,No especificado,2024-10-14,False,Género inválido
+CL-01390,Augusto Calderon,@gmail.com,2113434382096,Masculino,2024-04-16,False,Email inválido
+CL-10453,Odalys Castillo Palomo,ctur@example.com,,Masculino,2025-06-08,False,"Teléfono inválido, Teléfono ausente"
+CL-10456,Octavia Gonzalez Fonseca,correo@.com,2909413110491,No especificado,2024-03-17,False,"Email inválido, Género inválido"
+CL-01404,María Jesús Grande-Perea,jordonez@example.net,,Masculino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-10461,Adoración de Aranda,,3047174068532,Masculino,2025-08-01,False,Email inválido
+CL-10463,Nico Amo-Jove,domingaagusti@example.org,34882037988,No especificado,2025-03-28,False,Género inválido
+CL-10466,Benito de Vélez,correo@.com,5112457077372,Masculino,2024-12-05,False,Email inválido
+CL-10467,Tecla Piñol Palacio,vcarballo@example.net,8393594218693,No especificado,2024-08-30,False,Género inválido
+CL-10470,Eduardo Somoza Olivera,@gmail.com,3933149895579,Masculino,2023-08-26,False,Email inválido
+CL-01432,Eva Montes Heras,rosaliaangel@example.net,2420374358169,No especificado,2025-01-10,False,Género inválido
+CL-10472,,correo@.com,,No especificado,2000-01-01,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10473,Aroa Boix Lucas,espanaobdulia@example.org,3382049338323,No especificado,2025-04-11,False,Género inválido
+CL-10474,Coral Salvador,@gmail.com,5422599751244,Femenino,2025-02-20,False,Email inválido
+CL-01452,Galo Miró Morata,omarvalenciano@example.net,,Femenino,2023-10-01,False,"Teléfono inválido, Teléfono ausente"
+CL-10477,Raúl Andrade Machado,@gmail.com,4143444600781,Masculino,2023-10-03,False,Email inválido
+CL-01464,Mireia Tejada Moraleda,candela42@example.org,34916440297,No especificado,2024-11-15,False,Género inválido
+CL-01476,Marcelo Cobos-Cáceres,encarnitalanda@example.com,,Femenino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-01480,Virgilio Bertrán,,1486586952817,No especificado,2025-02-17,False,"Email inválido, Género inválido"
+CL-01488,Marta Márquez Larrañaga,yessicabenavente@example.org,,No especificado,2024-07-22,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10483,Clímaco Gil-Lozano,,9581318425526,Femenino,2025-01-04,False,Email inválido
+CL-10486,123,,,Femenino,2024-10-13,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-01510,Leandro Norberto Checa Acevedo,,6606484531953,Femenino,2024-08-15,False,Email inválido
+CL-01512,Asunción Benigna Cortes Pérez,agullodalila@example.org,,No especificado,2026-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10490,Eva de Marti,,2794594480540,No especificado,2025-07-16,False,"Email inválido, Género inválido"
+CL-01524,Perla Quirós Cueto,vdiez@example.net,,Femenino,2023-10-08,False,"Teléfono inválido, Teléfono ausente"
+CL-01536,Odalys Gibert,bhierro@example.com,,Femenino,2023-11-01,False,"Teléfono inválido, Teléfono ausente"
+CL-01544,Fortunata de Collado,vicenteeva@example.net,1664728889195,No especificado,2025-08-15,False,Género inválido
+CL-01560,Javier Gisbert Cabello,@gmail.com,34985877029,No especificado,2025-03-15,False,"Email inválido, Género inválido"
+CL-10512,Victor Saura Oller,pinajuan@example.net,8951477796926,No especificado,2023-12-16,False,Género inválido
+CL-01580,Pía Tenorio,correo@.com,1687346433062,Femenino,2025-05-31,False,Email inválido
+CL-01584,Chus Pinedo,oportillo@example.net,,Masculino,2025-01-22,False,"Teléfono inválido, Teléfono ausente"
+CL-01592,Clementina Rocío Tormo Osuna,julianaquiroga@example.net,0726337719682,No especificado,2024-04-24,False,Género inválido
+CL-01596,Emperatriz Alcolea Cepeda,anitafrancisco@example.com,,Femenino,2024-12-15,False,"Teléfono inválido, Teléfono ausente"
+CL-01600,Esmeralda Isern Atienza,,5915143193811,No especificado,2024-09-16,False,"Email inválido, Género inválido"
+CL-01608,Nacio Lorenzo Rivera,diana53@example.com,,No especificado,2024-04-23,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10522,@Oliver,,34835935728,Femenino,2000-01-01,False,Email inválido
+CL-10526,Vilma Pedraza Vazquez,celso24@example.net,5361240338161,No especificado,2025-04-17,False,Género inválido
+CL-01630,Nicanor Leiva Larrañaga,,7727148389778,Femenino,2023-09-09,False,Email inválido
+CL-10528,Magdalena Moreno Aramburu,ulillo@example.com,34980208937,No especificado,2024-12-30,False,Género inválido
+CL-10530,José Luis Robles Costa,,2446258489634,Femenino,2025-01-01,False,Email inválido
+CL-01648,Onofre Segovia Montoya,cornelio49@example.net,3450356168357,No especificado,2024-05-05,False,Género inválido
+CL-01650,,,2182185888320,Masculino,2023-10-20,False,Email inválido
+CL-01656,Imelda Toledo Toledo,espiridion44@example.com,,Femenino,2025-06-18,False,"Teléfono inválido, Teléfono ausente"
+CL-10539,Fortunata Castillo Benavent,dan46@example.com,4132966633658,No especificado,2025-05-20,False,Género inválido
+CL-10543,Esteban Jódar Oliva,,6939975193465,Masculino,2025-07-06,False,Email inválido
+CL-10547,Bernarda Ortiz,@gmail.com,34975741898,No especificado,2024-11-05,False,"Email inválido, Género inválido"
+CL-01688,Dimas Fernández,pia07@example.net,9935506350477,No especificado,2025-02-12,False,Género inválido
+CL-01690,Ruperto Sobrino Cal,@gmail.com,0215200608008,Femenino,2023-11-13,False,Email inválido
+CL-01692,Emma Rosalinda Valverde Luque,ylobato@example.org,,Masculino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-01700,Bernarda Ferrando-Olivera,@gmail.com,0942532528489,Femenino,2025-07-04,False,Email inválido
+CL-01704,Verónica Serrano Bou,larreacandelaria@example.com,,Femenino,2024-11-08,False,"Teléfono inválido, Teléfono ausente"
+CL-01720,Fulgencio de Borrell,correo@.com,2746957291361,Femenino,2025-06-27,False,Email inválido
+CL-01728,Otilia Maite Piñol Checa,nazaretberrocal@example.net,34730773451,No especificado,2000-01-01,False,Género inválido
+CL-01730,Anastasia del Tena,correo@.com,6593831487354,Masculino,2024-07-21,False,Email inválido
+CL-01736,María Cristina Navarrete Márquez,cornelioortega@example.net,5725291405459,No especificado,2024-06-15,False,Género inválido
+CL-01740,123,reyesruiz@example.net,,Masculino,2024-12-27,False,"Teléfono inválido, Teléfono ausente"
+CL-01750,Maristela Carranza Cepeda,,2271452809553,Masculino,2025-08-05,False,Email inválido
+CL-01752,Bartolomé del Nogueira,marisa44@example.org,,No especificado,2024-02-27,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10572,Silvestre Narváez Novoa,maria-angeles49@example.net,4195620743216,No especificado,2025-07-29,False,Género inválido
+CL-10574,Mirta Toledo-Zaragoza,fidelgaray@example.com,6513669791259,No especificado,2024-05-19,False,Género inválido
+CL-01770,123,,2778605662018,Masculino,2024-01-27,False,Email inválido
+CL-01776,Salud Mayo Barberá,eusebiamarin@example.com,34943354606,No especificado,2024-07-04,False,Género inválido
+CL-10579,Pascual Aramburu Ariza,,1404533281063,Femenino,2024-11-11,False,Email inválido
+CL-01788,Miguel Mercader Barragán,georginaalbero@example.net,,Masculino,2024-06-18,False,"Teléfono inválido, Teléfono ausente"
+CL-01790,Celestino Almeida Benito,,7756805834361,Masculino,2024-11-10,False,Email inválido
+CL-01792,Mamen Guzmán,remigio62@example.com,8762175689912,No especificado,2025-05-13,False,Género inválido
+CL-10583,@Oliver,,,No especificado,2000-01-01,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-01808,Abril Figueras Tudela,carlotahernandez@example.org,9980605028200,No especificado,2025-03-10,False,Género inválido
+CL-10589,Ileana Rey Herrera,bdieguez@example.com,,Femenino,2023-11-21,False,"Teléfono inválido, Teléfono ausente"
+CL-01816,Guiomar Reig Puente,coralzabala@example.org,8075060353331,No especificado,2025-02-07,False,Género inválido
+CL-10590,Petrona Cecilia Ortega Fabra,correo@.com,7704834533340,Femenino,2024-10-05,False,Email inválido
+CL-10593,Jeremías Eloy Mariscal Adán,amor93@example.org,,Masculino,2024-10-04,False,"Teléfono inválido, Teléfono ausente"
+CL-01830,@Oliver,,5891599759103,Masculino,2024-07-09,False,Email inválido
+CL-01840,Salvador Pérez-Gordillo,correo@.com,9957094373614,Femenino,2024-09-18,False,Email inválido
+CL-10600,Celestina Eulalia Donoso Zapata,candela96@example.org,,No especificado,2023-09-16,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-01850,Aitana Garcia,,0631824467794,Femenino,2025-06-16,False,Email inválido
+CL-01856,Atilio Velázquez-Codina,ribescamila@example.net,6637328005777,No especificado,2024-10-25,False,Género inválido
+CL-10604,,,,Femenino,2025-02-04,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-01864,Rafa Padilla Tovar,acasanova@example.org,9682000740468,No especificado,2024-07-01,False,Género inválido
+CL-10605,Salomé Mena,correo@.com,0963332644807,Masculino,2025-08-23,False,Email inválido
+CL-01872,Juan Luis Vigil Arenas,eugeniaarellano@example.net,,No especificado,2026-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-01880,Maribel Marín Gracia,,5821632479572,No especificado,2025-08-20,False,"Email inválido, Género inválido"
+CL-01884,Zaida Sotelo-Catalán,luisa13@example.net,,Femenino,2023-11-22,False,"Teléfono inválido, Teléfono ausente"
+CL-01890,,,0833638061447,Masculino,2026-01-01,False,Email inválido
+CL-10614,Dionisia Jaén Milla,@gmail.com,4621458282495,Femenino,2024-02-10,False,Email inválido
+CL-01904,Máximo Puga Rodriguez,sofia93@example.org,5892502407177,No especificado,2025-08-03,False,Género inválido
+CL-01910,Leocadio Ureña Raya,@gmail.com,9818453582831,Masculino,2025-01-25,False,Email inválido
+CL-01912,Jordi Pol-Casanovas,rosagallo@example.net,9159125974974,No especificado,2025-05-24,False,Género inválido
+CL-01920,Rodrigo Joan López Tolosa,correo@.com,,No especificado,2023-11-28,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-01928,Florentino del Vaquero,cguzman@example.org,8863660294136,No especificado,2024-08-15,False,Género inválido
+CL-10621,Miguela Jessica Porras Diez,,4489497483066,Masculino,2025-07-04,False,Email inválido
+CL-01944,Roberto Maestre Cañellas,noemi95@example.org,,No especificado,2024-09-09,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-01950,,correo@.com,7169069937602,Masculino,2024-08-18,False,Email inválido
+CL-01952,Eustaquio Piñeiro-Rozas,bolanosleyre@example.org,3949943867352,No especificado,2023-10-04,False,Género inválido
+CL-10631,Esmeralda Román Gallardo,leandracoloma@example.net,,Masculino,2025-08-18,False,"Teléfono inválido, Teléfono ausente"
+CL-10633,Ariel Barbero Porcel,correo@.com,5088799546715,No especificado,2025-04-05,False,"Email inválido, Género inválido"
+CL-01968,Calisto Leopoldo Alberdi Pedrosa,wortuno@example.com,34876041680,No especificado,2024-02-21,False,Género inválido
+CL-01970,Haroldo Solana Palomino,,9604960338534,Femenino,2023-10-26,False,Email inválido
+CL-01980,123,,,Masculino,2023-11-16,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-10640,Miriam Castañeda Luís,cabezaruperto@example.net,2609155100553,No especificado,2024-05-15,False,Género inválido
+CL-01992,Poncio Morales,qcordoba@example.org,,No especificado,2024-09-09,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-02000,Elisa Uría Estévez,,2618952759822,No especificado,2024-03-28,False,"Email inválido, Género inválido"
+CL-10652,Eufemia Terrón Nieto,torrensluciana@example.com,,No especificado,2000-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-02020,Salvador Solana Buendía,,9703168121992,Femenino,2025-01-08,False,Email inválido
+CL-02024,Rebeca Bayón,martiruben@example.net,9036120745643,No especificado,2024-02-28,False,Género inválido
+CL-10656,Apolinar de Alcolea,calatayudjafet@example.org,,Femenino,2024-04-28,False,"Teléfono inválido, Teléfono ausente"
+CL-02030,Graciela Tomas Reyes,@gmail.com,6815981176297,Masculino,2023-12-02,False,Email inválido
+CL-10659,,,,No especificado,2025-03-19,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-02048,Roberta Company Valle,cortinajuan-pablo@example.org,8726091914225,No especificado,2024-10-09,False,Género inválido
+CL-02050,Che Albino Peral Fernández,,0450608840432,Femenino,2024-09-25,False,Email inválido
+CL-02052,Lucía Nieto Antúnez,leyrefuertes@example.net,,Masculino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-10663,Edgardo del Juan,micaelafonseca@example.net,9809342866961,No especificado,2024-01-29,False,Género inválido
+CL-02064,Ignacio Felix Rozas Bru,tudelanico@example.org,,No especificado,2023-10-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10667,123,,1180770383656,Femenino,2026-01-01,False,Email inválido
+CL-02076,Abilio Hernando Quero,santon@example.org,,Femenino,2024-11-03,False,"Teléfono inválido, Teléfono ausente"
+CL-10673,Moisés Rosselló Borja,,5975307335731,No especificado,2025-03-13,False,"Email inválido, Género inválido"
+CL-02088,Gerónimo Bello Tudela,leocadia42@example.com,,No especificado,2000-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-02090,Salomón del Barriga,correo@.com,7644414790343,Masculino,2024-12-04,False,Email inválido
+CL-02100,,@gmail.com,,Masculino,2024-11-21,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-02104,Martín Verdú Diez,santosfranco@example.org,8817920411688,No especificado,2024-07-16,False,Género inválido
+CL-02110,Ofelia del Peña,correo@.com,3261480653966,Masculino,2025-01-17,False,Email inválido
+CL-02112,Alex Fortuny Llabrés,recioangelina@example.com,,No especificado,2024-05-21,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10684,Caridad Abellán-Expósito,correo@.com,0621739181429,Femenino,2024-02-17,False,Email inválido
+CL-10685,Salomón Heredia Olmo,iheredia@example.net,,Femenino,2025-06-25,False,"Teléfono inválido, Teléfono ausente"
+CL-10686,Valero Navarro,anselmo88@example.com,6897937110175,No especificado,2025-06-19,False,Género inválido
+CL-02130,,,7286033889273,Femenino,2023-09-25,False,Email inválido
+CL-02136,Arcelia Barrera Torrent,griseldasanjuan@example.com,,Femenino,2025-06-30,False,"Teléfono inválido, Teléfono ausente"
+CL-02140,Débora Esteban Real,,2167612714095,Masculino,2024-09-13,False,Email inválido
+CL-10694,Encarnación Tejera,alberttalavera@example.com,,Masculino,2024-06-20,False,"Teléfono inválido, Teléfono ausente"
+CL-02150,Cesar Cobo,,1646524498148,Masculino,2024-07-22,False,Email inválido
+CL-02152,Goyo Rueda Tomé,pponce@example.net,3853477608046,No especificado,2023-10-27,False,Género inválido
+CL-10698,Gastón Fernandez Nogués,,34818692932,No especificado,2026-01-01,False,"Email inválido, Género inválido"
+CL-02170,Camilo Escrivá,,0717107952271,Masculino,2025-02-22,False,Email inválido
+CL-02172,Samu Nieto-Bejarano,galianojulio@example.com,,Femenino,2024-01-14,False,"Teléfono inválido, Teléfono ausente"
+CL-10706,Íñigo Arnal Pera,,6018883973529,Masculino,2024-09-02,False,Email inválido
+CL-10707,Palmira Malo Guzmán,arroyoarcelia@example.net,34977253076,No especificado,2023-10-17,False,Género inválido
+CL-02190,Espiridión Paredes Ramos,,6961275704414,Femenino,2023-12-13,False,Email inválido
+CL-02192,José María Iriarte Peñas,elisabet66@example.org,0110032797098,No especificado,2025-05-16,False,Género inválido
+CL-02196,Ulises Perea Nicolau,aarias@example.net,,Femenino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-10711,Federico Álvarez Vallés,correo@.com,6830956162567,Femenino,2024-08-03,False,Email inválido
+CL-02208,Teodora Pepita Bonilla Pedrosa,emiliana28@example.org,,No especificado,2023-11-17,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10716,Lupe Alcalá Agudo,,3570015181346,Masculino,2025-04-30,False,Email inválido
+CL-02216,Judith Echeverría Aragón,porrasjuan-pablo@example.org,9898646549070,No especificado,2025-07-15,False,Género inválido
+CL-02224,Paulina Murcia Morales,roldanjuan-pablo@example.net,9634371517446,No especificado,2024-12-20,False,Género inválido
+CL-10723,Juan Carlos Cruz,@gmail.com,7079262495723,Femenino,2024-01-01,False,Email inválido
+CL-02232,Azeneth Valero Valverde,elpidio43@example.org,,No especificado,2023-10-29,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10727,Lucas Amaya Cuervo,correo@.com,2846325968256,No especificado,2024-10-10,False,"Email inválido, Género inválido"
+CL-02244,Manu Aramburu Castillo,orivera@example.net,,Femenino,2024-10-11,False,"Teléfono inválido, Teléfono ausente"
+CL-02256,Plinio del Izquierdo,maitearmas@example.com,,No especificado,2023-09-22,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10733,Juan Luis Acero Almansa,,0394873918847,Femenino,2024-03-15,False,Email inválido
+CL-02264,Marisela de Flores,hasensio@example.net,2819748862655,No especificado,2025-03-11,False,Género inválido
+CL-10741,Diego Montaña Molins,,,No especificado,2024-12-22,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-02290,Poncio Barba Franch,,0096139998580,Masculino,2024-05-14,False,Email inválido
+CL-02292,Rómulo Pol Sarabia,falconluz@example.org,,Masculino,2025-08-10,False,"Teléfono inválido, Teléfono ausente"
+CL-02296,Marianela Peláez Puente,dulcegibert@example.org,2935342991921,No especificado,2025-06-30,False,Género inválido
+CL-10748,Jose Carlos Cabezas-Armas,,4274701939717,Masculino,2023-11-19,False,Email inválido
+CL-02310,@Oliver,correo@.com,0185612975899,Masculino,2025-03-22,False,Email inválido
+CL-02312,Gloria Nevado Hierro,carrerasatilio@example.com,5456237614656,No especificado,2024-02-04,False,Género inválido
+CL-02316,Pánfilo Nebot Querol,florentina81@example.org,,Femenino,2023-10-06,False,"Teléfono inválido, Teléfono ausente"
+CL-02320,Bibiana María Fernanda Larrea Osorio,@gmail.com,7434895010132,No especificado,2024-06-12,False,"Email inválido, Género inválido"
+CL-10759,Gabino Acedo,,0992988175912,Femenino,2024-08-08,False,Email inválido
+CL-10762,123,dsevillano@example.net,,Masculino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-10768,Vasco del Quiroga,correo@.com,0335074716239,Masculino,2023-10-10,False,Email inválido
+CL-10770,Reynaldo Bauzà-Feliu,marciapi@example.com,,Masculino,2023-09-28,False,"Teléfono inválido, Teléfono ausente"
+CL-10772,Custodio Juárez Campos,ghervas@example.com,6562186886631,No especificado,2024-11-21,False,Género inválido
+CL-02364,María Manuela Abellán,nazaretagustin@example.net,,Masculino,2023-12-05,False,"Teléfono inválido, Teléfono ausente"
+CL-02380,Matilde Perales Bayona,correo@.com,7294405776310,Masculino,2025-04-04,False,Email inválido
+CL-10780,Miguel Balaguer Adán,yraya@example.net,1026880484919,No especificado,2024-11-17,False,Género inválido
+CL-02390,Joel Cabeza Sarabia,@gmail.com,0621568727214,Masculino,2024-11-05,False,Email inválido
+CL-02392,Yolanda Castilla Montero,qfalcon@example.net,0516667777908,No especificado,2024-03-02,False,Género inválido
+CL-02400,123,@gmail.com,,Femenino,2023-10-01,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-10791,Jose Carlos Llobet Paz,marisaguzman@example.net,,Femenino,2025-01-08,False,"Teléfono inválido, Teléfono ausente"
+CL-02416,Ana del Tormo,calixta83@example.org,8524046257753,No especificado,2024-07-04,False,Género inválido
+CL-10794,Rebeca Pineda Amor,correo@.com,1485344552053,Femenino,2024-06-05,False,Email inválido
+CL-02424,Candelario Cornelio Castilla Borja,lpeinado@example.net,,No especificado,2025-04-06,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-02436,Juana Falcón Rueda,ricardoreyes@example.org,,Femenino,2023-12-29,False,"Teléfono inválido, Teléfono ausente"
+CL-02440,Petrona Dalmau Riera,correo@.com,8665053013790,Femenino,2024-12-21,False,Email inválido
+CL-02448,Carmela Merino Cisneros,lanaya@example.com,,Masculino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-10808,Fidel Soriano Iborra,martinezcamila@example.org,2629936376086,No especificado,2025-03-13,False,Género inválido
+CL-02470,Celia Clarisa Viñas Velázquez,,8558534462353,Masculino,2023-09-20,False,Email inválido
+CL-10812,Graciana Ferrández Benavent,aurena@example.org,,No especificado,2024-12-20,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10815,Adela Sacristán Nevado,,0357377040681,No especificado,2024-07-30,False,"Email inválido, Género inválido"
+CL-02488,Juan José Mulet Sola,maria-angeles35@example.net,8703840717312,No especificado,2024-06-03,False,Género inválido
+CL-10818,123,correo@.com,7732579243615,Femenino,2023-11-30,False,Email inválido
+CL-10821,Cirino Ródenas Carreño,dsantamaria@example.com,,No especificado,2024-04-09,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-02500,Celestina Jimenez,,4886639145604,Masculino,2024-05-12,False,Email inválido
+CL-02508,Felipe Bravo Agustí,escrivaricardo@example.org,,Femenino,2023-11-07,False,"Teléfono inválido, Teléfono ausente"
+CL-02510,Adela Abella Quevedo,@gmail.com,8190251236363,Femenino,2025-04-23,False,Email inválido
+CL-10829,@Oliver,correo@.com,34979725974,Masculino,2025-05-05,False,Email inválido
+CL-10834,Eugenio Moraleda Piñol,rupertoarenas@example.com,0538468927040,No especificado,2024-04-03,False,Género inválido
+CL-02530,Albino Juan Plana Lago,@gmail.com,8737684625041,Masculino,2025-02-28,False,Email inválido
+CL-02532,Sara Cases Cabezas,reyesmendez@example.org,,Femenino,2024-01-27,False,"Teléfono inválido, Teléfono ausente"
+CL-10835,Demetrio Ayuso,maximiliano68@example.com,6945030131293,No especificado,2025-04-06,False,Género inválido
+CL-02540,Clarisa Garzón,@gmail.com,2236726983718,Masculino,2025-04-12,False,Email inválido
+CL-10838,Elisabet Blasco Meléndez,jvalenciano@example.net,,Femenino,2025-02-26,False,"Teléfono inválido, Teléfono ausente"
+CL-02550,123,,3583820196761,Masculino,2024-02-03,False,Email inválido
+CL-02556,Francisca Amorós-Sáenz,acevedodorotea@example.net,,Femenino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-10843,Plinio Saavedra Doménech,@gmail.com,4455229059931,No especificado,2025-07-03,False,"Email inválido, Género inválido"
+CL-02568,Nicodemo Cervera Cervera,fidel92@example.net,,Masculino,2023-11-28,False,"Teléfono inválido, Teléfono ausente"
+CL-02570,María Fernanda Salmerón Toledo,,2490531774265,Masculino,2023-10-03,False,Email inválido
+CL-02576,Rosaura Fonseca Gomila,carminarequena@example.com,9156723557926,No especificado,2024-09-14,False,Género inválido
+CL-10846,,pallaresemma@example.org,,Femenino,2025-07-08,False,"Teléfono inválido, Teléfono ausente"
+CL-02584,Clara Segarra Camino,juan-jose16@example.com,3713595962439,No especificado,2024-12-21,False,Género inválido
+CL-10850,Samuel Ferrández Gomila,correo@.com,9110314378738,Femenino,2025-04-13,False,Email inválido
+CL-02592,Saturnina Escribano,rosa48@example.org,,Masculino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-10853,Miguela Quero Coello,@gmail.com,0223809011506,No especificado,2024-09-21,False,"Email inválido, Género inválido"
+CL-02604,Bautista Victorino Jurado Vila,miguelsigfrido@example.com,,Femenino,2023-10-18,False,"Teléfono inválido, Teléfono ausente"
+CL-10856,Che Noriega Malo,sainzsalome@example.org,0886798338805,No especificado,2025-07-05,False,Género inválido
+CL-02616,Xiomara Graciana Varela Pinedo,montenegroluz@example.net,,Masculino,2025-01-24,False,"Teléfono inválido, Teléfono ausente"
+CL-02624,Flavia Castelló Cabanillas,anselmoocana@example.org,2548168839417,No especificado,2024-06-30,False,Género inválido
+CL-10866,Bárbara Montalbán Roselló,ysolana@example.org,,Femenino,2024-09-09,False,"Teléfono inválido, Teléfono ausente"
+CL-10867,Onofre Fiol Artigas,,3147442188369,Masculino,2025-06-19,False,Email inválido
+CL-02632,Sabina Taboada Jerez,hernandezheriberto@example.net,0818701378998,No especificado,2024-09-15,False,Género inválido
+CL-02640,@Oliver,,,No especificado,2024-10-16,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-02648,Rosenda Valls Ferreras,duilio65@example.com,3757797924722,No especificado,2025-02-16,False,Género inválido
+CL-02652,Ale Bustos Carrera,alemanyamador@example.com,,Masculino,2024-07-01,False,"Teléfono inválido, Teléfono ausente"
+CL-02660,Ema Zurita Salazar,correo@.com,1177623131642,Femenino,2024-07-18,False,Email inválido
+CL-10877,Sebastián Manso,ramirezrafa@example.com,,No especificado,2000-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10880,@Oliver,correo@.com,0000933390523,Masculino,2025-05-11,False,Email inválido
+CL-10881,Ainoa Tomás Abellán,juan-pablogalvan@example.net,4467097437255,No especificado,2024-01-07,False,Género inválido
+CL-10884,Leandra Chamorro Benet,domingocheca@example.org,,Femenino,2024-05-21,False,"Teléfono inválido, Teléfono ausente"
+CL-10887,Isidro Álvaro Benet,,3269802500193,No especificado,2024-11-06,False,"Email inválido, Género inválido"
+CL-02688,Aarón Zurita Rios,marcelo22@example.net,,No especificado,2023-11-28,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10893,Narciso Andrés-Arcos,,9879588011258,Masculino,2025-03-18,False,Email inválido
+CL-02696,Hugo Sanmiguel,mugicaamanda@example.org,5499924169243,No especificado,2024-01-26,False,Género inválido
+CL-10895,@Oliver,correo@.com,,Masculino,2000-01-01,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-02704,Sarita del Montenegro,sabina89@example.org,4495449268649,No especificado,2025-03-17,False,Género inválido
+CL-02712,Emigdio Guerra Miró,qarroyo@example.net,,No especificado,2023-09-02,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10899,Epifanio Jordá Acosta,manzanoeliseo@example.net,9085565388934,No especificado,2024-06-10,False,Género inválido
+CL-02724,África Molins Alcántara,palacioamor@example.net,,Femenino,2023-12-03,False,"Teléfono inválido, Teléfono ausente"
+CL-10901,123,@gmail.com,5711932515387,Femenino,2024-01-12,False,Email inválido
+CL-10902,Aristides Tapia Amaya,jacinta31@example.com,,No especificado,2024-01-05,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10903,Vasco Galvez Mercader,,2907048079284,Femenino,2024-03-19,False,Email inválido
+CL-02744,Leticia Perales,hgarriga@example.com,5526330143416,No especificado,2023-10-25,False,Género inválido
+CL-02748,Marino Marcelo Salgado Carrasco,carofelicia@example.net,,Masculino,2025-06-10,False,"Teléfono inválido, Teléfono ausente"
+CL-10910,@Oliver,correo@.com,,Femenino,2024-03-22,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-10912,Vicente Angelino Carreras Jerez,arnaizarturo@example.org,2165646043697,No especificado,2024-05-29,False,Género inválido
+CL-02770,Juan Bautista Solana Iglesia,@gmail.com,8294792147111,Masculino,2024-09-09,False,Email inválido
+CL-02776,Bautista Apolinar Serna Cánovas,emiliano64@example.com,9189557479931,No especificado,2024-12-25,False,Género inválido
+CL-10915,Berta Leocadia Arribas Terrón,,8088296162855,Femenino,2024-12-22,False,Email inválido
+CL-10918,Oriana Mendez Canals,linoalarcon@example.net,34879611621,No especificado,2023-09-01,False,Género inválido
+CL-10920,@Oliver,correo@.com,4085715521520,Femenino,2024-03-27,False,Email inválido
+CL-02792,Jesusa del Polo,lazaroferrandez@example.org,2995449364488,No especificado,2024-11-23,False,Género inválido
+CL-02796,Socorro Benavente-Molins,riveracalixto@example.com,,Masculino,2025-04-19,False,"Teléfono inválido, Teléfono ausente"
+CL-10924,Olga Badía-Carbonell,@gmail.com,5148601667055,Masculino,2023-10-02,False,Email inválido
+CL-02808,Julián Aranda-Quintanilla,baquerohoracio@example.com,,No especificado,2025-08-13,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10929,Elvira Sanmiguel Aparicio,,1011976541117,Masculino,2024-11-20,False,Email inválido
+CL-10935,@Oliver,correo@.com,,Masculino,2023-10-24,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-02824,Narcisa Segura Ródenas,cidcarmina@example.org,6913494831986,No especificado,2025-03-19,False,Género inválido
+CL-02832,Zaira Ledesma Acevedo,torrecillajulie@example.org,,No especificado,2025-02-15,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10941,Espiridión Canet Esteban,correo@.com,4508395346437,No especificado,2025-06-11,False,"Email inválido, Género inválido"
+CL-02844,Mateo Buendía Arteaga,hsotelo@example.net,,Masculino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-10945,Gregorio Ugarte,martinezsabina@example.net,7390684157761,No especificado,2025-06-13,False,Género inválido
+CL-02856,Berta Vidal Giralt,pintormaxi@example.net,,No especificado,2025-07-04,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-02868,Cayetano Agustí Cisneros,mllorens@example.net,,Femenino,2024-09-23,False,"Teléfono inválido, Teléfono ausente"
+CL-02870,Nicodemo Ballesteros Guardia,,7958101219968,Masculino,2024-10-21,False,Email inválido
+CL-10951,Jordana Marquez Pérez,qsantamaria@example.net,9398207439700,No especificado,2024-10-06,False,Género inválido
+CL-10958,Amarilis de Cuéllar,maxiarnaiz@example.net,3729399359047,No especificado,2025-02-28,False,Género inválido
+CL-02890,América Aguado Mas,,8892958891209,Femenino,2025-01-05,False,Email inválido
+CL-10959,Marcelino Vives Mármol,mfuente@example.net,,Masculino,2025-03-25,False,"Teléfono inválido, Teléfono ausente"
+CL-02896,Martina Casals Rivera,gilberto65@example.org,5651393614361,No especificado,2024-05-09,False,Género inválido
+CL-02900,Vinicio Alfredo Acero Amat,correo@.com,5139512267681,Masculino,2024-04-09,False,Email inválido
+CL-02904,Toño Valera Lumbreras,vpintor@example.com,,Femenino,2025-06-13,False,"Teléfono inválido, Teléfono ausente"
+CL-10965,Mariana Reig Cózar,luna42@example.org,,Masculino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-10966,Caridad Escamilla Colom,correo@.com,5619968844504,Femenino,2024-05-02,False,Email inválido
+CL-02928,Bartolomé Miranda Coca,diana44@example.org,,No especificado,2025-01-17,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-02930,María del Rios,@gmail.com,9266459619431,Femenino,2024-04-19,False,Email inválido
+CL-02936,Primitiva Verdugo-Barral,pomaresleocadio@example.net,1046953554079,No especificado,2025-04-19,False,Género inválido
+CL-10973,@Oliver,,34921696824,Masculino,2024-07-09,False,Email inválido
+CL-02944,Florentino Arnal Llorente,miguelmadrigal@example.net,6706317135110,No especificado,2023-09-18,False,Género inválido
+CL-10981,Perla Escribano Mur,@gmail.com,7085530194929,No especificado,2024-06-15,False,"Email inválido, Género inválido"
+CL-10983,Epifanio de Murillo,pascualyesica@example.net,,Masculino,2025-01-25,False,"Teléfono inválido, Teléfono ausente"
+CL-02970,,,5646632675853,Femenino,2000-01-01,False,Email inválido
+CL-10984,Édgar Ribes Escrivá,gfrias@example.net,,No especificado,2025-04-15,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10985,Rita Anguita Roldán,,0847002146969,Femenino,2024-02-24,False,Email inválido
+CL-02990,Narcisa Abella,,5590513984786,Masculino,2025-05-30,False,Email inválido
+CL-03000,123,,,No especificado,2024-07-28,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-10995,Segismundo Eusebio Nogués Pol,nydia85@example.net,1509351696245,No especificado,2024-12-21,False,Género inválido
+CL-03010,Leocadia Rubio Pedro,,5708467468491,Femenino,2023-11-05,False,Email inválido
+CL-03012,Marino Córdoba Perelló,elaguna@example.com,,Femenino,2023-09-10,False,"Teléfono inválido, Teléfono ausente"
+CL-03016,Espiridión Calderón Barbero,grosell@example.com,2039720296408,No especificado,2024-09-29,False,Género inválido
+CL-11001,Plinio Carrasco Iglesia,correo@.com,6183214868780,Masculino,2024-12-24,False,Email inválido
+CL-03030,123,@gmail.com,8373937266187,Femenino,2024-10-06,False,Email inválido
+CL-11007,Albano Barranco Clavero,pmontero@example.com,,Masculino,2025-01-20,False,"Teléfono inválido, Teléfono ausente"
+CL-11009,Corona Barreda-Bartolomé,,1924956284097,No especificado,2025-07-24,False,"Email inválido, Género inválido"
+CL-03048,Pelayo Valls Jover,vizcainoyaiza@example.net,,No especificado,2024-04-17,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-03060,@Oliver,margaritaatienza@example.org,,Femenino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-03064,Manuelita Garcia,sebastianbarrios@example.net,0498537752408,No especificado,2023-09-18,False,Género inválido
+CL-03072,Bernardo Borja Chacón Hoyos,ariellillo@example.com,,Masculino,2023-08-29,False,"Teléfono inválido, Teléfono ausente"
+CL-11017,Dorita Luna Díez Puig,,8549604538523,No especificado,2025-04-27,False,"Email inválido, Género inválido"
+CL-03084,Tito Moraleda Juárez,aguedatoledo@example.net,,Masculino,2024-04-15,False,"Teléfono inválido, Teléfono ausente"
+CL-03090,Luís Custodio Anglada Gisbert,correo@.com,5890302768021,Femenino,2025-02-01,False,Email inválido
+CL-03096,Charo Fabra,roselloruth@example.net,,Masculino,2025-05-25,False,"Teléfono inválido, Teléfono ausente"
+CL-11024,Emiliano Candelario Escrivá Yuste,,8235062437339,Femenino,2023-11-19,False,Email inválido
+CL-03108,Agapito Tur-Ordóñez,xguillen@example.org,,Femenino,2025-02-12,False,"Teléfono inválido, Teléfono ausente"
+CL-11030,Lina Arellano Cueto,correo@.com,1818994863234,Masculino,2023-11-25,False,Email inválido
+CL-03112,Víctor Montaña Luna,ccampoy@example.net,2023146884900,No especificado,2025-01-26,False,Género inválido
+CL-11036,@Oliver,@gmail.com,,No especificado,2025-07-30,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-03128,Jennifer del Acedo,patinobegona@example.net,7183470415119,No especificado,2024-06-01,False,Género inválido
+CL-03130,Brígida Bermúdez Carrasco,,9400977040359,Masculino,2023-09-20,False,Email inválido
+CL-03132,María Teresa Jover-Abellán,galindocoral@example.net,,Femenino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-03136,José Mari Tejera-Sotelo,sorayafiol@example.net,8693089961352,No especificado,2025-01-11,False,Género inválido
+CL-11044,Ramona Chamorro Cañellas,,8841171918017,Femenino,2024-12-17,False,Email inválido
+CL-11047,Aura Tomas-Gabaldón,chuy87@example.net,,No especificado,2023-10-26,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-03150,Mateo Hidalgo Puig,@gmail.com,5444683341239,Masculino,2026-01-01,False,Email inválido
+CL-03160,Esteban Carbonell Juárez,,8882187204598,Femenino,2023-11-30,False,Email inválido
+CL-03168,Aarón Valverde Ramón,miguel-angel58@example.com,,No especificado,2000-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-03170,Eutimio Lasa-Hoyos,@gmail.com,5237127474731,Femenino,2024-01-12,False,Email inválido
+CL-03176,Cirino Jaime Toledo Barrena,belenpardo@example.com,6485711713371,No especificado,2024-02-18,False,Género inválido
+CL-11059,@Oliver,cirinoescobar@example.com,,Masculino,2025-01-05,False,"Teléfono inválido, Teléfono ausente"
+CL-11060,Eliseo Alfaro Villaverde,jgelabert@example.com,9277168333850,No especificado,2024-09-27,False,Género inválido
+CL-03190,Marianela del Vara,,4875485832457,Femenino,2025-06-08,False,Email inválido
+CL-03192,Noé Rubio Solano,candidacanovas@example.com,,No especificado,2024-08-04,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-03200,Cecilia Ayllón Sotelo,correo@.com,4348345473044,Femenino,2024-03-09,False,Email inválido
+CL-03204,Ramiro Lara Barceló,pachecopilar@example.com,,Femenino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-03208,Alba Borrego Valenciano,qsalmeron@example.net,8494947952158,No especificado,2023-10-11,False,Género inválido
+CL-03210,123,,8415167217259,Masculino,2025-08-03,False,Email inválido
+CL-11068,Silvio Alarcón Amaya,,9580643274639,Femenino,2025-04-13,False,Email inválido
+CL-03228,Alejandra Ariza Arjona,evelia35@example.org,,Femenino,2025-02-20,False,"Teléfono inválido, Teléfono ausente"
+CL-11071,Evelia Arnal Romeu,@gmail.com,5443283074946,Femenino,2025-05-16,False,Email inválido
+CL-11074,,,,No especificado,2026-01-01,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-03248,Rico Mena,emma58@example.net,2837430390023,No especificado,2024-07-07,False,Género inválido
+CL-03250,Joaquina Prado-Pedrero,,5348370038362,Femenino,2024-09-01,False,Email inválido
+CL-03252,Aarón Palomino Miguel,noriegajose-angel@example.org,,Femenino,2024-12-16,False,"Teléfono inválido, Teléfono ausente"
+CL-11079,Nico Posada-Acevedo,@gmail.com,5904496420030,Femenino,2024-01-04,False,Email inválido
+CL-03264,Fulgencio Cabañas Pereira,samuel26@example.org,,No especificado,2024-02-16,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-03270,,,5850049585258,Femenino,2024-06-20,False,Email inválido
+CL-03272,Manu Salmerón Santana,carmelo69@example.net,9219766594163,No especificado,2024-09-17,False,Género inválido
+CL-11083,Félix Cuevas-Piña,pprada@example.net,,Masculino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-11085,Hilario Mendizábal Pascual,,7017125057829,No especificado,2025-05-20,False,"Email inválido, Género inválido"
+CL-03288,Iris Tello Gisbert,estrellaacuna@example.net,,No especificado,2024-06-12,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11086,Cándida María Luisa Bernal Rivas,,8252031426412,Masculino,2025-01-08,False,Email inválido
+CL-11089,,,,Masculino,2025-07-21,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-11094,Adelina Badía,correo@.com,2046846163226,Masculino,2024-03-13,False,Email inválido
+CL-03312,Úrsula Calzada Feijoo,isidoromilla@example.net,,Masculino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-03320,Roxana Ballesteros Avilés,@gmail.com,6475074986432,Masculino,2024-09-30,False,Email inválido
+CL-03324,Remigio Pintor Villa,mireiapelayo@example.com,,Femenino,2024-02-05,False,"Teléfono inválido, Teléfono ausente"
+CL-03330,123,,1050961584091,Femenino,2024-02-22,False,Email inválido
+CL-03336,Mirta Tena Borja,maria-pilar97@example.net,,No especificado,2024-06-04,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-03344,Buenaventura Manjón,framon@example.com,6743320603489,No especificado,2024-09-12,False,Género inválido
+CL-03348,Flor Berta Cáceres Asenjo,izurita@example.net,,Masculino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-03350,Teobaldo Arnal Torrijos,@gmail.com,5307006325332,Masculino,2024-05-16,False,Email inválido
+CL-03360,Federico Rivera Linares,correo@.com,,No especificado,2024-01-15,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11111,José Ángel Iglesia Hoz,bernarditaplana@example.com,2985075517634,No especificado,2023-10-11,False,Género inválido
+CL-11112,Iris Nicolau-Riba,,2459802660635,Femenino,2025-02-21,False,Email inválido
+CL-03372,Yolanda Pacheco Esteban,lcastellanos@example.com,,Femenino,2025-03-16,False,"Teléfono inválido, Teléfono ausente"
+CL-11114,María Belén López,zramis@example.org,2335309592352,No especificado,2024-10-04,False,Género inválido
+CL-11115,Paz Moraleda Santos,correo@.com,9382103303538,Masculino,2024-06-12,False,Email inválido
+CL-03384,Delfina Peñalver Andreu,aracelinicolau@example.net,,No especificado,2024-03-17,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-03390,Zacarías Cuadrado Campo,correo@.com,1605615912279,Femenino,2025-04-11,False,Email inválido
+CL-11117,Máximo Fortunato Monreal Salgado,bernardo54@example.com,0320945182581,No especificado,2025-06-20,False,Género inválido
+CL-11121,Evelia Lluch,,5342475281950,Masculino,2023-12-14,False,Email inválido
+CL-11124,Marcelo Coca-Palmer,tlluch@example.org,,Femenino,2024-11-28,False,"Teléfono inválido, Teléfono ausente"
+CL-03410,Maximiano Luís Pinilla Ibarra,,1897619201797,Masculino,2025-08-22,False,Email inválido
+CL-03416,Tiburcio Adadia Sanmartín,georginaguerrero@example.org,3414459698017,No especificado,2024-08-06,False,Género inválido
+CL-03430,Manuel Javi Alarcón Garriga,,5035442275154,Femenino,2025-02-02,False,Email inválido
+CL-03432,Mariano Posada Llamas,torralbacipriano@example.org,,No especificado,2024-09-15,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11135,Zaida Pazos Daza,,7596846567950,No especificado,2025-03-04,False,"Email inválido, Género inválido"
+CL-11137,Gonzalo Perera,vizcainotomas@example.com,,Masculino,2023-09-28,False,"Teléfono inválido, Teléfono ausente"
+CL-03448,Claudio Sergio Nieto Sarabia,vilaplanaxiomara@example.org,8871078828877,No especificado,2025-07-30,False,Género inválido
+CL-03450,@Oliver,correo@.com,7143894384371,Masculino,2024-04-17,False,Email inválido
+CL-03456,Emiliana Gomila Ibarra,quirosfederico@example.net,,Masculino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-03460,Isaías Pellicer Mateo,,6049081741878,Masculino,2023-11-18,False,Email inválido
+CL-03464,Nacho Piñol-Iborra,zadadia@example.net,5484945149299,No especificado,2023-11-27,False,Género inválido
+CL-03468,Cruz Bruno Madrid Carpio,guzmanconsuelo@example.net,,Femenino,2024-10-02,False,"Teléfono inválido, Teléfono ausente"
+CL-03470,Modesta Rocamora-Escribano,,1239397824052,Masculino,2025-06-21,False,Email inválido
+CL-03472,Marcial Vila Lledó,lisandro01@example.net,2592361817743,No especificado,2024-11-15,False,Género inválido
+CL-11146,123,correo@.com,,No especificado,2024-12-26,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-03488,Sonia Cuéllar-Soler,espadaobdulia@example.net,1969045237497,No especificado,2025-05-20,False,Género inválido
+CL-03490,Lorenza Marco Gallardo,,3742763856365,Femenino,2024-08-24,False,Email inválido
+CL-03492,Blas Víctor Berenguer Rivero,escobarnazario@example.org,,Masculino,2025-02-02,False,"Teléfono inválido, Teléfono ausente"
+CL-03496,Samu Barón Quero,parejoadalberto@example.net,9360996556328,No especificado,2025-07-26,False,Género inválido
+CL-11150,Sigfrido Boix-Polo,,2894161041129,Masculino,2024-06-20,False,Email inválido
+CL-11152,Almudena Muñoz-Perelló,lorenaleal@example.org,34816719900,No especificado,2024-05-13,False,Género inválido
+CL-03510,123,@gmail.com,0801369009624,Masculino,2000-01-01,False,Email inválido
+CL-03512,Paulina Amores Solano,tonibaro@example.com,6118536667440,No especificado,2025-05-04,False,Género inválido
+CL-03520,Sonia Girón Alfaro,correo@.com,4261844974311,No especificado,2023-11-19,False,"Email inválido, Género inválido"
+CL-03528,Santos Requena Zabaleta,egimeno@example.net,34947487019,No especificado,2000-01-01,False,Género inválido
+CL-03536,Azahar Querol Antúnez,wvillena@example.com,2477091026197,No especificado,2024-08-25,False,Género inválido
+CL-11166,@Oliver,correo@.com,,Femenino,2023-09-18,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-03544,Isaura Lasa,molinazaida@example.net,5163137869305,No especificado,2025-04-07,False,Género inválido
+CL-03550,Amílcar del Baena,@gmail.com,4494792044758,Femenino,2024-07-25,False,Email inválido
+CL-03552,Cándido Hierro Carnero,dcarnero@example.net,,Femenino,2024-05-09,False,"Teléfono inválido, Teléfono ausente"
+CL-11171,Nilo Gimeno Soria,correo@.com,0641109570835,No especificado,2023-12-20,False,"Email inválido, Género inválido"
+CL-03564,Rita Solé Ojeda,kdomenech@example.net,,Masculino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-03568,Montserrat Benito,regulo40@example.com,5835039534536,No especificado,2025-07-12,False,Género inválido
+CL-03570,123,,3898428601818,Masculino,2024-08-11,False,Email inválido
+CL-03576,Hilda Mayo Barón,pintosantiago@example.com,34735015895,No especificado,2025-08-17,False,Género inválido
+CL-11178,Gustavo Osvaldo Melero Ibarra,,3319382715642,Femenino,2023-09-11,False,Email inválido
+CL-03588,Isaac Calderón Calderon,abel78@example.net,,Masculino,2024-05-16,False,"Teléfono inválido, Teléfono ausente"
+CL-03592,Carlos Vendrell Carranza,bprada@example.com,6310478632208,No especificado,2024-12-22,False,Género inválido
+CL-03600,123,@gmail.com,,No especificado,2025-08-20,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-03610,Gabriela Ledesma Oliver,correo@.com,6558877314178,Masculino,2024-10-07,False,Email inválido
+CL-03612,Cruz Céspedes Barrena,lilianatorrens@example.net,,Femenino,2025-03-01,False,"Teléfono inválido, Teléfono ausente"
+CL-03616,Jose Antonio Almagro,aristides87@example.net,7243030687791,No especificado,2024-03-28,False,Género inválido
+CL-03624,Noemí Valcárcel Vega,felisa49@example.com,,Masculino,2025-02-05,False,"Teléfono inválido, Teléfono ausente"
+CL-03632,Albina del Borrego,casalsale@example.org,1653941525753,No especificado,2024-12-30,False,Género inválido
+CL-11199,Feliciano Nevado Roldán,requenayago@example.com,,Masculino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-11201,Estefanía Ocaña Barral,,8360641108613,Femenino,2024-04-08,False,Email inválido
+CL-03650,Máximo Maldonado Ochoa,@gmail.com,7193033152615,Masculino,2025-01-08,False,Email inválido
+CL-11207,Esperanza Iglesia Ponce,claudiamurillo@example.org,5416577852639,No especificado,2024-03-12,False,Género inválido
+CL-11208,@Oliver,@gmail.com,,Masculino,2024-11-30,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-11210,Lola Cadenas Juan,correo@.com,5172789851335,Masculino,2023-11-15,False,Email inválido
+CL-11211,Jacinta Díez Cañete,manola16@example.org,,No especificado,2000-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11216,Custodia Ricarda Tudela Barberá,correo@.com,0143853015078,Femenino,2025-05-26,False,Email inválido
+CL-11219,Victor Hidalgo-Pol,charoandres@example.org,6873569458485,No especificado,2024-01-04,False,Género inválido
+CL-03690,@Oliver,,2585216735178,Masculino,2026-01-01,False,Email inválido
+CL-03696,Nando Tenorio Escalona,romanheredia@example.org,,No especificado,2024-01-18,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11225,Darío Macías Torrents,,7680939837796,Masculino,2025-07-08,False,Email inválido
+CL-03704,Otilia Esther Bautista Mas,pepita65@example.org,2079794969756,No especificado,2023-11-15,False,Género inválido
+CL-11227,Leticia Martorell Alemán,lopezroldan@example.com,,Masculino,2025-02-11,False,"Teléfono inválido, Teléfono ausente"
+CL-03710,Heliodoro Ramirez Jover,@gmail.com,8747007616256,Femenino,2025-01-04,False,Email inválido
+CL-11229,Lázaro de Noguera,constanza57@example.org,8234980849876,No especificado,2024-01-08,False,Género inválido
+CL-03720,@Oliver,correo@.com,,Masculino,2025-03-26,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-03728,Luciana Vázquez Ribes,somozamaria@example.com,7645298730232,No especificado,2023-11-04,False,Género inválido
+CL-03730,Graciela Murcia Tomás,@gmail.com,1333808663978,Masculino,2025-03-13,False,Email inválido
+CL-03740,Teresita Elías Lillo,@gmail.com,2195279065110,Masculino,2024-06-23,False,Email inválido
+CL-11237,Coral Sureda Boix,jose58@example.net,,No especificado,2025-01-31,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-03752,Vito de Ugarte,alfredo07@example.com,1981847024957,No especificado,2024-04-08,False,Género inválido
+CL-03756,Nydia Juárez Fuente,pepito40@example.net,,Masculino,2025-07-02,False,"Teléfono inválido, Teléfono ausente"
+CL-11245,Abel Hervás Paredes,,5313622053776,Femenino,2025-05-11,False,Email inválido
+CL-03780,,correo@.com,,Femenino,2025-08-09,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-03790,Pánfilo Ribes Manuel,@gmail.com,1232447980212,Masculino,2024-04-01,False,Email inválido
+CL-03792,Hernán Castelló-Ricart,huria@example.net,,No especificado,2024-09-08,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11254,Susanita Escalona Tapia,correo@.com,2421202467530,No especificado,2024-07-25,False,"Email inválido, Género inválido"
+CL-03804,Lorenza Blanch Izquierdo,bravogabino@example.org,,Masculino,2023-10-18,False,"Teléfono inválido, Teléfono ausente"
+CL-03808,Georgina Moll Peinado,egil@example.org,6878362357254,No especificado,2025-06-15,False,Género inválido
+CL-11257,Cintia de Yáñez,correo@.com,8374362561932,Masculino,2025-06-19,False,Email inválido
+CL-03816,Iván Rovira Tomas,gonzalezprimitivo@example.com,,No especificado,2026-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11260,Wálter Cuenca Hoyos,correo@.com,3051022171480,Masculino,2024-09-28,False,Email inválido
+CL-03828,Ciríaco de Valentín,minguezmaria@example.com,,Femenino,2023-12-03,False,"Teléfono inválido, Teléfono ausente"
+CL-03830,María Garriga Grande,,1692407803621,Masculino,2025-05-30,False,Email inválido
+CL-11264,Pascuala Garriga Arnau,@gmail.com,,No especificado,2025-05-19,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11269,Edmundo del Beltran,correo@.com,1601216918007,Femenino,2025-01-13,False,Email inválido
+CL-03852,Dan Guerra Toro,eligia28@example.com,,Masculino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-11273,María Del Carmen Segura Canales,,4066218262071,Femenino,2025-01-14,False,Email inválido
+CL-11274,Silvestre Tena,edgarfont@example.net,,Masculino,2025-07-20,False,"Teléfono inválido, Teléfono ausente"
+CL-03870,Custodio Bernat Llabrés,,3855275149044,Femenino,2026-01-01,False,Email inválido
+CL-03876,Nydia Fernández,itejera@example.com,,Femenino,2025-05-28,False,"Teléfono inválido, Teléfono ausente"
+CL-03880,Lucio Moraleda,@gmail.com,2600646796132,No especificado,2024-10-11,False,"Email inválido, Género inválido"
+CL-11281,Sofía de Cabezas,mirtalanda@example.com,,Femenino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-03890,Sandalio Giner Rey,,6922898263191,Masculino,2024-03-25,False,Email inválido
+CL-11285,@Oliver,,,Femenino,2024-02-14,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-03904,Nicodemo Baldomero Leal Sobrino,eleuterio40@example.net,4590025540517,No especificado,2023-11-26,False,Género inválido
+CL-03910,Clara Abad,,7973287714326,Femenino,2024-01-02,False,Email inválido
+CL-03912,Lorenza Nidia Alberola Bayo,verabalaguer@example.com,,No especificado,2024-09-29,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11292,Javier Duque Samper,@gmail.com,0872859951329,No especificado,2024-03-22,False,"Email inválido, Género inválido"
+CL-03930,,@gmail.com,3723661179744,Femenino,2024-05-17,False,Email inválido
+CL-03936,Casemiro Redondo Borrego,salomoncifuentes@example.com,,No especificado,2024-06-24,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11297,Odalis Calatayud Manrique,,3990528445094,Masculino,2024-07-01,False,Email inválido
+CL-11298,Darío del Reina,eduardo39@example.net,0374053096104,No especificado,2024-08-21,False,Género inválido
+CL-11300,Luis Ángel Anguita-Escolano,milagros65@example.com,,Masculino,2023-11-15,False,"Teléfono inválido, Teléfono ausente"
+CL-03950,Nadia Román Marín,,0653823966321,Masculino,2025-06-28,False,Email inválido
+CL-03960,,@gmail.com,34949163157,No especificado,2025-07-07,False,"Email inválido, Género inválido"
+CL-03970,Eric Bermúdez Lobato,,1199180836321,Masculino,2023-09-21,False,Email inválido
+CL-03976,Albina Bellido,queroodalys@example.com,8302573060912,No especificado,2024-10-20,False,Género inválido
+CL-11313,Amador Valverde,correo@.com,1810265651999,Femenino,2023-11-14,False,Email inválido
+CL-11315,Hipólito Riquelme Fernandez,jose-manuelmiranda@example.org,,No especificado,2024-06-14,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-03990,123,@gmail.com,6502132990958,Femenino,2025-05-13,False,Email inválido
+CL-11317,Ernesto Mateo Roma,trujilloedelmiro@example.com,,Masculino,2023-09-21,False,"Teléfono inválido, Teléfono ausente"
+CL-11322,Leonel Castejón Riquelme,,6330116778299,Masculino,2023-11-15,False,Email inválido
+CL-11328,Amalia del Narváez,correo@.com,,Femenino,2024-11-05,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-11330,Regina Bilbao Busquets,@gmail.com,0609566255192,Masculino,2024-12-18,False,Email inválido
+CL-04032,Coral Zamorano Bayona,pazcarbo@example.com,34847550439,No especificado,2026-01-01,False,Género inválido
+CL-04040,Amor Marí Lucena,,3878524443838,Masculino,2024-07-17,False,Email inválido
+CL-04048,Clara Trinidad Vara Tomás,matedomitila@example.com,1040585763409,No especificado,2024-10-01,False,Género inválido
+CL-04050,Leocadio Vives Galván,correo@.com,1681970051184,Femenino,2025-07-19,False,Email inválido
+CL-04056,Feliciano Morell Morales,sgargallo@example.org,,No especificado,2025-04-18,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-04060,Adriana Lamas Feijoo,correo@.com,2856483985757,Masculino,2025-03-18,False,Email inválido
+CL-11345,Hernán Carlos Rozas,ncapdevila@example.org,4903674979235,No especificado,2025-07-12,False,Género inválido
+CL-04070,Lalo Salgado-Fabregat,,1961269050439,Masculino,2024-03-19,False,Email inválido
+CL-04080,,ygil@example.com,,No especificado,2023-09-18,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-04088,Alcides de Llamas,ramiropenas@example.com,5599214545554,No especificado,2023-10-21,False,Género inválido
+CL-04090,Fortunata de Peláez,,3751278737110,Femenino,2024-07-21,False,Email inválido
+CL-04092,Vasco Mínguez,ygascon@example.com,,Masculino,2025-07-14,False,"Teléfono inválido, Teléfono ausente"
+CL-04096,Julia Arévalo Tejera,encarnitateruel@example.org,4162629208016,No especificado,2024-06-01,False,Género inválido
+CL-11355,Dionisio Piñol Macias,correo@.com,9403141671308,Femenino,2024-11-16,False,Email inválido
+CL-04104,Áurea Guijarro-Tomé,raul87@example.com,,No especificado,2024-12-29,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11359,,correo@.com,4325708168162,Femenino,2025-02-20,False,Email inválido
+CL-04116,Jenaro Berto González Estrada,africa64@example.com,,Masculino,2023-09-02,False,"Teléfono inválido, Teléfono ausente"
+CL-04120,Hilda Corominas Mas,,7094020247321,No especificado,2024-06-29,False,"Email inválido, Género inválido"
+CL-04128,Celso del Cañizares,tatiana36@example.com,,No especificado,2025-08-16,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-04130,Jimena Blanes-Rozas,,2279204508040,Masculino,2025-08-01,False,Email inválido
+CL-11366,,alleralondra@example.org,,Femenino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-04144,Alexandra del Seguí,anadal@example.net,6098564150488,No especificado,2025-06-29,False,Género inválido
+CL-04150,Sabas Téllez Baquero,,4170311094768,Masculino,2025-08-03,False,Email inválido
+CL-04152,María Édgar Gálvez Viana,noemi40@example.org,,Masculino,2025-08-14,False,"Teléfono inválido, Teléfono ausente"
+CL-04160,Adelina Jódar,,2160062852509,No especificado,2025-06-27,False,"Email inválido, Género inválido"
+CL-04164,Custodia Quiroga Arribas,olimpia18@example.net,,Masculino,2024-10-22,False,"Teléfono inválido, Teléfono ausente"
+CL-11373,123,,7262620471428,Femenino,2024-11-25,False,Email inválido
+CL-04176,María Cristina Itziar Pont Espejo,gjulia@example.net,34941469563,No especificado,2025-06-25,False,Género inválido
+CL-11382,Manu Zabala Martínez,isabela51@example.org,,Femenino,2025-07-02,False,"Teléfono inválido, Teléfono ausente"
+CL-04192,Isabela del Berrocal,tlledo@example.com,8096555626659,No especificado,2024-01-30,False,Género inválido
+CL-11388,Ema Palomar Millán,,34948628401,No especificado,2023-10-03,False,"Email inválido, Género inválido"
+CL-04208,Micaela Alvarez Cabañas,porrasadelina@example.net,2580278955896,No especificado,2024-02-23,False,Género inválido
+CL-11396,Graciela Sala Higueras,correo@.com,6449230196872,Masculino,2023-09-14,False,Email inválido
+CL-11398,Ámbar Navarrete Naranjo,ibanezgerardo@example.net,,No especificado,2024-11-05,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11402,Fanny Arroyo Rios,correo@.com,0853245591021,Femenino,2025-05-06,False,Email inválido
+CL-04232,Dorotea Pol Prats,zgutierrez@example.org,3983750154565,No especificado,2024-10-31,False,Género inválido
+CL-11406,Andrés Felipe Madrigal Aznar,,6097175595648,No especificado,2025-08-21,False,"Email inválido, Género inválido"
+CL-04248,Julia Arcos Becerra,bartolome81@example.net,34926907264,No especificado,2026-01-01,False,Género inválido
+CL-04250,Poncio Jose Antonio Santos Juan,correo@.com,5408768276683,Masculino,2024-12-04,False,Email inválido
+CL-11411,Florentino Cuervo,florlago@example.com,5937405748177,No especificado,2024-02-25,False,Género inválido
+CL-04260,,,,Femenino,2024-07-27,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-04270,Jose Luis Cadenas-Goñi,,6370424784337,Femenino,2024-11-16,False,Email inválido
+CL-04272,Susanita Gilabert Miró,ksalva@example.com,,Masculino,2024-07-05,False,"Teléfono inválido, Teléfono ausente"
+CL-11421,Dalila del Bastida,,4367039942539,Femenino,2025-07-30,False,Email inválido
+CL-04284,Maricruz Natividad Mendoza Coca,estebanosuna@example.com,,Femenino,2024-04-26,False,"Teléfono inválido, Teléfono ausente"
+CL-11423,Brunilda Cifuentes Gibert,lorenzogracia@example.com,2662223192670,No especificado,2025-03-05,False,Género inválido
+CL-11428,Jacobo Sastre Arias,vidal68@example.org,,Femenino,2024-09-23,False,"Teléfono inválido, Teléfono ausente"
+CL-04300,Maricruz Haydée Valbuena Clavero,,7481030940887,Masculino,2025-07-20,False,Email inválido
+CL-04304,Rosario Jove Guerrero,vamores@example.com,7482080368573,No especificado,2023-11-30,False,Género inválido
+CL-04310,Calixta Larrañaga,,3233131273245,Masculino,2024-01-18,False,Email inválido
+CL-04312,Abril Noriega Olivera,febe30@example.org,0911322988830,No especificado,2023-10-24,False,Género inválido
+CL-11439,123,lsanchez@example.org,,No especificado,2024-06-04,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11445,Cristian Ortuño-Azorin,correo@.com,8800042295905,Masculino,2023-12-24,False,Email inválido
+CL-04332,Juan Pablo Vives Espejo,lucilapalomo@example.org,,Femenino,2024-11-29,False,"Teléfono inválido, Teléfono ausente"
+CL-04336,Jose Antonio Rosell Tomé,maria-manuelabenitez@example.com,3742337171096,No especificado,2024-03-20,False,Género inválido
+CL-04340,Dorita Arévalo,@gmail.com,2275312487581,Masculino,2025-03-05,False,Email inválido
+CL-04344,Dionisia Saldaña Llanos,milagroslerma@example.org,,No especificado,2024-04-08,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11451,,,2492849837513,Femenino,2024-11-25,False,Email inválido
+CL-11452,Alejandra Rosales Valbuena,pjodar@example.org,6414398616851,No especificado,2025-06-09,False,Género inválido
+CL-04360,Reina Barón Almansa,,2196152188087,No especificado,2025-04-21,False,"Email inválido, Género inválido"
+CL-11457,Yéssica Paulina Román Giménez,adelardo44@example.net,,No especificado,2025-03-11,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-04370,Flora Quintana Álvaro,@gmail.com,8072109739768,Femenino,2023-08-28,False,Email inválido
+CL-04376,Evita Villanueva Galiano,sabinacalvo@example.net,8953663612235,No especificado,2024-11-26,False,Género inválido
+CL-11460,,@gmail.com,,Masculino,2025-08-12,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-04384,Vasco Enrique Chacón Palacio,hgirona@example.net,5940650560656,No especificado,2024-11-20,False,Género inválido
+CL-11462,Brígida Gimeno Tomé,,6389077905247,Masculino,2024-02-10,False,Email inválido
+CL-11466,Goyo Borrell Merino,correo@.com,3275231022793,No especificado,2025-08-18,False,"Email inválido, Género inválido"
+CL-11467,Ágata Pili Pomares Múgica,prudencia94@example.org,,Femenino,2024-02-13,False,"Teléfono inválido, Teléfono ausente"
+CL-04410,123,,6490560479601,Femenino,2000-01-01,False,Email inválido
+CL-04416,Severino del Albero,olegarioestrada@example.com,,No especificado,2023-12-29,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-04428,Juanito Lino Casas Acuña,jcerdan@example.org,,Masculino,2024-11-04,False,"Teléfono inválido, Teléfono ausente"
+CL-11475,Dionisia de Mancebo,correo@.com,3934321847577,Femenino,2024-06-22,False,Email inválido
+CL-04432,Mirta Prado Alegria,carvajaleloy@example.org,6865780788500,No especificado,2024-07-13,False,Género inválido
+CL-11481,Chelo Godoy Barberá,regina98@example.org,,No especificado,2025-08-18,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-04450,Inmaculada Pagès Barros,@gmail.com,2502931199140,Masculino,2024-07-11,False,Email inválido
+CL-04452,Alejo Alegria Téllez,miriam38@example.net,,Masculino,2023-10-20,False,"Teléfono inválido, Teléfono ausente"
+CL-11486,Olimpia Agustín Almazán,correo@.com,0515841198785,Femenino,2025-05-18,False,Email inválido
+CL-11488,Virginia Gilabert Pereira,croyo@example.com,,No especificado,2025-04-28,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11491,,,0586455266358,Femenino,2024-06-12,False,Email inválido
+CL-04476,Samu Viana Galán,rarana@example.org,,Femenino,2023-09-22,False,"Teléfono inválido, Teléfono ausente"
+CL-11500,Rosario Espinosa Navarro,hortensiarojas@example.com,,No especificado,2025-06-11,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11501,@Oliver,,,Femenino,2026-01-01,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-04504,Toribio Chacón Perea,maria-pilarsosa@example.com,7957148861303,No especificado,2025-02-22,False,Género inválido
+CL-11506,Maricela Benita Soto Bonilla,@gmail.com,8298708382339,Masculino,2024-02-14,False,Email inválido
+CL-11507,Marianela Ruano-España,catalina87@example.com,,No especificado,2024-04-30,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11510,Javiera Jordán,correo@.com,2620754128166,No especificado,2023-09-02,False,"Email inválido, Género inválido"
+CL-11512,Manuel Domingo Torrecilla Palomares,ugarteursula@example.net,,Masculino,2024-01-12,False,"Teléfono inválido, Teléfono ausente"
+CL-04528,Ariel Bartolomé Pinto,maristelaalcazar@example.net,1682048610726,No especificado,2024-05-25,False,Género inválido
+CL-11516,123,,0805858292432,Masculino,2024-01-25,False,Email inválido
+CL-04536,Reynaldo Caparrós Aramburu,ramisfabiola@example.net,34945122548,No especificado,2000-01-01,False,Género inválido
+CL-04540,Francisca Márquez-Mendoza,@gmail.com,6754114059217,Masculino,2024-12-09,False,Email inválido
+CL-04548,León Alemán Almansa,abrahamasensio@example.net,,Masculino,2024-02-26,False,"Teléfono inválido, Teléfono ausente"
+CL-04550,Rafaela Huertas,,8900429288656,Masculino,2025-05-01,False,Email inválido
+CL-11522,Lino Carpio Nogueira,hipolitocarlos@example.net,5409498898914,No especificado,2023-10-22,False,Género inválido
+CL-11526,@Oliver,correo@.com,,Femenino,2023-10-07,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-11530,Abraham Sebastian Ureña Revilla,riosazeneth@example.net,9470960882237,No especificado,2024-10-09,False,Género inválido
+CL-04570,Loreto Luján Araujo,,7458383882608,Femenino,2024-03-26,False,Email inválido
+CL-11532,Rodolfo Folch Alberto,asdrubalmorell@example.org,,Femenino,2025-06-17,False,"Teléfono inválido, Teléfono ausente"
+CL-04576,Aitor Mateu,solanocelia@example.net,2049675322548,No especificado,2025-08-04,False,Género inválido
+CL-11538,Rogelio Arrieta Cabrera,,3413551191275,Masculino,2023-10-22,False,Email inválido
+CL-11541,Loreto Garay Crespo,filomenavara@example.net,,No especificado,2023-09-25,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11545,Isidro Clemente-Luz,ablasco@example.com,,Femenino,2024-07-21,False,"Teléfono inválido, Teléfono ausente"
+CL-11547,Albino Alejo Aranda Torrecilla,@gmail.com,1785870725760,Femenino,2024-07-14,False,Email inválido
+CL-04608,Felipa Serafina Luján Taboada,ehervia@example.net,,Femenino,2024-10-23,False,"Teléfono inválido, Teléfono ausente"
+CL-11549,Lilia Nevado Abellán,,7961680856807,Femenino,2024-02-11,False,Email inválido
+CL-11554,Cristina Iris Alvarado Naranjo,,34920477948,Masculino,2023-12-02,False,Email inválido
+CL-04624,Marisa Villaverde Echevarría,bayonalupe@example.net,6614712579409,No especificado,2025-05-23,False,Género inválido
+CL-11559,Emelina Hervás Fuentes,correo@.com,3625859107580,Masculino,2023-11-26,False,Email inválido
+CL-04644,Alfredo de González,damianmoraleda@example.net,,Masculino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-11564,,,6710998288642,Femenino,2024-11-26,False,Email inválido
+CL-11567,Mauricio Luz-Puerta,maria-fernandaseco@example.com,,Femenino,2023-10-29,False,"Teléfono inválido, Teléfono ausente"
+CL-11569,Francisco Jose Cabello Báez,,4417907294617,Femenino,2024-10-25,False,Email inválido
+CL-11574,Brunilda del Cazorla,onofreherrero@example.org,,Femenino,2023-10-15,False,"Teléfono inválido, Teléfono ausente"
+CL-04670,Camila Cuesta Cerezo,correo@.com,1630402568500,Femenino,2023-09-10,False,Email inválido
+CL-04672,Herminia Ainoa Tovar Castrillo,casadoelena@example.org,1314900101402,No especificado,2023-09-15,False,Género inválido
+CL-04680,123,correo@.com,,No especificado,2026-01-01,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-04690,David Toledo,,4348312117122,Femenino,2023-12-04,False,Email inválido
+CL-04692,Teófila Mur,pastorpages@example.net,,Masculino,2023-08-29,False,"Teléfono inválido, Teléfono ausente"
+CL-04704,Inmaculada Fajardo,maria-fernanda79@example.com,,No especificado,2025-01-03,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11587,123,correo@.com,9370888998393,Masculino,2023-12-12,False,Email inválido
+CL-11590,Trinidad Cuevas Ríos,nacio87@example.org,,Femenino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-11592,Nidia del Vázquez,cleto25@example.org,4915549424502,No especificado,2025-02-27,False,Género inválido
+CL-04728,Ovidio Sanchez Sala,padillamiguela@example.com,,No especificado,2023-10-23,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11595,María Pilar Calvo Ortuño,correo@.com,5893066456411,Femenino,2024-11-20,False,Email inválido
+CL-04740,,purificacion90@example.org,,Femenino,2024-10-07,False,"Teléfono inválido, Teléfono ausente"
+CL-04744,Mar Campoy-Exposito,ruperta79@example.org,4569168512120,No especificado,2023-09-02,False,Género inválido
+CL-04752,Amor Adadia Águila,caparroscruz@example.net,,Femenino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-04760,Eufemia Yáñez-Cantón,,7509900820111,Masculino,2025-05-31,False,Email inválido
+CL-11606,@Oliver,@gmail.com,4307635635778,Femenino,2000-01-01,False,Email inválido
+CL-11609,Maura Bosch,jose37@example.net,,No especificado,2025-03-11,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-04788,Ezequiel Pazos Alberola,pepitatomas@example.com,,Masculino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-04790,Carlito Gomis,@gmail.com,2975344807703,Masculino,2023-09-15,False,Email inválido
+CL-11613,Jacobo Salmerón Nebot,epifaniocastellanos@example.org,2490628941421,No especificado,2024-06-27,False,Género inválido
+CL-11616,123,@gmail.com,,No especificado,2023-09-20,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-04810,Prudencio Ferrera Pozo,correo@.com,7889518891383,Masculino,2023-10-24,False,Email inválido
+CL-04812,Gregorio Bueno Blanes,naguilera@example.net,,Masculino,2025-02-20,False,"Teléfono inválido, Teléfono ausente"
+CL-04816,María Jesús Requena-Aragón,sosimo66@example.net,1203803002088,No especificado,2024-03-23,False,Género inválido
+CL-11623,Olga Mancebo Solís,correo@.com,5300316922592,Femenino,2025-05-14,False,Email inválido
+CL-04824,Bonifacio Casal,ciro95@example.org,,Masculino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-04830,Dionisia de Tovar,,2436913122186,Femenino,2024-11-18,False,Email inválido
+CL-11627,Susanita Pera Casanova,modestacarro@example.net,4354640117328,No especificado,2024-01-21,False,Género inválido
+CL-11628,Vanesa Gibert Soriano,correo@.com,6124886328281,No especificado,2024-04-15,False,"Email inválido, Género inválido"
+CL-04848,Georgina Peñas,mario30@example.net,34883214655,No especificado,2024-02-01,False,Género inválido
+CL-04850,Iris Manso Vicente,correo@.com,9460979962929,Masculino,2025-02-27,False,Email inválido
+CL-04856,Ambrosio Leiva Tomás,arsenio21@example.net,8637604799514,No especificado,2023-11-09,False,Género inválido
+CL-11635,123,,,Masculino,2026-01-01,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-04872,Pablo de Ramirez,montoyaramon@example.com,,Masculino,2025-04-17,False,"Teléfono inválido, Teléfono ausente"
+CL-11641,Eli Gargallo Maldonado,@gmail.com,9903212029499,Femenino,2025-05-22,False,Email inválido
+CL-04884,Angelina Granados Antúnez,eheras@example.com,,Masculino,2024-01-13,False,"Teléfono inválido, Teléfono ausente"
+CL-11644,Natalio Calleja Amat,,5025170929939,Masculino,2024-07-14,False,Email inválido
+CL-04896,Milagros del Soriano,tomasvictoria@example.net,,No especificado,2026-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11650,Ruy Morera Cánovas,vcheca@example.com,1998043531494,No especificado,2025-01-23,False,Género inválido
+CL-11652,Galo Pi,marciohernandez@example.org,,Masculino,2024-09-08,False,"Teléfono inválido, Teléfono ausente"
+CL-11654,Paz Uría-Arregui,correo@.com,7408844332409,Masculino,2024-07-08,False,Email inválido
+CL-04920,@Oliver,correo@.com,,Masculino,2024-10-27,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-11661,Narcisa Collado Beltrán,chervas@example.net,8895241501289,No especificado,2024-04-01,False,Género inválido
+CL-11662,Aníbal Sanchez,,3507441541709,Femenino,2025-04-29,False,Email inválido
+CL-04936,Jeremías del Valderrama,amalia67@example.org,2839172448340,No especificado,2024-07-29,False,Género inválido
+CL-04944,Cornelio Cid Llorente,fatima91@example.net,,Masculino,2024-07-31,False,"Teléfono inválido, Teléfono ausente"
+CL-04950,123,,0835520677678,Femenino,2000-01-01,False,Email inválido
+CL-11667,Martín Silva Carvajal,lilia82@example.org,4942979410736,No especificado,2024-05-28,False,Género inválido
+CL-04956,Jose Carlos Pavón Valle,rosateobaldo@example.org,,Masculino,2025-03-14,False,"Teléfono inválido, Teléfono ausente"
+CL-04960,Jose Miguel María Galindo Cañizares,,6272989551924,No especificado,2023-10-26,False,"Email inválido, Género inválido"
+CL-11674,Adelia Juliá Sedano,avalero@example.org,,Masculino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-04970,María Albina Segarra Luís,correo@.com,6156391305239,Femenino,2025-03-18,False,Email inválido
+CL-04976,María Cristina de Cuervo,torresiker@example.org,8239005840620,No especificado,2024-10-23,False,Género inválido
+CL-04980,123,,,Femenino,2025-07-03,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-04984,Bernarda Juliá Briones,nadia93@example.net,1874937064372,No especificado,2025-01-11,False,Género inválido
+CL-04990,Cruz Seguí Cepeda,@gmail.com,1272374745696,Masculino,2023-08-26,False,Email inválido
+CL-04992,Natividad Bermudez Rodriguez,cayetanoprada@example.org,,No especificado,2024-07-07,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11680,Anastasia Blazquez Izaguirre,montserratainoa@example.net,,Femenino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-11682,123,correo@.com,9450912816423,Masculino,2024-10-19,False,Email inválido
+CL-05016,Marcial Gallego Ramos,ugarzon@example.com,,Masculino,2023-12-12,False,"Teléfono inválido, Teléfono ausente"
+CL-11691,Espiridión Zamora Pomares,viananicanor@example.net,5036975391303,No especificado,2025-04-14,False,Género inválido
+CL-05028,Faustino Milla Jaén,fabregatfulgencio@example.org,,Masculino,2025-03-07,False,"Teléfono inválido, Teléfono ausente"
+CL-11695,@Oliver,@gmail.com,34984236113,Masculino,2023-11-10,False,Email inválido
+CL-05050,María Del Carmen Vicens Rosselló,@gmail.com,8472039982370,Femenino,2023-12-16,False,Email inválido
+CL-05052,Lourdes Cañizares Sola,rramon@example.com,,Femenino,2024-08-08,False,"Teléfono inválido, Teléfono ausente"
+CL-05060,Laura Borrego Matas,,1357482773990,Masculino,2023-12-21,False,Email inválido
+CL-05064,Teresa Coronado Naranjo,savila@example.net,34871910179,No especificado,2025-04-05,False,Género inválido
+CL-05070,@Oliver,,2563886179617,Femenino,2025-02-17,False,Email inválido
+CL-05072,Pancho Nieto Lumbreras,marianela64@example.com,1667626740859,No especificado,2024-08-03,False,Género inválido
+CL-05076,Gerónimo Solé Aroca,fortunatobayona@example.org,,Masculino,2025-06-26,False,"Teléfono inválido, Teléfono ausente"
+CL-11708,Margarita Dalmau Villalba,correo@.com,0102407010933,No especificado,2025-01-24,False,"Email inválido, Género inválido"
+CL-05088,Lino Briones Jove,pagusti@example.net,34888359435,No especificado,2024-02-12,False,Género inválido
+CL-05090,Ani Prado-Cerezo,,6412340137754,Femenino,2024-06-18,False,Email inválido
+CL-05096,Bruno de Aparicio,renepuente@example.net,2838535168009,No especificado,2024-06-19,False,Género inválido
+CL-05100,123,maristela11@example.com,,Femenino,2024-05-08,False,"Teléfono inválido, Teléfono ausente"
+CL-11716,Jose Luis Girona Guillen,hechevarria@example.com,2960251112442,No especificado,2025-03-05,False,Género inválido
+CL-05110,Eutimio Barba-Frutos,,6884528083782,Masculino,2025-04-30,False,Email inválido
+CL-05112,Purificación Gelabert Otero,lola08@example.com,,Masculino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-05130,,,0557951441987,Masculino,2023-10-19,False,Email inválido
+CL-05144,Emilia Mulet Tur,pombolupita@example.com,2271078473208,No especificado,2024-03-30,False,Género inválido
+CL-05152,Elpidio Teruel,guardiapepe@example.com,5522817048183,No especificado,2024-09-26,False,Género inválido
+CL-05160,Manolo Rubio Arana,@gmail.com,34885785379,Femenino,2025-08-10,False,Email inválido
+CL-05170,Margarita Vélez Medina,@gmail.com,4278505643812,Masculino,2023-10-19,False,Email inválido
+CL-05172,Ovidio Calvo Ferrando,bmascaro@example.net,,Masculino,2025-07-05,False,"Teléfono inválido, Teléfono ausente"
+CL-05184,Coral Losa Pozo,samperanastasio@example.org,,Femenino,2024-05-10,False,"Teléfono inválido, Teléfono ausente"
+CL-11745,Berto Cuervo Belmonte,,8500433876227,Femenino,2024-02-07,False,Email inválido
+CL-05208,Samuel Goyo Soto Requena,eescolano@example.com,,Masculino,2025-05-15,False,"Teléfono inválido, Teléfono ausente"
+CL-05210,Ceferino Sanchez Castell,,9673976528950,Femenino,2023-11-05,False,Email inválido
+CL-05216,Eloísa Lasa Gras,ricovendrell@example.org,9730257426557,No especificado,2025-02-20,False,Género inválido
+CL-05220,@Oliver,nadaladela@example.org,,Masculino,2024-02-06,False,"Teléfono inválido, Teléfono ausente"
+CL-11751,Febe Cabrera,sabaterjacobo@example.com,6212648184850,No especificado,2024-11-24,False,Género inválido
+CL-11754,Silvia Celia Garrido Sierra,correo@.com,2003290488952,Masculino,2024-05-30,False,Email inválido
+CL-05232,Ceferino Pelayo Juan,estradaamancio@example.com,,No especificado,2024-03-24,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11759,Gilberto Moreno Collado,,9428490713055,No especificado,2025-04-21,False,"Email inválido, Género inválido"
+CL-05244,Emiliana Bernad Peñas,amorloreto@example.com,,Masculino,2023-11-15,False,"Teléfono inválido, Teléfono ausente"
+CL-05250,123,correo@.com,9948378059208,Femenino,2024-04-10,False,Email inválido
+CL-11764,Camilo Dávila,amaliaartigas@example.com,,Masculino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-05264,Gilberto Pazos Escolano,laura97@example.com,5155821021177,No especificado,2024-09-15,False,Género inválido
+CL-05268,Néstor Blanes Sacristán,joaquina88@example.com,,Masculino,2024-01-08,False,"Teléfono inválido, Teléfono ausente"
+CL-05270,Pancho Diéguez Cadenas,correo@.com,7570416581735,Femenino,2025-04-04,False,Email inválido
+CL-05272,Demetrio Llobet Zurita,bauzajose-francisco@example.net,1817609456802,No especificado,2025-07-03,False,Género inválido
+CL-11770,123,gperez@example.org,,No especificado,2024-11-21,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11772,Faustino Díaz Cordero,correo@.com,0611835811309,Masculino,2024-01-24,False,Email inválido
+CL-05292,Reinaldo Zamorano Orozco,dansalva@example.net,,Masculino,2023-09-02,False,"Teléfono inválido, Teléfono ausente"
+CL-05300,Liliana Abril Zabala,,1525112832588,Masculino,2024-08-13,False,Email inválido
+CL-05304,Belén Santamaria Tejedor,rochajose-ramon@example.com,,No especificado,2025-01-29,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-05310,123,correo@.com,2431413423990,Femenino,2000-01-01,False,Email inválido
+CL-11781,Isa Corral,gloria40@example.com,8438267401475,No especificado,2023-11-21,False,Género inválido
+CL-05316,Valentina del Múñiz,edmundo42@example.com,,Masculino,2024-12-08,False,"Teléfono inválido, Teléfono ausente"
+CL-11787,César Palacio Báez,correo@.com,7204371925753,Femenino,2025-05-20,False,Email inválido
+CL-05328,Wilfredo Rosa Baquero,hermenegildo25@example.com,,No especificado,2000-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-05330,Purificación Bárcena-Machado,,1345053027763,Masculino,2024-07-21,False,Email inválido
+CL-05336,Alex Izaguirre Céspedes,manola37@example.org,0547470103181,No especificado,2023-10-14,False,Género inválido
+CL-11794,,,,Femenino,2025-04-18,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-11800,Ceferino Llorens,martorellestrella@example.com,,No especificado,2023-12-07,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-05360,Mohamed Colom Mateu,amas@example.org,9798135826572,No especificado,2023-11-03,False,Género inválido
+CL-11806,Irma Galvez Sabater,olimpia59@example.net,0051883453308,No especificado,2025-05-11,False,Género inválido
+CL-05370,@Oliver,,7094245735783,Masculino,2024-03-08,False,Email inválido
+CL-05376,Luz Domínguez Lobato,eaznar@example.com,,No especificado,2024-12-14,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11810,Sara Díez Iglesias,correo@.com,1956720416029,Masculino,2024-08-22,False,Email inválido
+CL-05384,Hilda Seco,izquierdojuliana@example.com,8232745064508,No especificado,2024-11-10,False,Género inválido
+CL-11814,Cloe de Alfonso,@gmail.com,3015218516454,Femenino,2024-03-16,False,Email inválido
+CL-05392,Pánfilo Castells Pujadas,aurelianogonzalo@example.org,6770141063668,No especificado,2025-04-18,False,Género inválido
+CL-05400,123,correo@.com,34923808333,No especificado,2026-01-01,False,"Email inválido, Género inválido"
+CL-05408,Ulises de Corominas,palvarez@example.com,1375377040344,No especificado,2025-03-06,False,Género inválido
+CL-05410,Nieves Llano Almazán,correo@.com,6394381434856,Femenino,2023-09-16,False,Email inválido
+CL-05412,Leonardo Mateo Taboada,pespana@example.net,,Femenino,2024-03-05,False,"Teléfono inválido, Teléfono ausente"
+CL-05416,Fátima Pardo Vázquez,batllereyna@example.org,9989274732433,No especificado,2023-09-05,False,Género inválido
+CL-11821,Celso Alberola Acevedo,fidel78@example.com,,No especificado,2024-07-26,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11823,@Oliver,correo@.com,3310280662799,Masculino,2024-09-07,False,Email inválido
+CL-11825,Édgar Nebot Alcalá,oliverafabian@example.com,8059264733387,No especificado,2025-01-19,False,Género inválido
+CL-05436,Ester Hierro Solana,antonio35@example.net,,Femenino,2024-04-30,False,"Teléfono inválido, Teléfono ausente"
+CL-05440,Narcisa Sola,,9974463246502,Masculino,2024-11-13,False,Email inválido
+CL-05448,Vasco Gomila-Paz,tarenas@example.net,,No especificado,2025-01-08,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-05450,Chelo Saavedra Benavent,@gmail.com,2371505149344,Femenino,2024-11-26,False,Email inválido
+CL-05460,Heliodoro Agustí Ayala,correo@.com,34836890911,Masculino,2023-09-27,False,Email inválido
+CL-11837,Jose Carlos Pino Lillo,gelabertnoa@example.org,2805169807780,No especificado,2025-01-11,False,Género inválido
+CL-05470,Josep de Neira,@gmail.com,7804575170070,Masculino,2023-09-09,False,Email inválido
+CL-05472,Aránzazu de Cañas,gecheverria@example.org,,No especificado,2000-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11843,Danilo Palau Nogueira,,6992143139535,No especificado,2024-07-08,False,"Email inválido, Género inválido"
+CL-05484,Amado Raúl Carballo Villalba,ivilaplana@example.org,,Femenino,2024-12-06,False,"Teléfono inválido, Teléfono ausente"
+CL-05490,Guadalupe de Rosado,@gmail.com,7115668462985,Masculino,2024-04-26,False,Email inválido
+CL-05496,Luna Parejo Oller,pchamorro@example.com,,No especificado,2024-11-07,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-05504,Marita Rosselló Borrego,hsandoval@example.org,0271354897892,No especificado,2024-05-10,False,Género inválido
+CL-11846,Donato de Meléndez,moisesgallego@example.net,,Masculino,2024-03-06,False,"Teléfono inválido, Teléfono ausente"
+CL-05510,Eutropio Sancho Tomas,correo@.com,0188926765423,Masculino,2025-07-31,False,Email inválido
+CL-05512,Osvaldo Rubio,jaenflorina@example.org,3224893891868,No especificado,2025-01-24,False,Género inválido
+CL-05520,,nazariogalindo@example.com,,No especificado,2023-11-11,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11850,Dimas Castell García,flavio93@example.net,3370997245466,No especificado,2023-11-17,False,Género inválido
+CL-05530,Paola Avilés Falcó,correo@.com,3919327262004,Femenino,2023-10-06,False,Email inválido
+CL-05532,Lola Santamaria Navarro,magdalenamartinez@example.net,,Masculino,2024-08-25,False,"Teléfono inválido, Teléfono ausente"
+CL-11855,Isidro Lorenzo Noguera,correo@.com,4806712147273,Femenino,2025-07-06,False,Email inválido
+CL-05544,Maxi Villa Arévalo,patriciaenriquez@example.net,,No especificado,2026-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11857,@Oliver,@gmail.com,7267001936757,Femenino,2025-02-05,False,Email inválido
+CL-05552,Joel de Gual,serafina94@example.net,7327779883565,No especificado,2024-06-21,False,Género inválido
+CL-05556,Salvador Bautista Ibañez,emiliano96@example.net,,Masculino,2025-07-16,False,"Teléfono inválido, Teléfono ausente"
+CL-05560,Florinda Saldaña Perez,marino15@example.net,6318970815077,No especificado,2024-04-30,False,Género inválido
+CL-05568,Nicolasa Albero Sabater,joan55@example.com,,No especificado,2023-09-09,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-05570,Anunciación Navarrete Segarra,@gmail.com,1267867440818,Masculino,2024-07-17,False,Email inválido
+CL-11864,Vicente Bejarano Llorente,erasmocanete@example.org,5059545666646,No especificado,2024-05-29,False,Género inválido
+CL-11866,123,@gmail.com,,Masculino,2026-01-01,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-11869,Celia de Sureda,,4252009512645,Femenino,2024-08-22,False,Email inválido
+CL-11870,Esteban Barranco Riba,isotelo@example.org,,No especificado,2024-11-16,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11872,Tomás Manuel Jordá,@gmail.com,7503333768648,Femenino,2024-10-06,False,Email inválido
+CL-05604,Juan Carlos de Quintanilla,pinacarolina@example.net,,Masculino,2025-06-27,False,"Teléfono inválido, Teléfono ausente"
+CL-05608,Ruperta Navas Llanos,eligia00@example.org,0981041639536,No especificado,2024-08-08,False,Género inválido
+CL-05610,Jacinto Martín Piquer,correo@.com,4408166642862,Masculino,2025-02-13,False,Email inválido
+CL-11877,Eustaquio Mármol Aguiló,,0052935593434,Femenino,2024-02-01,False,Email inválido
+CL-11879,Pastor Santamaría-Alcaraz,qginer@example.org,,Femenino,2024-11-22,False,"Teléfono inválido, Teléfono ausente"
+CL-05632,Narciso Segura,victor41@example.com,1996150089489,No especificado,2025-07-01,False,Género inválido
+CL-11884,Calista del Serrano,begonaestevez@example.net,,No especificado,2024-01-27,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-05648,Fortunato Aguilar Fernández,llanopanfilo@example.net,1948635506560,No especificado,2024-10-05,False,Género inválido
+CL-05650,Tomás Pozo Beltran,,8450899871958,Masculino,2025-03-02,False,Email inválido
+CL-05652,Gaspar Jaume,gala16@example.org,,Masculino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-05660,Bernardino Gracia Pinto,,8470206649171,Masculino,2023-09-19,False,Email inválido
+CL-11893,Eulalia Manrique-Torrent,,4068226852664,Masculino,2025-03-28,False,Email inválido
+CL-05672,Leocadia Toro Moya,lacevedo@example.net,3617944249622,No especificado,2023-11-01,False,Género inválido
+CL-05676,Amando Hurtado-Ruano,tecla66@example.com,,Masculino,2024-10-06,False,"Teléfono inválido, Teléfono ausente"
+CL-11895,Leocadio España Cabrero,correo@.com,6842935384497,No especificado,2025-07-18,False,"Email inválido, Género inválido"
+CL-11898,Matías Madrigal,,3794609603547,Masculino,2024-03-06,False,Email inválido
+CL-05700,@Oliver,correo@.com,,Masculino,2023-10-08,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-05704,María Luisa Mayo-Bernal,mescudero@example.org,4301451627684,No especificado,2025-03-16,False,Género inválido
+CL-05710,Otilia Samper Mateos,,1766870277803,Masculino,2025-06-28,False,Email inválido
+CL-11905,Elba Manso Ayala,carmelabarbera@example.com,,No especificado,2025-05-11,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11909,Marcelino Araujo Ribera,octavio71@example.org,3194428927460,No especificado,2024-03-27,False,Género inválido
+CL-05724,Eladio Fiol Soriano,delfina30@example.com,,Femenino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-05736,Germán de Costa,felipevallejo@example.com,,Femenino,2024-04-04,False,"Teléfono inválido, Teléfono ausente"
+CL-11914,Pascuala Mate Ramírez,,6647723779911,Femenino,2023-12-13,False,Email inválido
+CL-11915,Anita Piquer Cabello,guadalupefuente@example.com,8666063923572,No especificado,2024-12-02,False,Género inválido
+CL-11918,Porfirio de Ripoll,arizaanastasio@example.org,,Femenino,2024-06-20,False,"Teléfono inválido, Teléfono ausente"
+CL-05750,Narcisa Irma Herrero Riquelme,@gmail.com,6397198676501,Femenino,2024-10-22,False,Email inválido
+CL-05752,Heriberto Ulises Font Jara,secojorge@example.org,5915289612361,No especificado,2024-05-07,False,Género inválido
+CL-05760,123,@gmail.com,,No especificado,2000-01-01,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11926,Blas Beltran Mancebo,qvicente@example.com,6332386234453,No especificado,2023-10-03,False,Género inválido
+CL-11927,Rogelio Vazquez Azcona,,2746876609854,Femenino,2024-03-05,False,Email inválido
+CL-05772,Isaac Roldan-Franco,fortunata61@example.com,,Femenino,2024-06-16,False,"Teléfono inválido, Teléfono ausente"
+CL-11933,Diana del Carretero,,3958358679125,Femenino,2025-05-23,False,Email inválido
+CL-05784,Coral Fuertes Gracia,aguilajose@example.org,,No especificado,2025-07-15,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11938,Clara Coello Albero,leonamada@example.com,4258619753240,No especificado,2024-02-06,False,Género inválido
+CL-05796,Maura Torre Donaire,severinoferreras@example.org,,Masculino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-11946,Marisa Zamorano Maza,jsabater@example.net,,No especificado,2023-11-02,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11947,Adora Vila Angulo,,3341592833987,Femenino,2024-03-25,False,Email inválido
+CL-11952,123,@gmail.com,34984052520,Femenino,2024-09-16,False,Email inválido
+CL-05824,Ágata del Niño,marciano10@example.net,4091121817384,No especificado,2023-09-17,False,Género inválido
+CL-11957,Valentina Guillen Solano,,1096155759695,Masculino,2024-03-14,False,Email inválido
+CL-05832,Desiderio Campillo Mesa,kleon@example.net,,Masculino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-11961,Gloria Soraya Juan Girón,@gmail.com,8561034452399,No especificado,2024-04-09,False,"Email inválido, Género inválido"
+CL-05844,Carmelita Miguel Segovia,botellatomasa@example.com,,Masculino,2024-02-09,False,"Teléfono inválido, Teléfono ausente"
+CL-05848,Salvador Cal Guitart,manumunoz@example.net,0798030637326,No especificado,2025-05-01,False,Género inválido
+CL-05850,,@gmail.com,5558497872768,Masculino,2000-01-01,False,Email inválido
+CL-05856,Victor Dueñas,esperanzayuste@example.net,,Masculino,2024-11-30,False,"Teléfono inválido, Teléfono ausente"
+CL-05860,Ariel Ángel Sandoval Dueñas,@gmail.com,1619138217456,Masculino,2024-07-14,False,Email inválido
+CL-05864,Gastón de Jordá,ruperto07@example.org,2689593027818,No especificado,2025-07-04,False,Género inválido
+CL-05870,Andrea Carretero,,1468951178101,Femenino,2024-01-17,False,Email inválido
+CL-05872,Abilio Carrillo Santamaría,arevalolucio@example.com,5321851678125,No especificado,2025-04-14,False,Género inválido
+CL-11973,Adelardo Velasco-Ugarte,anselmo56@example.com,,No especificado,2024-09-15,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-05892,Adán Carbajo Canales,olegario73@example.com,,Masculino,2025-05-02,False,"Teléfono inválido, Teléfono ausente"
+CL-05904,Sancho Montes Ávila,vpascual@example.net,,No especificado,2026-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-11982,@Oliver,@gmail.com,8203061877607,Femenino,2024-06-26,False,Email inválido
+CL-05912,Emilio Galván Sáez,tiradojimena@example.net,5235091174077,No especificado,2024-07-16,False,Género inválido
+CL-05916,Florencia Cobo Gallo,eugeniaroman@example.com,,Masculino,2024-03-27,False,"Teléfono inválido, Teléfono ausente"
+CL-11986,Berto Nieto Lillo,correo@.com,0069577558256,Masculino,2025-04-18,False,Email inválido
+CL-05930,Rocío del Iborra,correo@.com,3341595733149,Masculino,2023-11-07,False,Email inválido
+CL-11997,Dora Sánchez Belda,correo@.com,,Femenino,2026-01-01,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-05944,Maximiliano Aguiló Losa,nevadosalvador@example.net,9019168875469,No especificado,2025-06-24,False,Género inválido
+CL-05950,Mariana Anastasia Alfaro Casares,,7963539272125,Femenino,2024-04-21,False,Email inválido
+CL-11999,José Luis Losa Almansa,sosimocuervo@example.net,,No especificado,2024-01-16,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-05960,Encarna Sobrino-Abella,,6876713142468,Femenino,2023-09-08,False,Email inválido
+CL-12004,Mariano Martin Ferrando,simon88@example.com,,Femenino,2024-01-25,False,"Teléfono inválido, Teléfono ausente"
+CL-12007,@Oliver,,6499887448260,Masculino,2025-06-05,False,Email inválido
+CL-12011,Belen del Linares,farco@example.com,,No especificado,2000-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-12014,Noelia de Fortuny,,1070887672042,Masculino,2024-12-19,False,Email inválido
+CL-12016,Trini Tirado-Águila,sandovalmarcio@example.org,7001928370187,No especificado,2024-01-24,False,Género inválido
+CL-05988,Antonia Alcántara Clavero,pascualarico@example.com,,Masculino,2024-07-31,False,"Teléfono inválido, Teléfono ausente"
+CL-12019,Angelita Solsona Tejada,@gmail.com,2514170991802,Femenino,2024-04-08,False,Email inválido
+CL-05992,Ainara Barberá Patiño,azconalorenza@example.org,0733382867630,No especificado,2023-11-11,False,Género inválido
+CL-06000,123,hjodar@example.com,,Masculino,2025-04-29,False,"Teléfono inválido, Teléfono ausente"
+CL-06010,Aitor del Dueñas,,5535644618064,Femenino,2024-10-10,False,Email inválido
+CL-12025,Ricardo Torrents Lara,zpalacios@example.net,7801940960252,No especificado,2024-09-09,False,Género inválido
+CL-12029,Loida Cuesta Torrecilla,cletobermejo@example.com,,No especificado,2025-04-27,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-06030,,@gmail.com,0916161312521,Masculino,2026-01-01,False,Email inválido
+CL-06032,Ariel del Ribes,iprado@example.org,8857641437346,No especificado,2025-01-13,False,Género inválido
+CL-06036,Víctor Pina,bertoaraujo@example.com,,Femenino,2025-05-03,False,"Teléfono inválido, Teléfono ausente"
+CL-12034,Dan Folch Chamorro,@gmail.com,5672034919295,Femenino,2024-09-01,False,Email inválido
+CL-12036,Mónica del Robles,zvazquez@example.org,,No especificado,2026-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-06056,Martín Clemente Batlle,riberaascension@example.net,1599414960539,No especificado,2023-11-29,False,Género inválido
+CL-12039,@Oliver,@gmail.com,,Masculino,2025-01-19,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-06064,Nazaret Dueñas Valdés,santiago39@example.com,5592784265743,No especificado,2023-11-17,False,Género inválido
+CL-06070,Bernardino Saez Pedrosa,,4750972569912,Masculino,2024-12-27,False,Email inválido
+CL-06072,Wilfredo Ramón Arteaga,doloresduenas@example.com,,Femenino,2024-12-07,False,"Teléfono inválido, Teléfono ausente"
+CL-12046,Antonio Río,,5492044047574,No especificado,2025-02-05,False,"Email inválido, Género inválido"
+CL-12049,Malena del González,pinoanselma@example.com,0262401842684,No especificado,2025-05-19,False,Género inválido
+CL-06090,@Oliver,,4644424713478,Masculino,2024-01-26,False,Email inválido
+CL-12051,Rebeca Rosselló Baños,asensioadan@example.com,,No especificado,2025-06-10,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-06100,Azeneth Carnero Ariño,@gmail.com,7125443665551,Femenino,2025-07-12,False,Email inválido
+CL-12054,Timoteo Blasco Arjona,,0348215245952,Femenino,2024-12-21,False,Email inválido
+CL-12056,Timoteo Huertas Bauzà,regulo19@example.net,4522019475425,No especificado,2024-04-23,False,Género inválido
+CL-12060,Agustín Pereira Ropero,,,Femenino,2025-06-10,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-12068,Jennifer Sevillano Cañas,@gmail.com,8301658462980,Femenino,2024-03-21,False,Email inválido
+CL-06144,Marcos Noguera Luís,fabricio70@example.com,,No especificado,2024-11-10,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-06150,@Oliver,correo@.com,8298648656917,Masculino,2025-07-07,False,Email inválido
+CL-06156,Pilar Arregui Aramburu,galo98@example.net,,Masculino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-12077,Lucila del Rosa,taboadamoises@example.com,,No especificado,2025-03-25,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-06170,Juan Carlos Sureda Matas,@gmail.com,0250250309141,Femenino,2025-01-06,False,Email inválido
+CL-06176,Godofredo Casanovas,cozarcharo@example.com,6981093856076,No especificado,2024-06-15,False,Género inválido
+CL-06180,@Oliver,,,Masculino,2024-02-26,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-06184,Luisa Constanza Maldonado Gallart,macarioavila@example.org,1272946071624,No especificado,2025-08-08,False,Género inválido
+CL-12082,Susanita Melero Valcárcel,maria-angeles51@example.com,,Masculino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-12086,Nacio Jaume Soriano,@gmail.com,5280289030179,No especificado,2024-03-13,False,"Email inválido, Género inválido"
+CL-12088,Dimas Bou Roda,mcarrillo@example.org,,Femenino,2024-03-15,False,"Teléfono inválido, Teléfono ausente"
+CL-06208,Pancho Crespo Montalbán,juan-luis05@example.net,2634927099553,No especificado,2023-11-29,False,Género inválido
+CL-06210,,correo@.com,5853087994733,Masculino,2025-04-08,False,Email inválido
+CL-06216,Demetrio Cruz-Pla,kolivera@example.net,,No especificado,2024-10-27,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-12098,Espiridión Tomás-Segovia,,7062604231649,Masculino,2023-09-30,False,Email inválido
+CL-06224,Gerardo Mulet Torrijos,catalanvictoriano@example.net,1038486109336,No especificado,2024-10-17,False,Género inválido
+CL-06228,Macarena Cases Azcona,dafne55@example.org,,Femenino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-06230,Zaira Guzman Azcona,@gmail.com,9032135008739,Masculino,2024-06-19,False,Email inválido
+CL-06232,Abraham Ortega Tejera,dalilaabellan@example.com,9949233983615,No especificado,2024-09-13,False,Género inválido
+CL-06240,,,,No especificado,2024-03-25,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-06248,Haydée Albero Durán,gabriel39@example.com,2713964833182,No especificado,2023-11-28,False,Género inválido
+CL-06252,Albina del Cepeda,begona67@example.com,,Masculino,2024-10-24,False,"Teléfono inválido, Teléfono ausente"
+CL-06256,Griselda Uriarte Poza,armandoespanol@example.net,6695382815887,No especificado,2024-10-11,False,Género inválido
+CL-06260,Ligia Hernández-Comas,correo@.com,2762964888877,Masculino,2024-09-05,False,Email inválido
+CL-06270,Eufemia de Roura,correo@.com,0311745988461,Femenino,2024-08-19,False,Email inválido
+CL-06276,Silvia del Hidalgo,guzmancelestino@example.net,,Femenino,2024-12-02,False,"Teléfono inválido, Teléfono ausente"
+CL-06280,Natanael Recio Vall,correo@.com,4782859342442,Masculino,2023-08-26,False,Email inválido
+CL-12116,Agustín Jaén Peral,msobrino@example.net,,No especificado,2023-10-25,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-06290,Paula Malo Cuesta,correo@.com,8929700895670,Masculino,2024-12-29,False,Email inválido
+CL-06300,Nydia Almansa-Pujadas,,,Femenino,2025-04-02,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-06310,Toribio Carreño Querol,@gmail.com,3272800916278,Masculino,2024-01-12,False,Email inválido
+CL-06312,Bernarda Cañizares,villacalisto@example.net,34920142105,No especificado,2024-03-26,False,Género inválido
+CL-12130,Nerea Sierra Español,correo@.com,4275109555529,Masculino,2025-03-14,False,Email inválido
+CL-12131,Ezequiel Cayetano Ibáñez Oliveras,rafaelcontreras@example.org,,Masculino,2024-04-13,False,"Teléfono inválido, Teléfono ausente"
+CL-12135,Artemio Sobrino Mercader,utolosa@example.org,7256117012512,No especificado,2024-03-15,False,Género inválido
+CL-06330,@Oliver,@gmail.com,7699045416924,Masculino,2024-12-12,False,Email inválido
+CL-06336,Ignacia de Pont,valeriosainz@example.com,34806671419,No especificado,2024-05-07,False,Género inválido
+CL-06340,Santos Almagro Pla,correo@.com,5050090020890,Femenino,2024-04-26,False,Email inválido
+CL-12146,Pascuala Soriano Cañellas,raimundo72@example.com,,Femenino,2025-08-03,False,"Teléfono inválido, Teléfono ausente"
+CL-06350,Corona de Sainz,,4146839629702,Femenino,2024-12-17,False,Email inválido
+CL-12148,Pío Rafael Romero Zurita,juan-antoniomadrigal@example.net,6363425194660,No especificado,2024-09-28,False,Género inválido
+CL-12149,@Oliver,,,Masculino,2024-02-22,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-12151,Valero Uribe,xmugica@example.net,9105991401729,No especificado,2024-11-02,False,Género inválido
+CL-06370,Joan del Figuerola,,8309375986979,Femenino,2024-12-21,False,Email inválido
+CL-12155,Gloria Amelia Lara Andrés,,5544483082817,Femenino,2024-12-31,False,Email inválido
+CL-06384,Emilio Mayoral,maxi75@example.net,,No especificado,2024-06-20,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-06390,Martina Oliva Rey,,3421655196157,Masculino,2026-01-01,False,Email inválido
+CL-06392,Perlita Mayoral Palomar,veronica00@example.com,9947974089169,No especificado,2024-09-22,False,Género inválido
+CL-06400,Fortunato Carbó-Santiago,,1678471101222,No especificado,2023-12-06,False,"Email inválido, Género inválido"
+CL-06408,Yago Bauzà Rodriguez,esperanzafalcon@example.org,,No especificado,2026-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-06410,Vidal Rodríguez Cerezo,@gmail.com,8728634844358,Masculino,2024-04-07,False,Email inválido
+CL-12167,123,@gmail.com,,Masculino,2023-09-24,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-06432,Ramiro del Acuña,iflores@example.net,,Femenino,2025-02-04,False,"Teléfono inválido, Teléfono ausente"
+CL-06440,Josefa del Bernal,mascaromelchor@example.org,0174887518111,No especificado,2025-03-26,False,Género inválido
+CL-06448,Arcelia Soraya Mateu Asensio,galvezconstanza@example.net,6182019263810,No especificado,2024-01-10,False,Género inválido
+CL-06450,@Oliver,,9986645311886,Masculino,2024-05-15,False,Email inválido
+CL-06456,Fabiola Bárcena,ctoro@example.com,,Masculino,2023-11-28,False,"Teléfono inválido, Teléfono ausente"
+CL-12174,Federico Anguita Cid,,8535325181054,Masculino,2023-12-04,False,Email inválido
+CL-06464,Chus Pons Iriarte,josealcazar@example.org,4949744396787,No especificado,2024-10-29,False,Género inválido
+CL-06468,Desiderio del Roig,melchoroliver@example.org,,Femenino,2024-04-01,False,"Teléfono inválido, Teléfono ausente"
+CL-06470,Ricardo Ferreras,,6364986660778,Femenino,2024-02-08,False,Email inválido
+CL-12180,,,,No especificado,2000-01-01,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-12182,Leoncio Miguel Gallardo Cuervo,rosalindapaniagua@example.com,1863094829283,No especificado,2025-02-14,False,Género inválido
+CL-06490,Mireia del Llorens,,7851435601316,Femenino,2024-06-02,False,Email inválido
+CL-12186,Felix Rico-Salgado,jjerez@example.org,9737444097971,No especificado,2025-06-05,False,Género inválido
+CL-12188,Palmira Exposito Mulet,correo@.com,3168231635705,Femenino,2024-03-22,False,Email inválido
+CL-06504,Adora Bauzà Campo,canosevero@example.org,,Masculino,2023-09-23,False,"Teléfono inválido, Teléfono ausente"
+CL-06510,123,,4041537733259,Masculino,2024-02-19,False,Email inválido
+CL-06512,Clara Burgos Trillo,aureliacamino@example.net,1704325300525,No especificado,2023-11-28,False,Género inválido
+CL-06520,Odalis Leocadia Teruel Sobrino,correo@.com,2763585886032,No especificado,2023-10-16,False,"Email inválido, Género inválido"
+CL-06528,Ibán Campillo Morera,uibanez@example.net,34928748328,No especificado,2024-02-17,False,Género inválido
+CL-06530,Ruth Canet Carnero,@gmail.com,0355308454038,Masculino,2024-11-25,False,Email inválido
+CL-06536,África Roselló Mesa,diegocriado@example.net,4982215833682,No especificado,2024-10-23,False,Género inválido
+CL-12197,@Oliver,correo@.com,,Femenino,2024-12-31,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-06552,Olimpia Cárdenas Raya,ucasares@example.net,,No especificado,2026-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-12201,Melisa Asenjo Fábregas,,9303177011470,Masculino,2024-05-31,False,Email inválido
+CL-12204,Matías Iniesta Elorza,ullobet@example.net,,Femenino,2025-01-16,False,"Teléfono inválido, Teléfono ausente"
+CL-06568,Graciano Edgardo Alberdi Haro,juan-jose30@example.com,2453143399248,No especificado,2023-11-27,False,Género inválido
+CL-06570,,correo@.com,2451962089967,Masculino,2024-06-26,False,Email inválido
+CL-06576,Aitana Abascal Rosell,lvillanueva@example.org,,Femenino,2025-06-12,False,"Teléfono inválido, Teléfono ausente"
+CL-06580,Nacho Guzman Barceló,,6006339403723,Femenino,2025-04-18,False,Email inválido
+CL-12211,Lidia Elisa Vicente Solís,benitacasanovas@example.com,1417411117698,No especificado,2025-06-27,False,Género inválido
+CL-12213,Juan Francisco del Mora,qbartolome@example.org,,Masculino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-12219,,,,No especificado,2024-07-30,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-06610,Estefanía Costa-Leon,,1301211183242,Masculino,2024-02-03,False,Email inválido
+CL-06612,Régulo Martín Cuéllar,bayoncatalina@example.com,,Masculino,2023-11-11,False,"Teléfono inválido, Teléfono ausente"
+CL-06616,Encarnacion de Aparicio,jimenaserrano@example.net,7929169081138,No especificado,2025-02-26,False,Género inválido
+CL-12224,Felix Barreda,correo@.com,7532408270194,Femenino,2023-12-01,False,Email inválido
+CL-12225,Ema Casanova Esparza,anunciacion64@example.net,,No especificado,2024-07-07,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-12230,123,,1314860857815,Femenino,2024-03-04,False,Email inválido
+CL-06636,Sandalio Costa Amigó,carbajoadelardo@example.com,,Masculino,2024-08-28,False,"Teléfono inválido, Teléfono ausente"
+CL-12233,Severino Pol Bernad,priscilafernandez@example.org,4449031232888,No especificado,2025-06-21,False,Género inválido
+CL-06648,Chuy Manuel Jáuregui,chaparroelba@example.com,,Femenino,2024-09-10,False,"Teléfono inválido, Teléfono ausente"
+CL-06650,Chelo Santiago,@gmail.com,6882848316372,Femenino,2024-07-31,False,Email inválido
+CL-12239,,correo@.com,,Masculino,2025-08-10,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-06664,Quirino Almagro Mir,godofredo40@example.com,3635840966814,No especificado,2024-10-03,False,Género inválido
+CL-06672,Ligia Bayona Pina,segismundoroldan@example.org,,No especificado,2024-08-15,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-12248,Román Mínguez Tolosa,,0515614331026,No especificado,2023-12-18,False,"Email inválido, Género inválido"
+CL-06690,,@gmail.com,2056888045204,Masculino,2024-03-15,False,Email inválido
+CL-06696,María Jesús Salom Pino,blanescecilio@example.com,,No especificado,2000-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-06700,Humberto Palomino Amor,@gmail.com,8172177302895,Masculino,2024-04-19,False,Email inválido
+CL-12256,Rosario Rodrigo Barba,tamara71@example.net,,Masculino,2023-11-23,False,"Teléfono inválido, Teléfono ausente"
+CL-12257,Anabel de Maldonado,correo@.com,9958509450910,Femenino,2024-08-22,False,Email inválido
+CL-12259,Ismael de Bernal,roxanatejada@example.net,4897585202840,No especificado,2025-01-09,False,Género inválido
+CL-12262,,,,Femenino,2025-01-17,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-06728,Imelda del Feliu,ramonaalarcon@example.com,4333907943149,No especificado,2023-10-13,False,Género inválido
+CL-06730,Marina Luna,,4338618472081,Masculino,2024-11-22,False,Email inválido
+CL-06736,José de Gonzalez,marcela33@example.net,9848558912206,No especificado,2025-08-13,False,Género inválido
+CL-12270,Evaristo Rosendo Alegria Castilla,@gmail.com,3640575291915,Femenino,2024-01-09,False,Email inválido
+CL-12272,Alicia Calatayud,cirino87@example.com,,No especificado,2023-12-26,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-06750,Donato Almagro-Miranda,,0124644339491,Masculino,2000-01-01,False,Email inválido
+CL-12276,Adela Camps,estrella16@example.net,6212697101698,No especificado,2024-06-13,False,Género inválido
+CL-12279,Bienvenida Zabala Pinedo,,9411508923789,No especificado,2023-09-07,False,"Email inválido, Género inválido"
+CL-06768,María Belén Zaragoza-Sánchez,diezirene@example.net,34876014708,No especificado,2026-01-01,False,Género inválido
+CL-06770,Aurelio Cadenas Aguilera,correo@.com,8640362169087,Masculino,2025-07-16,False,Email inválido
+CL-12285,123,,,Femenino,2023-09-22,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-06784,Gabriela Sebastián-Perea,yarranz@example.com,4935633976131,No especificado,2025-06-13,False,Género inválido
+CL-06790,Duilio Bauzà Manzano,,2220603344423,Masculino,2023-10-15,False,Email inválido
+CL-06792,Leonardo Anastasio Roldan Jordá,ucampos@example.net,,No especificado,2024-08-06,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-06800,Erasmo Mur Pascual,,2288314540737,Masculino,2024-05-21,False,Email inválido
+CL-06804,Guadalupe Bayona Pedrosa,rreguera@example.com,,Masculino,2025-05-20,False,"Teléfono inválido, Teléfono ausente"
+CL-12296,Gonzalo de Pablo,,6045071584061,Masculino,2024-10-24,False,Email inválido
+CL-12297,Adriana Rosado Torrecilla,,4175436962312,Femenino,2025-05-02,False,Email inválido
+CL-06832,Soraya Moliner Tamarit,kropero@example.net,4420021094296,No especificado,2024-11-13,False,Género inválido
+CL-12301,,mohamed62@example.net,,Masculino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-06850,Clemente Agullo-Gutierrez,,1326451426318,Masculino,2024-01-26,False,Email inválido
+CL-12305,Yolanda Belda Guardiola,juriarte@example.net,,Masculino,2025-05-14,False,"Teléfono inválido, Teléfono ausente"
+CL-06870,,,1981749471952,Masculino,2024-06-06,False,Email inválido
+CL-12309,Pedro Coca-Prieto,natalioquiros@example.net,4386936371928,No especificado,2024-06-23,False,Género inválido
+CL-06888,Adrián Toni Carrera Saura,hcobo@example.com,,No especificado,2025-05-11,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-06890,Luz Reyes Blanca Narváez,,1513073745048,Femenino,2024-01-08,False,Email inválido
+CL-06896,Trini Sedano Pascual,maxima42@example.net,1895081865963,No especificado,2025-08-08,False,Género inválido
+CL-12319,123,,,Masculino,2023-10-16,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-06904,Fausto Llamas Alberdi,aitanamacias@example.org,1486620735965,No especificado,2024-01-29,False,Género inválido
+CL-12323,Amelia Pardo Batalla,guiomar42@example.org,,Masculino,2025-05-26,False,"Teléfono inválido, Teléfono ausente"
+CL-12328,Jacinta Vázquez Barreda,correo@.com,7273494422351,Femenino,2024-01-13,False,Email inválido
+CL-06924,Claudia Zabala Escalona,dianagomez@example.net,,Femenino,2023-11-19,False,"Teléfono inválido, Teléfono ausente"
+CL-06930,123,,2105411378299,Femenino,2026-01-01,False,Email inválido
+CL-06936,Martina Miguel Bárcena,qdiego@example.net,,Masculino,2025-05-14,False,"Teléfono inválido, Teléfono ausente"
+CL-06940,Bibiana de Diaz,,6789461726633,Masculino,2024-02-13,False,Email inválido
+CL-12339,Lalo Josep Mancebo Martí,hramos@example.org,,Femenino,2024-08-29,False,"Teléfono inválido, Teléfono ausente"
+CL-12341,Toño Menéndez Sureda,llorensamerica@example.com,7603054126455,No especificado,2025-04-08,False,Género inválido
+CL-06960,,,,No especificado,2024-02-12,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-06970,Victoriano Mendoza-Palmer,@gmail.com,3495783354981,Femenino,2023-10-04,False,Email inválido
+CL-06976,Nayara Caparrós Ferrández,priscila25@example.com,8304483330235,No especificado,2025-01-17,False,Género inválido
+CL-12349,Mercedes de Sebastián,@gmail.com,8808070444562,Masculino,2023-10-21,False,Email inválido
+CL-06984,Adela Rincón-Álvarez,alcazarsarita@example.com,,Masculino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-06990,Celia Jaume,,7947951186929,Masculino,2024-02-26,False,Email inválido
+CL-12356,Begoña Nogués-Valenzuela,,5012374716525,No especificado,2024-10-26,False,"Email inválido, Género inválido"
+CL-07008,Claudio Ugarte Salamanca,eric33@example.org,,No especificado,2025-06-04,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-07010,Ismael Camino,,8356769389748,Masculino,2024-10-10,False,Email inválido
+CL-12359,123,correo@.com,,Femenino,2026-01-01,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-12366,Áurea Aguado Durán,,2641092460050,Femenino,2024-02-13,False,Email inválido
+CL-07032,Consuelo Echeverría-Zurita,sandra73@example.org,,No especificado,2025-05-24,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-12371,Martín Jáuregui-Terrón,,6110083320023,No especificado,2024-09-11,False,"Email inválido, Género inválido"
+CL-07044,Román Dimas Marti Codina,fernandoramos@example.com,,Femenino,2025-06-25,False,"Teléfono inválido, Teléfono ausente"
+CL-07056,Ariadna Garriga Grau,candelariosolera@example.com,,No especificado,2026-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-12380,Rosa Bermejo Puerta,correo@.com,5836168593421,Masculino,2025-07-12,False,Email inválido
+CL-07064,Arsenio Elías Alberola,luzsegui@example.org,8791015241198,No especificado,2025-08-22,False,Género inválido
+CL-07068,Raquel Jiménez Becerra,nicanorramirez@example.org,,Femenino,2023-12-28,False,"Teléfono inválido, Teléfono ausente"
+CL-12383,Araceli Roman Soler,,7049017308999,Masculino,2025-03-12,False,Email inválido
+CL-07072,Armida Noemí Romeu Cuenca,socorro14@example.org,1136869661223,No especificado,2025-07-27,False,Género inválido
+CL-12387,123,,34837535728,No especificado,2024-12-05,False,"Email inválido, Género inválido"
+CL-07088,Consuelo Ripoll Barrios,vbanos@example.org,4147406852463,No especificado,2024-12-29,False,Género inválido
+CL-07090,María Carmen Cueto Valdés,,6695106308806,Femenino,2024-10-04,False,Email inválido
+CL-07096,Trini Domitila Santana Solsona,azaharaporta@example.com,0320985438597,No especificado,2024-11-02,False,Género inválido
+CL-07100,Vasco Morillo Juliá,,5783938863420,Femenino,2023-10-17,False,Email inválido
+CL-12392,Joel Carbó Alcalde,eortiz@example.org,,No especificado,2023-11-25,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-07110,123,,7256497603517,Masculino,2024-11-25,False,Email inválido
+CL-12395,Ignacia Ayala Canet,odalis71@example.org,0243096476221,No especificado,2024-05-05,False,Género inválido
+CL-07116,Arsenio Iniesta Juliá,cserna@example.org,,Masculino,2023-10-24,False,"Teléfono inválido, Teléfono ausente"
+CL-07120,Nadia Martin Coll,@gmail.com,3492043608513,Femenino,2025-01-19,False,Email inválido
+CL-12401,Ernesto Jaime Sierra Parra,valentinabarrio@example.com,,Femenino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-12402,Juan Antonio Manso Puente,,2363668136794,Femenino,2024-02-29,False,Email inválido
+CL-07140,123,,,Masculino,2023-11-29,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-12405,Ciríaco Camps Jara,mquerol@example.net,8005872416776,No especificado,2024-10-22,False,Género inválido
+CL-12409,Adán Omar Paredes Galindo,correo@.com,4670333871044,Femenino,2024-11-08,False,Email inválido
+CL-12411,Domingo Ibán Rico Llopis,carolinatomas@example.org,,Femenino,2024-05-29,False,"Teléfono inválido, Teléfono ausente"
+CL-12414,Juan Carlos Camps Manzanares,correo@.com,6736364423289,No especificado,2024-07-28,False,"Email inválido, Género inválido"
+CL-07170,123,,3055173698397,Masculino,2025-02-15,False,Email inválido
+CL-12419,Rafael Castilla Gimenez,dcarreras@example.com,,Femenino,2024-10-05,False,"Teléfono inválido, Teléfono ausente"
+CL-12422,Hermenegildo Castillo Bayón,,3920277064435,Masculino,2025-06-05,False,Email inválido
+CL-07184,Aarón Llopis Jordán,bolivares@example.com,5496566317911,No especificado,2025-04-22,False,Género inválido
+CL-07188,Victoria Linares-Calatayud,octavio47@example.net,,Femenino,2024-06-09,False,"Teléfono inválido, Teléfono ausente"
+CL-07190,Casandra Mena Ribes,,7036173484800,Masculino,2024-09-20,False,Email inválido
+CL-12425,Felipa Morán Bonet,eliseo41@example.net,3297625550127,No especificado,2025-07-07,False,Género inválido
+CL-12429,123,,,Femenino,2000-01-01,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-12434,Calista del Alcázar,jblazquez@example.com,0419685277496,No especificado,2025-02-12,False,Género inválido
+CL-07210,Luis Miguel del Osorio,,0704731749250,Masculino,2025-02-21,False,Email inválido
+CL-12435,Yago Lorenzo-Bonet,placidoangulo@example.org,,Femenino,2024-07-29,False,"Teléfono inválido, Teléfono ausente"
+CL-12438,Silvio Tomás Pastor,correo@.com,0326712195286,Masculino,2024-10-23,False,Email inválido
+CL-07224,Narcisa Segura Arnau,aristidesabascal@example.org,,No especificado,2024-04-06,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-07230,123,@gmail.com,6018842483623,Masculino,2025-06-18,False,Email inválido
+CL-12442,Rolando del Morillo,acadenas@example.net,9856017329488,No especificado,2025-07-18,False,Género inválido
+CL-07240,Adoración Calvet-Torrecilla,correo@.com,1185242160366,No especificado,2024-03-24,False,"Email inválido, Género inválido"
+CL-12448,Sonia Pedrosa-Solana,elias87@example.net,,Femenino,2024-06-23,False,"Teléfono inválido, Teléfono ausente"
+CL-12451,Encarnacion Cabrera Raya,filomenacerezo@example.org,6846009228674,No especificado,2025-02-11,False,Género inválido
+CL-12453,123,,34920708279,Masculino,2025-06-02,False,Email inválido
+CL-07272,Faustino Gallart Cal,tfigueroa@example.com,34945205992,No especificado,2026-01-01,False,Género inválido
+CL-12460,Luz Macias Crespi,jblazquez@example.com,5569117223505,No especificado,2024-01-05,False,Género inválido
+CL-12461,Brígida Madrid Leal,severiano59@example.net,,Femenino,2024-09-07,False,"Teléfono inválido, Teléfono ausente"
+CL-07288,Elodia Portillo Cabezas,lvalentin@example.com,4410404187702,No especificado,2024-09-02,False,Género inválido
+CL-07290,Julieta Ariño Álvarez,correo@.com,2703112820646,Masculino,2026-01-01,False,Email inválido
+CL-12465,Agapito España Royo,alcolearegina@example.org,,No especificado,2025-06-07,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-12468,Manolo Dávila-Alcázar,correo@.com,2475444622148,Masculino,2023-09-27,False,Email inválido
+CL-12469,Armando Aznar Alcalde,vaquerojose-angel@example.net,2952739676596,No especificado,2025-07-17,False,Género inválido
+CL-12472,Teodoro del Collado,,8880175693170,Masculino,2023-12-13,False,Email inválido
+CL-07312,Modesta Múgica Garmendia,ferranmoreno@example.org,6469860036412,No especificado,2025-01-25,False,Género inválido
+CL-12476,Salud Fabregat Cuevas,,,No especificado,2024-06-06,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-07328,Griselda Lasa Colom,qarmengol@example.net,0239570618366,No especificado,2024-08-08,False,Género inválido
+CL-07330,Luciana Grau-Alarcón,,8380074922787,Femenino,2025-02-14,False,Email inválido
+CL-07340,Nieves Peñas-Bosch,correo@.com,0079238327660,Femenino,2025-06-14,False,Email inválido
+CL-12482,Lino Alberdi Coll,mjaen@example.org,4600310594452,No especificado,2025-08-21,False,Género inválido
+CL-07356,Tecla Coronado Peña,america77@example.org,,Masculino,2025-08-06,False,"Teléfono inválido, Teléfono ausente"
+CL-12487,Alma Galán Manso,gdalmau@example.net,,No especificado,2025-01-09,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-07370,Claudia Novoa Núñez,,0696630640776,Masculino,2024-11-30,False,Email inválido
+CL-12491,Dan Espada,@gmail.com,,Masculino,2024-05-24,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-07384,Cecilia Ballester Castelló,mjove@example.net,9427027849226,No especificado,2025-06-15,False,Género inválido
+CL-07390,Dionisia Flor Garcia,correo@.com,5488779152157,Femenino,2023-11-15,False,Email inválido
+CL-07392,Eric Cabañas Cuevas,maristela68@example.org,34866211587,No especificado,2024-11-30,False,Género inválido
+CL-12500,Crescencia Abril Sobrino,leocadio20@example.net,0026892201419,No especificado,2024-02-07,False,Género inválido
+CL-07404,Imelda Clavero,narvaezcarlota@example.com,,Femenino,2023-12-07,False,"Teléfono inválido, Teléfono ausente"
+CL-07410,123,,4135083799495,Masculino,2025-03-16,False,Email inválido
+CL-07416,Chuy Aitor Lledó Terrón,modesta70@example.net,,No especificado,2000-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-07424,Efraín Planas,mvalero@example.com,6179804394477,No especificado,2023-12-05,False,Género inválido
+CL-07428,Iris Requena Batlle,chelovalentin@example.org,,Masculino,2024-05-31,False,"Teléfono inválido, Teléfono ausente"
+CL-07430,Liliana Correa,@gmail.com,3167776293129,Masculino,2024-11-14,False,Email inválido
+CL-07440,,,,No especificado,2024-03-03,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-07448,Cristian Roda Barón,jreguera@example.com,5481094775962,No especificado,2025-04-11,False,Género inválido
+CL-07450,Aureliano Samuel Medina Torres,,3140271394162,Masculino,2025-06-02,False,Email inválido
+CL-12512,Iker Rosell Azorin,sotogoyo@example.net,,Femenino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-07456,Tadeo Chico Roldán,iarino@example.org,7734213084363,No especificado,2024-11-04,False,Género inválido
+CL-07460,Armando Eutropio Manjón Berrocal,,2976390551065,Masculino,2024-08-12,False,Email inválido
+CL-12514,Lourdes Baeza Tejada,albertoferrandiz@example.org,,No especificado,2023-08-25,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-12517,123,correo@.com,9510335981907,Masculino,2026-01-01,False,Email inválido
+CL-12519,Eva María Lumbreras Cantón,xrodriguez@example.org,5293191029260,No especificado,2024-05-02,False,Género inválido
+CL-12523,Ema Andrés-Jover,@gmail.com,3226444353796,No especificado,2023-08-31,False,"Email inválido, Género inválido"
+CL-07488,Pedro de Corbacho,angelheriberto@example.net,,Masculino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-07490,Noemí Aránzazu Perez Somoza,,7109935819217,Femenino,2024-10-16,False,Email inválido
+CL-07500,@Oliver,correo@.com,,Masculino,2024-07-16,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-12533,Juana Cazorla Estrada,taboadacarmen@example.net,34819546100,No especificado,2025-02-08,False,Género inválido
+CL-12537,Cristian Galan Cifuentes,,7718807336522,Masculino,2024-02-18,False,Email inválido
+CL-12539,Marino Tena Leal,felixporras@example.net,,Femenino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-07528,Graciela Murillo Alcalá,olegariomateos@example.org,6520071720110,No especificado,2024-02-13,False,Género inválido
+CL-07530,@Oliver,@gmail.com,6477391062995,Femenino,2023-10-08,False,Email inválido
+CL-07536,Alejandro Rodrigo Segarra Doménech,luciano65@example.net,34879409562,No especificado,2025-07-20,False,Género inválido
+CL-07540,Julie Martin Maldonado,correo@.com,4466248808325,Femenino,2023-12-14,False,Email inválido
+CL-12542,Rufino Bosch Dalmau,uarteaga@example.net,1487431485153,No especificado,2025-07-23,False,Género inválido
+CL-07548,María Dolores Cases Morales,xluna@example.com,,Femenino,2024-10-10,False,"Teléfono inválido, Teléfono ausente"
+CL-07550,Artemio Gastón Villena Cobo,,4531167709826,Masculino,2025-06-26,False,Email inválido
+CL-07560,@Oliver,sanmartintimoteo@example.net,,No especificado,2026-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-07570,Gastón Reyes Ariño,,0860495871784,Femenino,2025-01-21,False,Email inválido
+CL-12549,Maricruz Fortuny Bustos,lisandro51@example.com,,Femenino,2025-01-09,False,"Teléfono inválido, Teléfono ausente"
+CL-12553,Berto Infante Franch,correo@.com,3248026838112,Femenino,2025-05-02,False,Email inválido
+CL-07584,Omar Galan Torrent,antonia06@example.net,,No especificado,2025-03-31,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-07590,Quique Piña Villar,@gmail.com,5718516708758,Femenino,2023-10-05,False,Email inválido
+CL-12558,Georgina Tejada Borrell,moisesmurcia@example.com,9989559899504,No especificado,2023-08-28,False,Género inválido
+CL-12559,Adela Tena,penasjulio@example.org,,Masculino,2025-06-26,False,"Teléfono inválido, Teléfono ausente"
+CL-12560,Osvaldo Valderrama Prats,,2937150434594,Femenino,2025-01-18,False,Email inválido
+CL-07608,Yaiza Estévez Chamorro,nestor69@example.net,,No especificado,2024-07-14,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-07620,123,correo@.com,,Masculino,2025-02-08,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-07624,Ligia Torrents Peral,gertrudiscanton@example.com,5712773277192,No especificado,2024-05-13,False,Género inválido
+CL-07630,Luciano Roldán Sanchez Fuentes,correo@.com,6464517674413,Femenino,2024-11-07,False,Email inválido
+CL-12569,Marcelo Pedrosa Agustín,damaya@example.org,,Masculino,2024-12-26,False,"Teléfono inválido, Teléfono ausente"
+CL-07640,Leticia Aragonés Aguiló,@gmail.com,0335847927972,No especificado,2025-03-06,False,"Email inválido, Género inválido"
+CL-07644,Ramiro de Español,lucas28@example.net,,Masculino,2023-12-10,False,"Teléfono inválido, Teléfono ausente"
+CL-07650,,@gmail.com,7310254947284,Masculino,2024-03-06,False,Email inválido
+CL-07656,Aroa del Monreal,ccorrea@example.org,,Masculino,2023-11-29,False,"Teléfono inválido, Teléfono ausente"
+CL-12581,Estrella Tomás,,8001780595696,Masculino,2024-02-08,False,Email inválido
+CL-07664,Pánfilo Tristán Vendrell Pina,santamariaxiomara@example.net,8911712374950,No especificado,2025-07-01,False,Género inválido
+CL-12584,Carolina Fabra,ana-belen44@example.com,,Masculino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-07670,Gabino Zurita,correo@.com,3845560787946,Masculino,2024-06-25,False,Email inválido
+CL-12591,Otilia del Navarrete,,,Masculino,2024-07-03,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-07690,Dominga Montenegro Baquero,,3903318780439,Femenino,2023-09-13,False,Email inválido
+CL-12600,Álvaro Uriarte Porras,eloisa38@example.net,4384879692401,No especificado,2025-03-02,False,Género inválido
+CL-07704,Cirino Carrasco Mosquera,linaolivares@example.net,,Femenino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-07712,Genoveva Barceló Ros,samubustamante@example.com,3679434250365,No especificado,2024-05-14,False,Género inválido
+CL-07716,Magdalena Felicidad Saura Cabo,ktrillo@example.org,,Masculino,2024-10-02,False,"Teléfono inválido, Teléfono ausente"
+CL-12610,Pánfilo Jover Alcolea,@gmail.com,7591448715534,No especificado,2023-08-26,False,"Email inválido, Género inválido"
+CL-12614,Domitila Zamora Perera,iniguezcarmelo@example.com,34872900818,No especificado,2023-09-08,False,Género inválido
+CL-12616,Vicente Garcia Pino,@gmail.com,0968024565572,Masculino,2024-09-23,False,Email inválido
+CL-07736,Sonia Giner Molins,ytorrent@example.net,0084521545822,No especificado,2023-11-29,False,Género inválido
+CL-07740,@Oliver,,,Femenino,2024-03-18,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-07750,Quirino Aguirre-Vila,,8243958190013,Femenino,2024-12-08,False,Email inválido
+CL-07752,Cayetana Alfaro Galindo,salmagro@example.net,,No especificado,2024-03-07,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-07760,Reyes Fuentes Olivé,@gmail.com,1751299028808,Masculino,2025-02-20,False,Email inválido
+CL-07764,Odalys Nilda Carmona Tomas,rportillo@example.net,,Masculino,2024-10-20,False,"Teléfono inválido, Teléfono ausente"
+CL-07768,María Pilar Arenas Bernal,usaura@example.net,8163043649567,No especificado,2023-12-13,False,Género inválido
+CL-07776,Estela Reguera-Abril,rpinilla@example.org,,No especificado,2026-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-07780,Paloma Arce Nogueira,,1216580917490,Masculino,2025-03-26,False,Email inválido
+CL-07790,Pánfilo Oliver Hoz,,2896663159522,Masculino,2023-11-21,False,Email inválido
+CL-07792,Fortunato Agustí Feijoo,bertaelias@example.com,7376812016542,No especificado,2025-02-13,False,Género inválido
+CL-07800,123,,,Femenino,2025-04-20,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-07808,Victorino Donoso Rocha,zadadia@example.com,5401766809847,No especificado,2024-03-10,False,Género inválido
+CL-07810,Elba Gisbert Sarabia,,7817419686685,Femenino,2025-05-01,False,Email inválido
+CL-07816,Candelario Roberto Peñalver Arranz,gilberto26@example.com,3070855320301,No especificado,2025-06-17,False,Género inválido
+CL-12647,Consuela Jordá Delgado,checageronimo@example.com,34877965659,No especificado,2023-09-17,False,Género inválido
+CL-07830,,@gmail.com,0449714096000,Femenino,2000-01-01,False,Email inválido
+CL-07836,Albina Barberá Aguiló,ncabezas@example.net,,Femenino,2023-11-23,False,"Teléfono inválido, Teléfono ausente"
+CL-12653,Vito de Llamas,,5005925917216,Masculino,2024-12-26,False,Email inválido
+CL-12658,Ainoa Lara,ncanals@example.org,34941663397,No especificado,2026-01-01,False,Género inválido
+CL-12659,Irma Ochoa Pinedo,correo@.com,2369569485132,Femenino,2023-09-18,False,Email inválido
+CL-07856,Valerio Portero,gaguila@example.net,1307754972786,No especificado,2025-04-17,False,Género inválido
+CL-07860,José Mari Valenciano Ribes,correo@.com,34874477135,Femenino,2023-12-30,False,Email inválido
+CL-07870,Adriana Francisca Barón Vizcaíno,,7088198214253,Femenino,2025-06-09,False,Email inválido
+CL-07872,Chus Moles Valera,osaldana@example.org,,Femenino,2025-02-06,False,"Teléfono inválido, Teléfono ausente"
+CL-12670,Mauricio Catalá Vallés,@gmail.com,2720720896059,Femenino,2023-12-12,False,Email inválido
+CL-07884,Emiliano Llano,benjamin25@example.net,,Femenino,2023-09-24,False,"Teléfono inválido, Teléfono ausente"
+CL-12672,Albano Almagro Rosselló,agustinamacias@example.com,2815042917921,No especificado,2025-01-06,False,Género inválido
+CL-07890,,correo@.com,9907648670774,Masculino,2025-08-03,False,Email inválido
+CL-07896,Martina Blanes Amor,amparo69@example.org,,Masculino,2024-10-06,False,"Teléfono inválido, Teléfono ausente"
+CL-12675,Anabel Gimeno Marín,correo@.com,5693741364634,Masculino,2025-07-17,False,Email inválido
+CL-12677,Camila Paniagua Lucena,vidalaguilera@example.org,9688764853796,No especificado,2023-12-25,False,Género inválido
+CL-12679,Tadeo Juan Carlos Fuertes Giralt,crescencia76@example.net,,Masculino,2025-06-19,False,"Teléfono inválido, Teléfono ausente"
+CL-07920,123,jsaenz@example.com,,Masculino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-07928,Lucas del Milla,rhigueras@example.com,5050547388551,No especificado,2024-06-03,False,Género inválido
+CL-12691,Florencio Exposito Villalba,eduardoguillen@example.com,6590490949497,No especificado,2024-11-04,False,Género inválido
+CL-12692,Iván Yáñez Izquierdo,correo@.com,1294045960179,Femenino,2024-10-26,False,Email inválido
+CL-07944,Ligia Badía Leiva,tadeonavarro@example.net,34803382114,No especificado,2023-09-28,False,Género inválido
+CL-12697,Conrado Ibáñez Pedro,chus93@example.com,0754085977662,No especificado,2023-11-21,False,Género inválido
+CL-12700,Raquel del Andrade,,1925138239320,No especificado,2024-02-28,False,"Email inválido, Género inválido"
+CL-12704,Bruno Aliaga Losada,pllorente@example.net,,Masculino,2025-03-06,False,"Teléfono inválido, Teléfono ausente"
+CL-07970,Rocío Enríquez Estrada,,9715853319315,Masculino,2023-12-28,False,Email inválido
+CL-07976,Andrés Felipe Nicolás,margaritatome@example.org,7831472419338,No especificado,2025-03-23,False,Género inválido
+CL-12709,Malena Belen Torrijos Meléndez,,1072732880059,Masculino,2025-05-11,False,Email inválido
+CL-12711,Amancio Solé Roman,tellojose-manuel@example.net,,Femenino,2024-11-04,False,"Teléfono inválido, Teléfono ausente"
+CL-12713,Feliciana Duque Bilbao,@gmail.com,7787638909653,Femenino,2023-08-30,False,Email inválido
+CL-12716,Marino Plana Aznar,nydiagaliano@example.net,,Femenino,2023-09-13,False,"Teléfono inválido, Teléfono ausente"
+CL-08008,Sigfrido del Barranco,alberolavictoriano@example.net,9898401326281,No especificado,2025-07-13,False,Género inválido
+CL-12717,,,7468457259488,Masculino,2026-01-01,False,Email inválido
+CL-08016,Tristán Aragonés Blanes,erasmo52@example.org,,Femenino,2025-04-17,False,"Teléfono inválido, Teléfono ausente"
+CL-12721,Íñigo Galan-Álamo,,2742237708481,Femenino,2024-09-28,False,Email inválido
+CL-08024,Donato Pou Bou,guardiaanastasia@example.net,0880263673632,No especificado,2024-02-29,False,Género inválido
+CL-08028,Gervasio Arjona Sainz,heriberto58@example.net,,Masculino,2023-11-18,False,"Teléfono inválido, Teléfono ausente"
+CL-08030,Encarnita del Gilabert,,8630231286895,Masculino,2023-10-19,False,Email inválido
+CL-12726,Alfredo Giralt-Carbonell,ariadnapineiro@example.com,6265820560426,No especificado,2024-05-30,False,Género inválido
+CL-12728,123,cfortuny@example.org,,Masculino,2024-01-21,False,"Teléfono inválido, Teléfono ausente"
+CL-12731,Ovidio Calderón Querol,dcervera@example.com,9654160433855,No especificado,2024-02-17,False,Género inválido
+CL-12732,Fabricio Herranz Arias,@gmail.com,3759735144479,Masculino,2024-02-28,False,Email inválido
+CL-12733,Amancio Amat Llorente,sierraambar@example.com,,Femenino,2023-12-02,False,"Teléfono inválido, Teléfono ausente"
+CL-12736,Samu Ruano Dueñas,jpedrero@example.org,3385743908373,No especificado,2025-05-04,False,Género inválido
+CL-12737,Mar Vega Almansa,,6131083142390,Femenino,2025-07-26,False,Email inválido
+CL-08064,Faustino Marcos Nebot,ricotamayo@example.net,,No especificado,2025-06-04,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-08070,123,@gmail.com,9422869898523,Masculino,2024-03-06,False,Email inválido
+CL-12743,Andrea de Gálvez,galianoabel@example.org,0200551695008,No especificado,2024-12-02,False,Género inválido
+CL-12745,Ramón Pellicer Benavente,nydiasainz@example.com,,Femenino,2025-01-23,False,"Teléfono inválido, Teléfono ausente"
+CL-08080,Ana Belén Rafaela Cuéllar Escobar,correo@.com,3526998763761,Masculino,2025-06-26,False,Email inválido
+CL-08088,Elías Barón,pinedojulian@example.org,,No especificado,2025-05-22,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-08090,Noemí Rodrigo Carreño,@gmail.com,5453749719719,Femenino,2025-01-28,False,Email inválido
+CL-12752,Guillermo Moreno Vallés Segura,claudioestevez@example.com,0878307538716,No especificado,2025-05-29,False,Género inválido
+CL-12754,Reyna Garriga Bastida,,,Femenino,2024-12-23,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-12757,Eufemia Jara-Valderrama,leonoriana@example.org,2937751325375,No especificado,2024-04-30,False,Género inválido
+CL-12760,Agustina Campo Mariscal,,6359265318891,Masculino,2024-09-11,False,Email inválido
+CL-08112,Alberto del Santamaria,edu62@example.org,,No especificado,2025-04-04,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-12765,Ámbar Villegas Anglada,@gmail.com,2578431745611,Femenino,2025-07-28,False,Email inválido
+CL-08130,@Oliver,correo@.com,1925172484679,Femenino,2024-02-16,False,Email inválido
+CL-08140,Encarnacion Agudo Boix,correo@.com,4772797541201,Masculino,2024-06-08,False,Email inválido
+CL-08148,José del Ayllón,eleuteriohuertas@example.org,,Masculino,2025-06-07,False,"Teléfono inválido, Teléfono ausente"
+CL-08150,Margarita Badía Codina,,7465560202058,Masculino,2024-09-26,False,Email inválido
+CL-12779,Fidel Grande Escamilla,criadohipolito@example.org,9306246551716,No especificado,2025-05-09,False,Género inválido
+CL-12783,123,silviosolana@example.net,,Masculino,2023-09-17,False,"Teléfono inválido, Teléfono ausente"
+CL-08168,Dulce Amigó Torrent,marina80@example.com,5155084140810,No especificado,2023-12-01,False,Género inválido
+CL-08170,Imelda Luz Borrego Ledesma,,7632615316561,Masculino,2024-11-25,False,Email inválido
+CL-08176,Reinaldo Sandoval Almeida,clotildevazquez@example.com,7176634314328,No especificado,2024-11-23,False,Género inválido
+CL-12794,Fausto Morcillo Soto,badiamartirio@example.com,,Femenino,2024-05-17,False,"Teléfono inválido, Teléfono ausente"
+CL-08190,@Oliver,,8933019479215,Masculino,2024-05-15,False,Email inválido
+CL-12802,Ruben Julián,correo@.com,3254341057365,No especificado,2025-02-10,False,"Email inválido, Género inválido"
+CL-12803,Alma Ugarte,arenaseladio@example.com,,No especificado,2000-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-08210,Piedad Pineda Galindo,correo@.com,5869702450677,Masculino,2023-11-01,False,Email inválido
+CL-08216,Moisés Sanabria Benito,hipolito83@example.org,6359910796945,No especificado,2025-06-11,False,Género inválido
+CL-08220,@Oliver,,,Femenino,2023-12-13,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-08230,Marisa Castellanos Valentín,@gmail.com,3812054368937,Femenino,2025-06-10,False,Email inválido
+CL-08232,Eva Palau-Tejada,alba39@example.net,,No especificado,2024-02-11,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-12816,Carmela Ocaña Gascón,,5141777047987,Femenino,2023-09-10,False,Email inválido
+CL-08248,Emiliana Feijoo Valls,npadilla@example.com,3109352686782,No especificado,2024-08-25,False,Género inválido
+CL-08250,@Oliver,,9519204715404,Femenino,2024-05-12,False,Email inválido
+CL-12822,Elba Alfaro Peinado,garayvictor@example.com,,No especificado,2024-10-11,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-12824,Primitiva Escolano,@gmail.com,5977571625159,Masculino,2024-10-28,False,Email inválido
+CL-12827,Andrés Felipe Aguilera Mesa,florinacodina@example.net,3490574403483,No especificado,2025-01-04,False,Género inválido
+CL-12828,Albina del Martorell,,6976658804170,Femenino,2024-08-10,False,Email inválido
+CL-08280,,qquiros@example.com,34848821055,No especificado,2026-01-01,False,Género inválido
+CL-08288,Narciso Ángel,fuenteperlita@example.net,9933073059281,No especificado,2025-01-30,False,Género inválido
+CL-12840,María Del Carmen Bru Herrera,correo@.com,5555812978926,Femenino,2025-05-21,False,Email inválido
+CL-12841,Blas Noriega Llanos,benigna23@example.net,,Masculino,2025-02-12,False,"Teléfono inválido, Teléfono ausente"
+CL-12852,Pablo Lerma Peña,,8135217507816,Masculino,2024-03-11,False,Email inválido
+CL-08312,Adelia Marin-Seguí,juan-luissedano@example.com,6415678036643,No especificado,2024-06-10,False,Género inválido
+CL-08316,Gema Torrecilla Dávila,aurelio57@example.org,,Femenino,2024-01-04,False,"Teléfono inválido, Teléfono ausente"
+CL-08320,Ana Sastre,correo@.com,5801473818147,No especificado,2024-01-30,False,"Email inválido, Género inválido"
+CL-08328,Juanita Manrique Barbero,maribel87@example.org,,No especificado,2025-07-06,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-08330,Elvira Ortega,,6090083118058,Masculino,2025-06-24,False,Email inválido
+CL-08336,Berta Ugarte Palomar,modestoaramburu@example.net,7821358019637,No especificado,2025-04-17,False,Género inválido
+CL-08340,123,,,Masculino,2024-11-22,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-08344,Balduino Acedo Peñalver,victor32@example.org,3483079402455,No especificado,2024-09-09,False,Género inválido
+CL-08350,María Teresa Páez Duarte,@gmail.com,9234452657063,Masculino,2025-01-31,False,Email inválido
+CL-08352,Jose Francisco Alba Aroca,adan56@example.net,,Femenino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-08360,Alondra Rocha Tenorio,,1038505013140,No especificado,2024-10-15,False,"Email inválido, Género inválido"
+CL-08364,Fito Sotelo,miroale@example.net,,Masculino,2024-07-24,False,"Teléfono inválido, Teléfono ausente"
+CL-12861,Felisa Barrera Esteban,albinoestevez@example.com,8196165118450,No especificado,2024-10-21,False,Género inválido
+CL-08370,Heriberto de Cortés,correo@.com,7483055133370,Femenino,2000-01-01,False,Email inválido
+CL-08376,Ignacio Leandro Olivares Aparicio,leonardo62@example.com,,No especificado,2025-02-20,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-08384,Etelvina de Aguilar,jose-maria83@example.com,3997283619035,No especificado,2024-08-13,False,Género inválido
+CL-08392,Eligio Carnero Alberto,adelinaespanol@example.com,4759875477070,No especificado,2023-09-30,False,Género inválido
+CL-12869,,@gmail.com,,No especificado,2025-01-01,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-08412,Ágata Osuna,albertopalomo@example.org,,Masculino,2025-07-26,False,"Teléfono inválido, Teléfono ausente"
+CL-12873,América Cuevas Menéndez,,9648700852355,Masculino,2025-05-09,False,Email inválido
+CL-12874,Candelas Barranco-Ibañez,juan-luis06@example.net,,No especificado,2024-08-31,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-12876,Nilda Olmedo Ferrández,@gmail.com,6457146013140,Femenino,2025-08-21,False,Email inválido
+CL-08436,Victor Gonzalez Egea,pablonunez@example.org,,Femenino,2023-10-15,False,"Teléfono inválido, Teléfono ausente"
+CL-08440,Ariel Soler Agudo,,0744130095428,No especificado,2024-09-08,False,"Email inválido, Género inválido"
+CL-12882,Encarna Quirós Escudero,espanaitziar@example.net,,No especificado,2025-01-03,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-08450,Olga Arce Noguera,,3303124983651,Femenino,2024-08-03,False,Email inválido
+CL-08456,Jesús Rodrigo Sastre,valentinacastellanos@example.org,0189782806651,No especificado,2023-12-03,False,Género inválido
+CL-08460,René Arnau-Alemán,@gmail.com,34958713179,Masculino,2026-01-01,False,Email inválido
+CL-08464,Teresa Marin,coronaestevez@example.net,3869539395899,No especificado,2024-04-15,False,Género inválido
+CL-12889,Irene Cabo Manuel,,1956988449006,Masculino,2024-08-31,False,Email inválido
+CL-08472,Jacobo Heredia-Carrera,maria44@example.org,34847170992,No especificado,2025-07-17,False,Género inválido
+CL-12894,Marcela Luz Aguiló Torrens,@gmail.com,7739692017984,Masculino,2024-10-05,False,Email inválido
+CL-08484,Cesar Diaz Vizcaíno,colllilia@example.org,,Femenino,2025-01-16,False,"Teléfono inválido, Teléfono ausente"
+CL-08488,María Ángeles Domingo Baena,escolanosancho@example.net,4672247564546,No especificado,2024-02-15,False,Género inválido
+CL-08490,,,6290914241534,Femenino,2024-11-02,False,Email inválido
+CL-12899,Priscila Esteve Arcos,ugarteabigail@example.org,34882654083,No especificado,2000-01-01,False,Género inválido
+CL-12900,Herminia Graciana Clemente Coll,,0830250937840,Femenino,2024-12-05,False,Email inválido
+CL-08504,Anselmo Gaya Vega,chus61@example.com,5699140296485,No especificado,2024-02-04,False,Género inválido
+CL-12903,Purificación Nazaret Arjona Romeu,tmendez@example.net,,Masculino,2025-05-18,False,"Teléfono inválido, Teléfono ausente"
+CL-12905,Vinicio Madrid Jimenez,juanitabaez@example.org,8940193180235,No especificado,2024-04-22,False,Género inválido
+CL-12910,Albano Serra Arregui,,,No especificado,2024-12-29,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-08528,Morena Blanco-Cases,dmontes@example.com,6459568847518,No especificado,2025-01-13,False,Género inválido
+CL-12914,Mónica Mayoral Pombo,@gmail.com,0911867734555,Femenino,2024-03-23,False,Email inválido
+CL-12917,Candelaria Barón Grau,josepvilaplana@example.com,9757540071221,No especificado,2025-06-02,False,Género inválido
+CL-12920,José Ángel Vicens Azcona,,8153490650342,Masculino,2025-01-10,False,Email inválido
+CL-08544,Leocadia Cerdán Lasa,bernardita74@example.net,,No especificado,2024-09-14,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-08552,María Teresa Iriarte Lumbreras,dllanos@example.net,5419984572709,No especificado,2023-12-10,False,Género inválido
+CL-12925,Florina Agustí-Espejo,cbello@example.net,,Masculino,2025-02-11,False,"Teléfono inválido, Teléfono ausente"
+CL-12927,Ignacia Vilar Villaverde,,9317331993582,No especificado,2023-11-05,False,"Email inválido, Género inválido"
+CL-08568,Pascual Guitart Sosa,jordanedelmira@example.com,,Masculino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-08570,Salvador Vergara,correo@.com,8555874425015,Femenino,2024-03-12,False,Email inválido
+CL-08584,Crescencia del Cabo,cgallo@example.com,8814472347381,No especificado,2024-05-21,False,Género inválido
+CL-12937,Domitila Dora Durán Lladó,millanbegona@example.com,,No especificado,2023-12-17,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-08600,Esmeralda Jaume Palau,correo@.com,1774944576261,No especificado,2023-11-26,False,"Email inválido, Género inválido"
+CL-12940,Ale Berrocal Ayuso,rescribano@example.com,7349277226131,No especificado,2024-06-30,False,Género inválido
+CL-12941,,correo@.com,2222265354788,Masculino,2023-12-15,False,Email inválido
+CL-08616,Carla Castro Plana,gpedro@example.net,34878843103,No especificado,2024-08-17,False,Género inválido
+CL-08620,Pío Aguiló Vilaplana,,6598768717587,Masculino,2023-11-23,False,Email inválido
+CL-12944,Ágata Durán Marí,pilar57@example.com,9670067294082,No especificado,2023-12-14,False,Género inválido
+CL-12947,Pepita Barbero Palomo,uarana@example.com,1869333008107,No especificado,2024-01-28,False,Género inválido
+CL-08640,@Oliver,,,No especificado,2026-01-01,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-08650,Joaquina Larrañaga Cárdenas,,2858705051916,Femenino,2024-09-17,False,Email inválido
+CL-08652,Mateo Velázquez Lopez,lopezrosalia@example.com,,Femenino,2024-10-29,False,"Teléfono inválido, Teléfono ausente"
+CL-08664,Sandalio Gallego Nogueira,macarenamiralles@example.net,,No especificado,2024-08-04,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-08670,@Oliver,correo@.com,9055596643460,Femenino,2024-03-10,False,Email inválido
+CL-12961,Fabiola España Arcos,julia81@example.org,,Femenino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-08680,Calixta Ana Sofía Aramburu Macias,correo@.com,7123497772896,Femenino,2024-09-06,False,Email inválido
+CL-08688,Toribio Hernando Lara,brunildachaparro@example.com,,Masculino,2025-08-17,False,"Teléfono inválido, Teléfono ausente"
+CL-12967,Merche de Azorin,correo@.com,3704460981129,Masculino,2023-09-23,False,Email inválido
+CL-12971,Herberto Guardia Elías,,34861135405,Masculino,2024-12-08,False,Email inválido
+CL-08710,Wálter Ramos Morán,correo@.com,6239077203191,Femenino,2024-01-31,False,Email inválido
+CL-08712,Marciano Segovia Barragán,rhuertas@example.com,,No especificado,2000-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-12979,Andrea Cantón Toledo,@gmail.com,5335623699220,Masculino,2023-10-06,False,Email inválido
+CL-08724,Adán Morán,salgadolucila@example.com,,Femenino,2024-12-26,False,"Teléfono inválido, Teléfono ausente"
+CL-08730,@Oliver,,1212817307529,Femenino,2026-01-01,False,Email inválido
+CL-08736,Odalis Cayetana Nicolás Ramón,rzabaleta@example.org,,Femenino,2024-05-14,False,"Teléfono inválido, Teléfono ausente"
+CL-12985,Natividad Benitez Juan,@gmail.com,7923424404811,Femenino,2024-05-22,False,Email inválido
+CL-08744,Eufemia Ayala Godoy,olivergeronimo@example.net,9403387962842,No especificado,2024-06-19,False,Género inválido
+CL-08748,Jose Angel Fabricio Alsina Avilés,micaelapuerta@example.org,,Femenino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-12989,Miguela Bonilla,correo@.com,2743835698421,Masculino,2025-08-04,False,Email inválido
+CL-08752,Victoria Prats Cózar,perelloadriana@example.net,3754455001181,No especificado,2024-05-03,False,Género inválido
+CL-12993,123,,,No especificado,2025-05-28,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-08772,Jose Carlos Cañellas Ródenas,vivianaordonez@example.com,,Femenino,2023-09-02,False,"Teléfono inválido, Teléfono ausente"
+CL-08776,Sofía Llorens Paz,edmundo20@example.com,2272613297663,No especificado,2024-05-08,False,Género inválido
+CL-08780,Maxi Camacho Cuervo,,6482498865953,Masculino,2024-02-12,False,Email inválido
+CL-08784,Gregorio Sanz,alondra06@example.org,,No especificado,2000-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-08790,Julio Pallarès Rius,,8503510164916,Masculino,2025-04-18,False,Email inválido
+CL-08792,Edgardo del Blázquez,cristian89@example.org,2225529541239,No especificado,2024-04-29,False,Género inválido
+CL-13004,Aarón Juan Pablo Morata Escamilla,roxana66@example.com,,Femenino,2025-06-05,False,"Teléfono inválido, Teléfono ausente"
+CL-08800,Severino Cámara Peral,correo@.com,7803889883698,No especificado,2023-10-03,False,"Email inválido, Género inválido"
+CL-08810,Rolando Cuenca Diego,correo@.com,3170628959743,Femenino,2024-04-09,False,Email inválido
+CL-13010,Celia Adelaida Pera Pineda,dsanchez@example.com,3123942346116,No especificado,2025-08-03,False,Género inválido
+CL-13013,@Oliver,,34885787021,Masculino,2026-01-01,False,Email inválido
+CL-08830,Amada Gárate Montaña,correo@.com,8441079682870,Femenino,2024-04-04,False,Email inválido
+CL-08832,Silvia Tejedor-Buendía,pinamelisa@example.org,,No especificado,2024-10-15,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-13021,Joan Asenjo Nieto,viriarte@example.com,6754865172790,No especificado,2024-06-15,False,Género inválido
+CL-13023,Leocadio Gutierrez Tomás,nuriaserna@example.net,,Femenino,2023-11-06,False,"Teléfono inválido, Teléfono ausente"
+CL-13024,Germán Tamarit-Alcalde,correo@.com,7706295487041,Masculino,2024-07-16,False,Email inválido
+CL-13027,Ovidio Laguna-Arellano,tellezaugusto@example.org,,Femenino,2024-07-15,False,"Teléfono inválido, Teléfono ausente"
+CL-08864,Humberto Muro Arenas,elpidio48@example.org,3409037606262,No especificado,2023-10-11,False,Género inválido
+CL-08868,César Lasa Ureña,reguerahoracio@example.com,,Masculino,2025-04-30,False,"Teléfono inválido, Teléfono ausente"
+CL-08870,Juan Antonio Palomares Esteban,correo@.com,5176539600562,Femenino,2024-02-08,False,Email inválido
+CL-08880,@Oliver,@gmail.com,,No especificado,2024-08-17,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-08888,Melisa Folch-Blanco,arielpascual@example.org,7972350516398,No especificado,2023-11-09,False,Género inválido
+CL-08890,Petrona Pastora Prat Álvaro,correo@.com,9765677187259,Masculino,2024-08-16,False,Email inválido
+CL-08896,Nilo Gracia Rubio,gascongema@example.net,5971728746509,No especificado,2025-03-14,False,Género inválido
+CL-08900,Eugenio Alegre Marquez,correo@.com,1364937998713,Femenino,2024-01-06,False,Email inválido
+CL-13034,Judith Sáez Carro,tatiana66@example.org,,Femenino,2024-06-23,False,"Teléfono inválido, Teléfono ausente"
+CL-13037,@Oliver,correo@.com,5889778745919,Femenino,2026-01-01,False,Email inválido
+CL-08912,Leoncio Díaz,ygalvan@example.org,0050685765529,No especificado,2024-05-16,False,Género inválido
+CL-08916,Jose Ignacio Arribas Almazán,pinedorosa-maria@example.com,,Femenino,2024-07-02,False,"Teléfono inválido, Teléfono ausente"
+CL-13039,Raimundo Sánchez Mendizábal,@gmail.com,6319267230692,No especificado,2024-06-03,False,"Email inválido, Género inválido"
+CL-08928,Luz Alcalá-Elorza,zsanz@example.net,,No especificado,2025-05-08,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-08930,Nereida Pallarès,correo@.com,8338804449185,Femenino,2024-10-25,False,Email inválido
+CL-13048,@Oliver,,,Masculino,2025-08-23,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-08944,Marisol de Bilbao,trinisedano@example.com,6221704017058,No especificado,2025-01-29,False,Género inválido
+CL-08950,Gustavo Olivera Azorin,,7841859684020,Masculino,2025-08-23,False,Email inválido
+CL-08952,Jose Antonio Eliseo Roldan España,isaurapalmer@example.com,,No especificado,2025-02-11,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-08960,Imelda Calatayud Coca,,5330465859710,No especificado,2025-03-05,False,"Email inválido, Género inválido"
+CL-08964,Sigfrido Navarrete Calvet,wpina@example.org,,Masculino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-13057,María José Estrella Sanz Bayón,beltrantoni@example.org,1104303595219,No especificado,2024-03-12,False,Género inválido
+CL-08970,123,correo@.com,6333569768010,Masculino,2025-06-23,False,Email inválido
+CL-08988,Charo Montes Cazorla,bbravo@example.org,,Femenino,2025-08-02,False,"Teléfono inválido, Teléfono ausente"
+CL-08990,Candelario Julián,correo@.com,1438312953166,Masculino,2024-10-23,False,Email inválido
+CL-13069,@Oliver,correo@.com,,No especificado,2000-01-01,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-09008,Jose Angel Bas Gomis,echeverriaemilia@example.net,0511371094811,No especificado,2024-08-16,False,Género inválido
+CL-13072,Vera Guzmán Gras,@gmail.com,6226557041149,Masculino,2024-04-25,False,Email inválido
+CL-09012,Flor Canales-Gelabert,anitasales@example.org,,Femenino,2025-04-15,False,"Teléfono inválido, Teléfono ausente"
+CL-09016,Teodora Ariza Pazos,lucho40@example.com,0318661305741,No especificado,2024-03-04,False,Género inválido
+CL-09024,Marcelino Vallejo Alcolea,ramiro87@example.net,,No especificado,2025-08-17,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-09032,Esperanza Roca-Sandoval,alonsonilda@example.net,5551941048879,No especificado,2025-01-31,False,Género inválido
+CL-09036,Reynaldo Wálter Tomé Avilés,quintanillafelipe@example.org,,Femenino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-13078,Fito Sanabria Cortina,correo@.com,8143137355621,No especificado,2024-06-03,False,"Email inválido, Género inválido"
+CL-09048,Osvaldo Salvador Aranda,djerez@example.net,,No especificado,2024-08-27,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-09050,Joaquina Lidia Frutos Cardona,correo@.com,6999390965505,Femenino,2024-12-14,False,Email inválido
+CL-13083,Calixto Diéguez Morata,kreig@example.net,1037605493913,No especificado,2024-11-06,False,Género inválido
+CL-13085,Félix Vives Balaguer,,,Masculino,2024-05-10,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-13087,Adolfo Font,narvaezesteban@example.org,9494153919697,No especificado,2024-06-14,False,Género inválido
+CL-13089,María Teresa León Ojeda,araceligoicoechea@example.com,,No especificado,2026-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-13093,Filomena del Saez,correo@.com,3879550878115,Femenino,2024-08-30,False,Email inválido
+CL-09088,Ruperto Galván,fromero@example.net,8499907415132,No especificado,2024-04-27,False,Género inválido
+CL-13095,123,correo@.com,4960676394273,Femenino,2000-01-01,False,Email inválido
+CL-09096,Renato León Novoa Martín,isabelenriquez@example.com,,No especificado,2025-01-15,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-13099,Crescencia Nogueira Verdugo,@gmail.com,8330268510794,Masculino,2024-06-05,False,Email inválido
+CL-09108,Rosario Amores-Herranz,raimundo70@example.com,,Femenino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-13102,Vera Marti Mora,correo@.com,0602148078470,Femenino,2023-10-31,False,Email inválido
+CL-13104,Andrés Iriarte-Álamo,trillomatilde@example.com,4543486920476,No especificado,2024-06-16,False,Género inválido
+CL-13106,,saavedrafabian@example.org,,Femenino,2025-08-04,False,"Teléfono inválido, Teléfono ausente"
+CL-13112,Tere Valdés,palomagras@example.com,9670448798475,No especificado,2025-06-28,False,Género inválido
+CL-09130,Rosalinda Castellanos-Chaves,,6962801143570,Femenino,2025-03-03,False,Email inválido
+CL-09136,Flavio Alarcón Zurita,miguela94@example.org,6884331282884,No especificado,2024-03-11,False,Género inválido
+CL-09140,Regina Bonilla Salinas,,1146006030702,Masculino,2023-12-31,False,Email inválido
+CL-09144,Crescencia del Acosta,aznarpepito@example.com,34876894304,No especificado,2026-01-01,False,Género inválido
+CL-09150,@Oliver,@gmail.com,0899471981549,Femenino,2025-07-16,False,Email inválido
+CL-13123,Amando Carvajal-Perelló,,2968339832379,No especificado,2024-07-22,False,"Email inválido, Género inválido"
+CL-13125,Moreno Aller-Borrell,simon06@example.net,34980139571,No especificado,2025-02-18,False,Género inválido
+CL-13126,Román Olmedo,,1746991013963,Femenino,2023-10-04,False,Email inválido
+CL-09176,Adelina Lara Carvajal,virgiliochamorro@example.net,3856467654193,No especificado,2024-01-03,False,Género inválido
+CL-13129,@Oliver,amarilistejero@example.net,,Masculino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-13131,Feliciana Monreal Sureda,cbarbera@example.net,3745575655542,No especificado,2024-10-27,False,Género inválido
+CL-09190,Primitiva Guerrero Marín,correo@.com,1632517820815,Femenino,2025-04-19,False,Email inválido
+CL-13133,Carlos Venceslás Recio García,victorarenas@example.org,,Femenino,2024-02-20,False,"Teléfono inválido, Teléfono ausente"
+CL-09200,Saturnino Vargas Álvarez,,6782114608221,No especificado,2024-02-04,False,"Email inválido, Género inválido"
+CL-09204,José Manuel Iriarte Torre,felipa97@example.net,,Femenino,2023-12-10,False,"Teléfono inválido, Teléfono ausente"
+CL-09210,123,,9406340012551,Femenino,2024-01-16,False,Email inválido
+CL-13138,Miguel Ángel Vilanova Corral,zmontserrat@example.com,,Femenino,2024-04-27,False,"Teléfono inválido, Teléfono ausente"
+CL-13140,Florentino Uribe Torre,correo@.com,6395533036308,Femenino,2025-05-09,False,Email inválido
+CL-09228,Amor Capdevila-Pardo,pujadasolivia@example.net,,Masculino,2025-08-02,False,"Teléfono inválido, Teléfono ausente"
+CL-13146,Ciro Marco Verdú Salom,@gmail.com,2325450062462,Femenino,2024-08-07,False,Email inválido
+CL-13149,Marciano Andrade Noguera,,,No especificado,2023-11-01,False,"Email inválido, Teléfono inválido, Género inválido, Teléfono ausente"
+CL-13155,Martin Corbacho Codina,correo@.com,7845873607492,Masculino,2024-01-27,False,Email inválido
+CL-09252,Fabián Arregui Sáez,graciela86@example.org,,Femenino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-09260,Celso Ojeda Conde,,3642196653003,Masculino,2024-08-10,False,Email inválido
+CL-09264,Samanta Diéguez Pi,migueladelia@example.net,,No especificado,2024-06-22,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-09270,,,3025373889714,Masculino,2024-12-15,False,Email inválido
+CL-13167,Elías Fonseca-Hoz,guerreroirma@example.org,,Masculino,2025-05-14,False,"Teléfono inválido, Teléfono ausente"
+CL-13169,Ligia Lupe Osuna Chaves,,6839294220222,Masculino,2024-03-14,False,Email inválido
+CL-13173,Trini Mínguez-Pérez,pizarrogalo@example.com,,No especificado,2000-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-09290,Geraldo Soler Zamora,correo@.com,9270741339760,Masculino,2025-04-25,False,Email inválido
+CL-13177,,correo@.com,,Femenino,2024-10-12,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-09310,Marc Rivero,,0496585919801,Femenino,2024-01-09,False,Email inválido
+CL-09312,Moreno Villar Fabra,roxana34@example.net,,No especificado,2024-10-22,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-13184,Julián Pancho Caro Yáñez,,6754967595761,No especificado,2025-04-27,False,"Email inválido, Género inválido"
+CL-13187,Emilia Angulo Larrea,geraldo48@example.org,,Masculino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-09328,Goyo Caparrós Pavón,bonillaiker@example.net,6837866177764,No especificado,2024-09-03,False,Género inválido
+CL-09330,123,,8577914437021,Femenino,2024-05-18,False,Email inválido
+CL-09336,Brígida Gabriela Almazán Bernal,asalvador@example.org,,No especificado,2023-10-07,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-09344,Soledad Villegas Quero,sofiavinas@example.net,1254031564214,No especificado,2023-12-25,False,Género inválido
+CL-13196,Iván Barriga Madrid,jose-mari65@example.org,,Femenino,2024-06-10,False,"Teléfono inválido, Teléfono ausente"
+CL-09350,Virgilio de Julián,@gmail.com,6734365023927,Femenino,2025-05-03,False,Email inválido
+CL-13198,Edelmira Benitez Olmo,marquezmaria-pilar@example.org,2048840415526,No especificado,2025-03-06,False,Género inválido
+CL-13201,,@gmail.com,,Femenino,2026-01-01,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-13205,Violeta Jimenez,valentinaamador@example.org,2712497950381,No especificado,2024-09-07,False,Género inválido
+CL-13206,Lope Esparza-Río,correo@.com,0154294849381,Femenino,2025-06-26,False,Email inválido
+CL-13211,Elías Herrera Giner,correo@.com,1605129780919,Masculino,2025-04-18,False,Email inválido
+CL-09384,Hugo Hoyos Anglada,paz12@example.org,,No especificado,2025-05-04,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-09390,123,correo@.com,8233742037125,Femenino,2025-03-06,False,Email inválido
+CL-09396,Isaías Cerdá Gallego,bienvenidachamorro@example.org,,Femenino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-13218,Severino Carrión Ibañez,genoveva12@example.org,0515007282520,No especificado,2024-08-22,False,Género inválido
+CL-09408,Severo de Rius,quevedoemiliana@example.com,,No especificado,2025-06-10,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-09410,Elías Blanes Serra,correo@.com,0345649648315,Femenino,2024-08-15,False,Email inválido
+CL-09416,María Fernanda Tomás Moliner,teresalara@example.net,7400352508526,No especificado,2023-12-22,False,Género inválido
+CL-09420,,correo@.com,,Masculino,2025-02-08,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-13225,Azahar Fabra Alcántara,,6754282929699,Femenino,2025-02-07,False,Email inválido
+CL-13226,Tere Ugarte-Benítez,luciana39@example.org,,Femenino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-13230,Hugo Perales,correo@.com,8018275383874,Masculino,2024-01-17,False,Email inválido
+CL-09444,Griselda Goñi Noriega,umoreno@example.net,,Masculino,2023-11-03,False,"Teléfono inválido, Teléfono ausente"
+CL-09450,@Oliver,@gmail.com,3473246546565,Masculino,2000-01-01,False,Email inválido
+CL-09460,Adalberto Alberola Vara,correo@.com,0866462895898,Masculino,2025-08-03,False,Email inválido
+CL-09464,Laura Comas-Polo,benaventefanny@example.org,6581357084471,No especificado,2024-04-06,False,Género inválido
+CL-13240,Primitivo Baró Tena,pedreroale@example.com,,Femenino,2000-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-09472,Amalia Chico-Gálvez,candelaria69@example.com,2110476954145,No especificado,2024-07-29,False,Género inválido
+CL-13245,123,chucho01@example.org,,No especificado,2024-11-30,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-09488,Epifanio Abellán Arribas,agueda44@example.org,2567292335552,No especificado,2024-06-23,False,Género inválido
+CL-09490,Heliodoro Abellán Valera,,9936015165341,Masculino,2025-03-30,False,Email inválido
+CL-13249,Faustino Felipe Ayuso Gisbert,fajardovictoria@example.com,,Masculino,2025-07-25,False,"Teléfono inválido, Teléfono ausente"
+CL-09496,Celia Amor,joan60@example.com,4199177800134,No especificado,2023-10-29,False,Género inválido
+CL-09500,Anunciación Pedro Luna,,7473653872287,Femenino,2025-03-20,False,Email inválido
+CL-09510,,,2650279146228,Femenino,2024-07-14,False,Email inválido
+CL-13257,Maristela Oliveras Calderón,xblanco@example.net,2268468988233,No especificado,2024-09-18,False,Género inválido
+CL-09516,Celso Cirino Huerta Pou,sduran@example.net,,Femenino,2025-08-20,False,"Teléfono inválido, Teléfono ausente"
+CL-09520,Salomé Salcedo-Guerrero,german63@example.net,4925186471498,No especificado,2025-01-15,False,Género inválido
+CL-09528,Gloria Company-Pedrosa,corraljose-manuel@example.org,,Femenino,2024-08-27,False,"Teléfono inválido, Teléfono ausente"
+CL-13267,Virginia Gual Sancho,@gmail.com,0380039893985,Femenino,2023-10-13,False,Email inválido
+CL-13273,@Oliver,@gmail.com,34727994012,Masculino,2024-02-16,False,Email inválido
+CL-09550,Gertrudis Valbuena Serrano,,4967596446333,Femenino,2025-03-31,False,Email inválido
+CL-09552,Renato Santiago-Gálvez,bernardita68@example.net,,No especificado,2024-07-19,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-13282,Sigfrido Cuadrado Corbacho,,3422555970625,No especificado,2024-05-14,False,"Email inválido, Género inválido"
+CL-13284,Samanta Hidalgo Frías,lidia53@example.org,,Femenino,2025-07-18,False,"Teléfono inválido, Teléfono ausente"
+CL-09570,Brunilda del Arteaga,@gmail.com,1340260576016,Femenino,2024-06-10,False,Email inválido
+CL-09576,Hipólito Dominguez Aranda,nquintanilla@example.com,,No especificado,2000-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-09580,Jose Antonio Moreno Sala Melero,@gmail.com,0630292495615,Femenino,2023-09-08,False,Email inválido
+CL-13291,María Carmen Coello Morán,rupertacampo@example.org,,Femenino,2024-04-04,False,"Teléfono inválido, Teléfono ausente"
+CL-09590,Donato Acevedo Cerdán,correo@.com,3853254964145,Femenino,2025-06-15,False,Email inválido
+CL-13295,@Oliver,@gmail.com,,Masculino,2024-08-23,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-09608,Gastón Ibañez Vicens,azahara90@example.com,7426452939892,No especificado,2024-04-03,False,Género inválido
+CL-13297,Amaya Hervás,@gmail.com,0669673314731,Masculino,2024-09-18,False,Email inválido
+CL-09612,Gilberto del Azcona,villaloboslourdes@example.net,,Femenino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-13300,Victoriano Mancebo Armas,ddonoso@example.com,1102911932430,No especificado,2024-06-14,False,Género inválido
+CL-09624,Guiomar de Lasa,roviraurbano@example.org,,No especificado,2025-02-09,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-13309,Alondra del Valero,octavia29@example.net,,Femenino,2024-01-10,False,"Teléfono inválido, Teléfono ausente"
+CL-13311,Vanesa Figueroa Marin,correo@.com,4421075549183,Masculino,2024-05-23,False,Email inválido
+CL-09648,Mireia Beltran Navarrete,manoloaguado@example.com,,No especificado,2025-05-22,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-09656,Martina Porras Canales,salomecarmona@example.net,5171818437491,No especificado,2023-10-04,False,Género inválido
+CL-13318,,@gmail.com,,Masculino,2024-08-20,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-09670,Susanita Rita Iglesia Chaves,@gmail.com,6336552256361,Femenino,2024-12-14,False,Email inválido
+CL-09672,Jorge Jerez Montenegro,leocadiabenitez@example.com,34952462316,No especificado,2024-11-16,False,Género inválido
+CL-13321,Cipriano Sebastián Barón Arenas,correo@.com,9935693048739,No especificado,2025-04-04,False,"Email inválido, Género inválido"
+CL-13323,Alejandro Gomez Sastre,onunez@example.net,,Femenino,2025-03-13,False,"Teléfono inválido, Teléfono ausente"
+CL-09688,Leocadia Ibarra Nogués,lorenagalindo@example.net,6791673571370,No especificado,2023-10-01,False,Género inválido
+CL-09690,123,@gmail.com,8139372499095,Masculino,2024-01-20,False,Email inválido
+CL-09696,Efraín Pinto Vilaplana,fabiana29@example.com,,Femenino,2025-07-09,False,"Teléfono inválido, Teléfono ausente"
+CL-09704,Violeta Araujo-Seco,fustermaria-angeles@example.org,9441100358266,No especificado,2024-07-02,False,Género inválido
+CL-09708,Rosario Dorita Llorens Bayona,alvarosantos@example.com,,Femenino,2024-06-03,False,"Teléfono inválido, Teléfono ausente"
+CL-09710,Alejandra Cabrero,,3399724655465,Femenino,2025-05-06,False,Email inválido
+CL-09712,Ibán Anaya Tejada,castellruy@example.org,9102886896803,No especificado,2023-08-26,False,Género inválido
+CL-09720,Quique Garcia Coca,correo@.com,,Femenino,2026-01-01,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-09728,Cruz Báez Vives,aranzazugalindo@example.org,9880321055501,No especificado,2025-03-30,False,Género inválido
+CL-09730,Leyre de Ramos,correo@.com,6360795940432,Femenino,2024-05-30,False,Email inválido
+CL-09732,León Santiago Verdú,arsenio08@example.com,,Femenino,2024-06-05,False,"Teléfono inválido, Teléfono ausente"
+CL-13339,Candela Sastre Blanco,,6781637131774,Masculino,2025-03-09,False,Email inválido
+CL-09744,Antonio Bastida Ferrández,vmadrid@example.net,,Masculino,2025-02-16,False,"Teléfono inválido, Teléfono ausente"
+CL-09750,123,,8677852545249,Femenino,2025-06-24,False,Email inválido
+CL-09752,María Fernanda Pinto Alfonso,fabiolavilaplana@example.net,4168450950286,No especificado,2024-03-11,False,Género inválido
+CL-13344,Cebrián Arsenio Nebot Maestre,heraclio24@example.org,,Femenino,2024-06-17,False,"Teléfono inválido, Teléfono ausente"
+CL-13346,Juan Martí Estrada,,3648858482297,No especificado,2024-12-14,False,"Email inválido, Género inválido"
+CL-09768,Ambrosio Fausto Ortuño Nicolau,urebollo@example.com,,No especificado,2025-07-30,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-09770,Rodrigo Aroca-Pi,@gmail.com,8571629102488,Femenino,2024-01-14,False,Email inválido
+CL-09776,Epifanio Cañellas,bustosnatividad@example.org,2821069201472,No especificado,2025-06-08,False,Género inválido
+CL-13356,Amor Rodrigo Hierro,,34976515611,Femenino,2024-03-28,False,Email inválido
+CL-09790,Noemí Marianela Batalla Mariscal,@gmail.com,9526304966939,Masculino,2024-03-15,False,Email inválido
+CL-09792,Martina Galiano Galan,ehuertas@example.org,,No especificado,2026-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-09800,Timoteo Cabello Aznar,,0718013628322,Femenino,2025-02-10,False,Email inválido
+CL-13366,Julián Mariscal Dueñas,esteveznayara@example.com,,Masculino,2025-06-17,False,"Teléfono inválido, Teléfono ausente"
+CL-09810,123,,7887846287512,Masculino,2000-01-01,False,Email inválido
+CL-09816,Anastasia Piquer,matiasvillalba@example.com,,No especificado,2025-05-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-13375,Atilio Baltasar Lumbreras Jordá,desiderio19@example.org,,Masculino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-13377,Visitación Calzada Luz,,7587216642301,Femenino,2024-05-18,False,Email inválido
+CL-13381,123,@gmail.com,34715754844,No especificado,2025-02-03,False,"Email inválido, Género inválido"
+CL-09848,Cristina Tena,ztena@example.org,9716987697498,No especificado,2025-01-23,False,Género inválido
+CL-13383,Genoveva Guzman Casares,correo@.com,7272530290283,Femenino,2023-10-29,False,Email inválido
+CL-09856,Aureliano Viñas Navarrete,ciriaco29@example.org,4865990981567,No especificado,2024-11-01,False,Género inválido
+CL-13386,Nilda Cervantes Meléndez,correo@.com,3807223363823,Femenino,2024-07-21,False,Email inválido
+CL-09864,Sigfrido Cobos Bolaños,modesta44@example.net,,No especificado,2026-01-01,False,"Teléfono inválido, Género inválido, Teléfono ausente"
+CL-09870,,,4668110386118,Masculino,2024-08-26,False,Email inválido
+CL-09872,Rocío Cisneros Cervera,tcortes@example.com,9395852280818,No especificado,2024-04-22,False,Género inválido
+CL-09876,Elpidio Cid Aller,catalinagonzalez@example.net,,Masculino,2024-09-18,False,"Teléfono inválido, Teléfono ausente"
+CL-09888,Eric Casado Valbuena,florchaparro@example.com,34846593470,No especificado,2025-05-28,False,Género inválido
+CL-09890,Jovita Encarnita Lobo Estrada,,9156316140855,Femenino,2024-06-19,False,Email inválido
+CL-13396,Gabriel Marti Luís,carpioloida@example.com,5013426268269,No especificado,2024-09-19,False,Género inválido
+CL-13398,123,,,Masculino,2024-11-05,False,"Email inválido, Teléfono inválido, Teléfono ausente"
+CL-09904,Ester Santana Bastida,hsancho@example.com,9606420480438,No especificado,2025-02-12,False,Género inválido
+CL-13404,Gilberto Tomás Jiménez,amparo36@example.net,34922884547,No especificado,2024-05-03,False,Género inválido
+CL-13407,Febe Odalys Rius Nebot,,7338156815855,No especificado,2024-04-24,False,"Email inválido, Género inválido"
+CL-09924,Zaira Bilbao Anguita,aquiros@example.org,,Femenino,2023-12-25,False,"Teléfono inválido, Teléfono ausente"
+CL-09928,Candelas Herrero Pi,qcaballero@example.net,4614472719167,No especificado,2025-06-28,False,Género inválido
+CL-09936,Aurelio Sosa-Reina,dalmeida@example.net,,Masculino,2023-09-06,False,"Teléfono inválido, Teléfono ausente"
+CL-13418,Débora Merino Cobos,siborra@example.org,,Masculino,2025-02-11,False,"Teléfono inválido, Teléfono ausente"
+CL-09950,Pedro Garrido-Yáñez,,9038642805489,Masculino,2024-06-20,False,Email inválido
+CL-09952,Jennifer Méndez Puig,cristiansalvador@example.com,9144927910884,No especificado,2024-11-17,False,Género inválido
+CL-09960,123,@gmail.com,34946040622,No especificado,2024-12-27,False,"Email inválido, Género inválido"
+CL-09968,Pilar del Romeu,xmontes@example.com,0962062645623,No especificado,2024-09-02,False,Género inválido
+CL-09972,Porfirio Corral Coll,arenaspiedad@example.org,,Masculino,2026-01-01,False,"Teléfono inválido, Teléfono ausente"
+CL-09976,Marcia Rebollo Posada,ribesperla@example.org,7547646667323,No especificado,2024-05-11,False,Género inválido
+CL-13427,José Mari Esteban Cuadrado Feijoo,@gmail.com,6181910576567,Femenino,2024-05-28,False,Email inválido
+CL-09984,Anna Juan Riba,uriartesergio@example.org,34965395015,No especificado,2024-01-19,False,Género inválido
+CL-09990,123,,0209840489307,Masculino,2025-02-16,False,Email inválido
+CL-09992,Josep Carmona Noguera,ealler@example.net,3515597013382,No especificado,2024-07-09,False,Género inválido
+CL-09996,María Dolores Florencia Saavedra Marí,tomasagallart@example.org,,Femenino,2024-06-02,False,"Teléfono inválido, Teléfono ausente"
+CL-13435,Seve Ribas Madrid,correo@.com,0634148244712,No especificado,2025-07-05,False,"Email inválido, Género inválido"

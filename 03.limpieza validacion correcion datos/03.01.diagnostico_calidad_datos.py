@@ -1,179 +1,142 @@
+# 📦 Importación de librerías
 import pandas as pd
 import re
 from datetime import datetime
 import matplotlib.pyplot as plt
 import seaborn as sns
-import plotly.express as px
 
+# 📁 Carga de datos
+RUTA_ARCHIVO = "02.descargable/CSV/02.CSV con errores/clientesError.csv"
+df_clientes = pd.read_csv(RUTA_ARCHIVO, encoding='utf-8-sig')
 
-# Cargar sucursales
-df_clientes_erroneos = pd.read_csv("02.descargable/CSV/02.CSV con errores/clientesError.csv", encoding='utf-8-sig')
-
-print(df_clientes_erroneos.head())
-
-# Validacion de Datos
+# ✅ Funciones de validación
 def validar_id(val): return bool(re.match(r"^CL-\d{5}$", str(val)))
 def validar_email(val): return bool(re.match(r"^[\w\.-]+@[\w\.-]+\.\w+$", str(val)))
 def validar_telefono(val): return bool(re.match(r"^\d{10,15}$", re.sub(r"\D", "", str(val))))
 def validar_fecha(val):
-    try: datetime.strptime(str(val), "%Y-%m-%d"); return True
-    except: return False
+    try:
+        datetime.strptime(str(val), "%Y-%m-%d")
+        return True
+    except:
+        return False
 
-valores_genero_validos = ["Femenino", "Masculino"]
+# 🎯 Validación de registros
+VALORES_GENERO_VALIDOS = ["Femenino", "Masculino"]
 
-# Series de errores
-sintacticos = df_clientes_erroneos.apply(lambda row: not validar_id(row['client_id']) or
-                                    not validar_email(row['email']) or
-                                    not validar_telefono(row['telefono']) or
-                                    not validar_fecha(row['fecha_registro']), axis=1)
-semanticos = ~df_clientes_erroneos['genero'].isin(valores_genero_validos)
-faltantes = df_clientes_erroneos.isnull().any(axis=1)
-duplicados = df_clientes_erroneos.duplicated()
-
-# DataFrame de errores
 errores_df = pd.DataFrame({
-    'sintactico': sintacticos,
-    'semantico': semanticos,
-    'faltante': faltantes,
-    'duplicado': duplicados
+    'id_invalido': ~df_clientes['client_id'].apply(validar_id),
+    'email_invalido': ~df_clientes['email'].apply(validar_email),
+    'telefono_invalido': ~df_clientes['telefono'].apply(validar_telefono),
+    'fecha_invalida': ~df_clientes['fecha_registro'].apply(validar_fecha),
+    'semantico': ~df_clientes['genero'].isin(VALORES_GENERO_VALIDOS),
+    'faltante': df_clientes.isnull().any(axis=1),
+    'duplicado': df_clientes.duplicated()
 })
-errores_df['total_errores'] = errores_df.sum(axis=1)
 
-# Distribución de errores por registro
+# 🧮 Cálculo de errores sintácticos por registro
+errores_df['sintactico'] = errores_df[['id_invalido', 'email_invalido', 'telefono_invalido', 'fecha_invalida']].any(axis=1)
+errores_df['total_errores'] = errores_df[['sintactico', 'semantico', 'faltante', 'duplicado']].sum(axis=1)
+
+# 📊 Clasificación por gravedad
+def clasificar_gravedad(n):
+    if n >= 3: return "Alta"
+    elif n == 2: return "Media"
+    elif n == 1: return "Baja"
+    else: return "Sin errores"
+
+errores_df['gravedad'] = errores_df['total_errores'].apply(clasificar_gravedad)
+
+# 📈 Distribución de errores por registro
 distribucion = errores_df['total_errores'].value_counts().sort_index()
-print("\nDistribución de errores por registro:")
-for errores, cantidad in distribucion.items():
-    print(f"{errores} error(es): {cantidad} registro(s)")
-
-# Gráfico de distribución
-# Colores personalizados
-colores = ['skyblue'] * len(distribucion)
-colores[0] = 'green'  # La primera barra (índice 0) será verde
-
-plt.figure(figsize=(10,6))
-bars = plt.bar(distribucion.index, distribucion.values, color=colores, edgecolor='black')
-
-# Etiquetas centradas en cada barra
+plt.figure(figsize=(10, 6))
+bars = plt.bar(distribucion.index, distribucion.values, color='skyblue', edgecolor='black')
 for bar in bars:
     yval = bar.get_height()
-    plt.text(bar.get_x() + bar.get_width()/2, yval / 2,
-             str(int(yval)), ha='center', va='center', fontsize=10, fontweight='bold', color='black')
-
-# Anotación del valor máximo (ajustada para no solaparse)
-max_idx = distribucion.index.get_loc(distribucion.idxmax())  # índice posicional del valor máximo
-max_val = distribucion.max()
-plt.annotate(f'{max_val} máximo',
-             xy=(max_idx, max_val),
-             xytext=(max_idx, max_val + 300),
-             arrowprops=dict(facecolor='red', shrink=0.05),
-             fontsize=12, color='red', ha='center')
-
-# Estética
+    plt.text(bar.get_x() + bar.get_width()/2, yval + 5, str(int(yval)), ha='center', va='bottom', fontsize=10, fontweight='bold')
 plt.title("📊 Distribución de errores por registro", fontsize=14, fontweight='bold')
-plt.xlabel("Cantidad de errores en un registro", fontsize=12)
-plt.ylabel("Número de registros", fontsize=12)
-plt.xticks(rotation=0)
+plt.xlabel("Cantidad de errores en un registro")
+plt.ylabel("Número de registros")
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.tight_layout()
 plt.show()
 
-# Tabla resumen por tipo de error
+# 📌 Resumen por tipo de error
 resumen_errores = errores_df[['sintactico', 'semantico', 'faltante', 'duplicado']].sum().reset_index()
 resumen_errores.columns = ['Tipo de error', 'Cantidad de registros']
-print("\nResumen por tipo de error:")
-print(resumen_errores)
-
-# Gráfico por tipo de error
-# Colores: resalta el tipo de error más frecuente
-colores = ['salmon'] * len(resumen_errores)
-max_idx = resumen_errores['Cantidad de registros'].idxmax()
-colores[max_idx] = 'crimson'
-
-plt.figure(figsize=(10,6))
-bars = plt.bar(resumen_errores['Tipo de error'], resumen_errores['Cantidad de registros'], 
-               color=colores, edgecolor='black')
-
-# Etiquetas centradas en cada barra
+plt.figure(figsize=(10, 6))
+bars = plt.bar(resumen_errores['Tipo de error'], resumen_errores['Cantidad de registros'], color='salmon', edgecolor='black')
 for bar in bars:
     yval = bar.get_height()
-    plt.text(bar.get_x() + bar.get_width()/2, yval / 2, 
-             str(int(yval)), ha='center', va='center', fontsize=10, fontweight='bold', color='black')
-
-# Anotación del valor máximo
-max_val = resumen_errores['Cantidad de registros'].max()
-plt.annotate(f'{max_val} máximo',
-             xy=(max_idx, max_val),
-             xytext=(max_idx, max_val + 300),
-             arrowprops=dict(facecolor='red', shrink=0.05),
-             fontsize=12, color='red', ha='center')
-
-# Estética
+    plt.text(bar.get_x() + bar.get_width()/2, yval + 5, str(int(yval)), ha='center', va='bottom', fontsize=10, fontweight='bold')
 plt.title("📌 Cantidad de registros por tipo de error", fontsize=14, fontweight='bold')
-plt.xlabel("Tipo de error", fontsize=12)
-plt.ylabel("Cantidad", fontsize=12)
+plt.xlabel("Tipo de error")
+plt.ylabel("Cantidad")
 plt.xticks(rotation=15)
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.tight_layout()
 plt.show()
 
-# Desglose por tipo y cantidad de errores
+# 📋 Desglose por cantidad de errores
 desglose = []
 for n in sorted(errores_df['total_errores'].unique()):
     subset = errores_df[errores_df['total_errores'] == n]
-    sintactico = subset['sintactico'].sum()
-    semantico = subset['semantico'].sum()
-    faltante = subset['faltante'].sum()
-    duplicado = subset['duplicado'].sum()
     desglose.append({
         'Cantidad de errores': n,
-        'Sintáctico': sintactico,
-        'Semántico': semantico,
-        'Faltante': faltante,
-        'Duplicado': duplicado
+        'Sintáctico': subset['sintactico'].sum(),
+        'Semántico': subset['semantico'].sum(),
+        'Faltante': subset['faltante'].sum(),
+        'Duplicado': subset['duplicado'].sum()
     })
-
 tabla_desglose = pd.DataFrame(desglose)
-print("\nDesglose de errores por tipo y cantidad de errores:")
+print("\n📋 Desglose de errores por tipo y cantidad de errores:")
 print(tabla_desglose)
 
-# Contar errores sintácticos por tipo
+# 🧪 Errores sintácticos por campo
 errores_sintacticos = {
-    'ID inválido': (~df_clientes_erroneos['client_id'].apply(validar_id)).sum(),
-    'Email inválido': (~df_clientes_erroneos['email'].apply(validar_email)).sum(),
-    'Teléfono inválido': (~df_clientes_erroneos['telefono'].apply(validar_telefono)).sum(),
-    'Fecha inválida': (~df_clientes_erroneos['fecha_registro'].apply(validar_fecha)).sum()
+    'ID inválido': errores_df['id_invalido'].sum(),
+    'Email inválido': errores_df['email_invalido'].sum(),
+    'Teléfono inválido': errores_df['telefono_invalido'].sum(),
+    'Fecha inválida': errores_df['fecha_invalida'].sum()
 }
-
-# Calcular total de errores sintácticos
-total_errores_sintacticos = sum(errores_sintacticos.values())
-
-# Mostrar resultados
-print("\nCantidad de errores sintácticos por tipo:")
+print("\n🧪 Cantidad de errores sintácticos por tipo:")
 for tipo, cantidad in errores_sintacticos.items():
     print(f"{tipo}: {cantidad}")
-print(f"\nTotal de errores sintácticos: {total_errores_sintacticos}")
+print(f"Total de errores sintácticos: {sum(errores_sintacticos.values())}")
 
-print("\n📊 Mapa de calor de correlación entre tipos de errores:")
+# 📊 Distribución de errores sintácticos por registro
+errores_df['errores_sintacticos_por_registro'] = errores_df[['id_invalido', 'email_invalido', 'telefono_invalido', 'fecha_invalida']].sum(axis=1)
+distribucion_sintacticos = errores_df['errores_sintacticos_por_registro'].value_counts().sort_index()
+plt.figure(figsize=(10, 6))
+bars = plt.bar(distribucion_sintacticos.index, distribucion_sintacticos.values, color='lightcoral', edgecolor='black')
+for bar in bars:
+    yval = bar.get_height()
+    plt.text(bar.get_x() + bar.get_width()/2, yval + 5, str(int(yval)), ha='center', va='bottom', fontsize=10, fontweight='bold')
+plt.title("📈 Distribución de errores sintácticos por registro", fontsize=14, fontweight='bold')
+plt.xlabel("Cantidad de errores sintácticos en un registro")
+plt.ylabel("Número de registros")
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+plt.tight_layout()
+plt.show()
 
-# Calcular la matriz de correlación y eliminar columnas/filas con NaN
-correlacion = errores_df.corr().dropna(axis=1, how='all').dropna(axis=0, how='all')
-
-# Mostrar la matriz en consola
-print(correlacion)
-
-# Graficar el mapa de calor
-plt.figure(figsize=(8,6))
+# 🔍 Mapa de calor de correlación (excluyendo columna no numérica)
+correlacion = errores_df.drop(columns=['gravedad']).corr().dropna(axis=1, how='all').dropna(axis=0, how='all')
+plt.figure(figsize=(8, 6))
 sns.heatmap(correlacion, annot=True, cmap='coolwarm', fmt=".2f", linewidths=0.5)
 plt.title("🔍 Mapa de calor de correlación entre tipos de errores", fontsize=14, fontweight='bold')
 plt.tight_layout()
 plt.show()
 
+# 📆 Tendencia de errores por mes
+df_clientes['fecha_registro'] = pd.to_datetime(df_clientes['fecha_registro'], errors='coerce')
+errores_por_mes = errores_df.groupby(df_clientes['fecha_registro'].dt.to_period('M')).sum(numeric_only=True)
+errores_por_mes['total_errores'].plot(kind='line', marker='o', figsize=(10, 5), title='📆 Tendencia de errores por mes')
+plt.grid(True)
+plt.tight_layout()
+plt.show()
 
-# Grafico como HTML
-fig = px.bar(resumen_errores, x='Tipo de error', y='Cantidad de registros',
-             color='Cantidad de registros', text='Cantidad de registros',
-             title='Cantidad de registros por tipo de error')
-fig.update_traces(textposition='inside')
+# 📤 Exportación opcional de registros con errores
+df_errores = df_clientes[errores_df['total_errores'] > 0]
+# df_errores.to_csv("clientes_con_errores.csv", index=False)  # ← Descomenta si deseas exportar
 
-# Guardar como HTML
-fig.write_html("grafico_errores.html")
+print("\n✅ Análisis completado.")
+
