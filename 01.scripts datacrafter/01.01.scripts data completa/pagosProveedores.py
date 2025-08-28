@@ -62,10 +62,29 @@ df_pagos_proveedor = pd.DataFrame(pagos)
 # Función para exportar en SQL
 def exportar_sql(df, ruta, nombre_tabla):
     with open(ruta, 'w', encoding='utf-8') as f:
+        # Crear tabla PagosProveedor
+        f.write(f"-- Crear tabla {nombre_tabla}\n")
+        f.write(f"CREATE TABLE {nombre_tabla} (\n")
+        f.write("    pago_id VARCHAR(10) PRIMARY KEY,\n")
+        f.write("    order_proveedor_id VARCHAR(10),\n")
+        f.write("    provider_id VARCHAR(8),\n")
+        f.write("    fecha_orden DATE,\n")
+        f.write("    condicion_pago VARCHAR(20),\n")
+        f.write("    fecha_vencimiento DATE,\n")
+        f.write("    fecha_pago DATE,\n")
+        f.write("    monto_total DECIMAL(12,2),\n")
+        f.write("    estado_pago VARCHAR(20)\n")
+        f.write(");\n\n")
+
+        # Insertar datos
         for _, row in df.iterrows():
-            columnas = ', '.join(df.columns)
-            valores = ', '.join([f"'{str(valor).replace('\'', '\'\'')}'" for valor in row])
+            columnas = ', '.join([col for col in df.columns if col != 'provider_name'])
+            valores = ', '.join([
+                f"'{str(row[col]).replace('\'', '\'\'')}'" if pd.notnull(row[col]) else "NULL"
+                for col in df.columns if col != 'provider_name'
+            ])
             f.write(f"INSERT INTO {nombre_tabla} ({columnas}) VALUES ({valores});\n")
+
 
 # Función para exportar en múltiples formatos
 def exportar_pagos(df, carpeta='02.descargable'):

@@ -47,10 +47,25 @@ df_inventario = pd.DataFrame(inventario)
 # Función para exportar en SQL
 def exportar_sql(df, ruta, nombre_tabla):
     with open(ruta, 'w', encoding='utf-8') as f:
+        # Crear tabla inventario
+        f.write(f"-- Crear tabla {nombre_tabla}\n")
+        f.write(f"CREATE TABLE {nombre_tabla} (\n")
+        f.write("    inventory_id VARCHAR(10) PRIMARY KEY,\n")
+        f.write("    branch_id VARCHAR(8),\n")
+        f.write("    product_id VARCHAR(8),\n")
+        f.write("    stock_actual INT,\n")
+        f.write("    stock_minimo INT,\n")
+        f.write("    fecha_ingreso DATE,\n")
+        f.write("    fecha_actualizacion DATE,\n")
+        f.write("    estado VARCHAR(20)\n")
+        f.write(");\n\n")
+
+        # Insertar datos
         for _, row in df.iterrows():
             columnas = ', '.join(df.columns)
             valores = ', '.join([f"'{str(valor).replace('\'', '\'\'')}'" for valor in row])
             f.write(f"INSERT INTO {nombre_tabla} ({columnas}) VALUES ({valores});\n")
+
 
 # Función para exportar en múltiples formatos
 def exportar_inventario(df, carpeta='02.descargable'):

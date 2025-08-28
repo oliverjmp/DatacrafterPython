@@ -104,6 +104,26 @@ def exportar_clientes(df, carpeta='02.descargable'):
 
 def exportar_sql(df, ruta, nombre_tabla):
     with open(ruta, 'w', encoding='utf-8') as f:
+        # 🏗️ Crear tabla al inicio del archivo
+        f.write(f"-- Crear tabla {nombre_tabla}\n")
+        f.write(f"CREATE TABLE {nombre_tabla} (\n")
+        f.write("    client_id VARCHAR(8) PRIMARY KEY,\n")
+        f.write("    name VARCHAR(50),\n")
+        f.write("    lastname VARCHAR(50),\n")
+        f.write("    ID VARCHAR(15),\n")
+        f.write("    email VARCHAR(100),\n")
+        f.write("    phone VARCHAR(20),\n")
+        f.write("    country VARCHAR(50),\n")
+        f.write("    city VARCHAR(50),\n")
+        f.write("    address VARCHAR(150),\n")
+        f.write("    fecha_registro DATE,\n")
+        f.write("    fecha_nacimiento DATE,\n")
+        f.write("    genero VARCHAR(20),\n")
+        f.write("    estado VARCHAR(20),\n")
+        f.write("    canal VARCHAR(30)\n")
+        f.write(");\n\n")
+
+        # 📥 Insertar datos
         for _, row in df.iterrows():
             columnas = ', '.join(df.columns)
             valores = ', '.join([f"'{str(valor).replace('\'', '\'\'')}'" for valor in row])

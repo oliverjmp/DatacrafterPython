@@ -120,10 +120,28 @@ def exportar_providers(df, carpeta='02.descargable'):
 
 def exportar_sql(df, ruta, nombre_tabla):
     with open(ruta, 'w', encoding='utf-8') as f:
+        # 🏗️ Crear tabla proveedores
+        f.write(f"-- Crear tabla {nombre_tabla}\n")
+        f.write(f"CREATE TABLE {nombre_tabla} (\n")
+        f.write("    provider_id VARCHAR(8) PRIMARY KEY,\n")
+        f.write("    name VARCHAR(100),\n")
+        f.write("    nif VARCHAR(15),\n")
+        f.write("    email VARCHAR(100),\n")
+        f.write("    phone VARCHAR(20),\n")
+        f.write("    country VARCHAR(50),\n")
+        f.write("    city VARCHAR(50),\n")
+        f.write("    address VARCHAR(150),\n")
+        f.write("    category VARCHAR(50),\n")
+        f.write("    subcategory VARCHAR(50),\n")
+        f.write("    condicion_pago VARCHAR(20)\n")
+        f.write(");\n\n")
+
+        # 📥 Insertar datos
         for _, row in df.iterrows():
             columnas = ', '.join(df.columns)
             valores = ', '.join([f"'{str(valor).replace('\'', '\'\'')}'" for valor in row])
             f.write(f"INSERT INTO {nombre_tabla} ({columnas}) VALUES ({valores});\n")
+
 
 print(df_providers.head())
 exportar_providers(df_providers)

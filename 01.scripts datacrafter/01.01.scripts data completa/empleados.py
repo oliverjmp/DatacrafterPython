@@ -81,10 +81,28 @@ df_empleados = pd.DataFrame(empleados)
 
 def exportar_sql(df, ruta, nombre_tabla):
     with open(ruta, 'w', encoding='utf-8') as f:
+        # Crear tabla empleados
+        f.write(f"-- Crear tabla {nombre_tabla}\n")
+        f.write(f"CREATE TABLE {nombre_tabla} (\n")
+        f.write("    employee_id VARCHAR(8) PRIMARY KEY,\n")
+        f.write("    branch_id VARCHAR(8),\n")
+        f.write("    nombre VARCHAR(100),\n")
+        f.write("    rol VARCHAR(20),\n")
+        f.write("    horario VARCHAR(50),\n")
+        f.write("    salario_base DECIMAL(8,2),\n")
+        f.write("    horas_extras INT,\n")
+        f.write("    status VARCHAR(20),\n")
+        f.write("    vacaciones_restantes INT,\n")
+        f.write("    fecha_ingreso DATE,\n")
+        f.write("    fecha_egreso DATE\n")
+        f.write(");\n\n")
+
+        # Insertar datos
         for _, row in df.iterrows():
             columnas = ', '.join(df.columns)
-            valores = ', '.join([f"'{str(valor).replace('\'', '\'\'')}'" for valor in row])
+            valores = ', '.join([f"'{str(valor).replace('\'', '\'\'')}'" if pd.notnull(valor) else "NULL" for valor in row])
             f.write(f"INSERT INTO {nombre_tabla} ({columnas}) VALUES ({valores});\n")
+
 
 
 # Exportar empleados

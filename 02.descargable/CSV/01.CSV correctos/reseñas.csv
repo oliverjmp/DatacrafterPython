@@ -1,101 +1,101 @@
 ﻿reseña_id,venta_id,client_id,puntuacion,comentario,fecha_reseña
-RS-00001,C-002124,CL-02665,2,Precio justo y buena calidad.,2025-07-29
-RS-00002,C-001960,CL-09251,3,Excelente atención al cliente.,2025-08-12
-RS-00003,C-001614,CL-04714,5,Precio justo y buena calidad.,2025-08-09
-RS-00004,C-001036,CL-04811,4,Precio justo y buena calidad.,2025-08-06
-RS-00005,C-004127,CL-02695,3,Volveré a comprar sin duda.,2025-08-07
-RS-00006,C-003433,CL-05872,5,Volveré a comprar sin duda.,2025-08-20
-RS-00007,C-002951,CL-06266,3,Volveré a comprar sin duda.,2025-08-15
-RS-00008,C-001950,CL-01372,4,"Todo perfecto, gracias.",2025-08-13
-RS-00009,C-003244,CL-02948,3,No era lo que esperaba.,2025-08-07
-RS-00010,C-004767,CL-03797,5,No era lo que esperaba.,2025-06-18
-RS-00011,C-000132,CL-06301,5,"Muy buen producto, llegó rápido.",2025-07-19
-RS-00012,C-002116,CL-09738,3,No era lo que esperaba.,2025-08-22
-RS-00013,C-002943,CL-09329,5,Volveré a comprar sin duda.,2025-08-15
-RS-00014,C-002895,CL-02576,5,Precio justo y buena calidad.,2025-08-16
-RS-00015,C-001198,CL-05261,4,El embalaje estaba dañado.,2025-07-25
-RS-00016,C-003711,CL-08995,4,Tuve problemas con la entrega.,2025-08-21
-RS-00017,C-004581,CL-06550,5,Precio justo y buena calidad.,2025-06-24
-RS-00018,C-004573,CL-04994,5,"Muy buen producto, llegó rápido.",2025-08-02
-RS-00019,C-000871,CL-05432,5,El embalaje estaba dañado.,2025-08-18
-RS-00020,C-004480,CL-04364,4,"Me encantó, lo recomiendo.",2025-08-22
-RS-00021,C-002818,CL-03658,4,"Me encantó, lo recomiendo.",2025-06-08
-RS-00022,C-001249,CL-08995,4,Volveré a comprar sin duda.,2025-08-16
-RS-00023,C-001171,CL-05987,5,No era lo que esperaba.,2025-06-26
-RS-00024,C-002178,CL-06640,5,Excelente atención al cliente.,2025-08-19
-RS-00025,C-001195,CL-05139,5,"Muy buen producto, llegó rápido.",2025-08-09
-RS-00026,C-003394,CL-05279,5,Excelente atención al cliente.,2025-07-01
-RS-00027,C-001770,CL-08883,5,Tuve problemas con la entrega.,2025-08-18
-RS-00028,C-000549,CL-04285,3,Tuve problemas con la entrega.,2025-08-01
-RS-00029,C-003598,CL-03797,5,No era lo que esperaba.,2025-08-19
-RS-00030,C-002016,CL-07547,4,Tuve problemas con la entrega.,2025-08-17
-RS-00031,C-001094,CL-06552,5,El embalaje estaba dañado.,2025-07-31
-RS-00032,C-002154,CL-06245,5,No era lo que esperaba.,2025-07-15
-RS-00033,C-003587,CL-00879,4,El embalaje estaba dañado.,2025-08-20
-RS-00034,C-004206,CL-07253,3,La talla no era correcta.,2025-08-09
-RS-00035,C-004607,CL-06999,5,"Todo perfecto, gracias.",2025-08-21
-RS-00036,C-004280,CL-05658,3,La talla no era correcta.,2025-08-22
-RS-00037,C-000435,CL-08952,4,Precio justo y buena calidad.,2025-08-22
-RS-00038,C-002436,CL-05159,5,Tuve problemas con la entrega.,2025-08-20
-RS-00039,C-000370,CL-09478,5,La talla no era correcta.,2025-08-22
-RS-00040,C-004582,CL-06380,5,Volveré a comprar sin duda.,2025-07-04
-RS-00041,C-004329,CL-03936,4,Volveré a comprar sin duda.,2025-08-12
-RS-00042,C-003400,CL-01293,3,Volveré a comprar sin duda.,2025-08-07
-RS-00043,C-000733,CL-05782,4,No era lo que esperaba.,2025-07-28
-RS-00044,C-001260,CL-09057,4,Excelente atención al cliente.,2025-08-23
-RS-00045,C-004014,CL-09899,3,"Muy buen producto, llegó rápido.",2025-06-19
-RS-00046,C-002225,CL-01373,5,No era lo que esperaba.,2025-08-24
-RS-00047,C-002966,CL-07796,3,Excelente atención al cliente.,2025-07-23
-RS-00048,C-004691,CL-06497,5,"Todo perfecto, gracias.",2025-08-17
-RS-00049,C-003198,CL-01140,5,Precio justo y buena calidad.,2025-08-23
-RS-00050,C-004794,CL-03353,4,"Me encantó, lo recomiendo.",2025-07-28
-RS-00051,C-000552,CL-01352,5,Volveré a comprar sin duda.,2025-08-03
-RS-00052,C-003377,CL-00092,4,Tuve problemas con la entrega.,2025-08-19
-RS-00053,C-003843,CL-05578,2,La talla no era correcta.,2025-08-14
-RS-00054,C-001709,CL-00215,4,"Todo perfecto, gracias.",2025-08-13
-RS-00055,C-003971,CL-04712,5,No era lo que esperaba.,2025-06-26
-RS-00056,C-000112,CL-09223,2,No era lo que esperaba.,2025-08-20
-RS-00057,C-003454,CL-07302,5,Tuve problemas con la entrega.,2025-08-15
-RS-00058,C-002233,CL-03239,4,Volveré a comprar sin duda.,2025-07-20
-RS-00059,C-004555,CL-08016,1,"Todo perfecto, gracias.",2025-07-08
-RS-00060,C-003248,CL-03795,4,Excelente atención al cliente.,2025-08-19
-RS-00061,C-003315,CL-04813,4,La talla no era correcta.,2025-08-18
-RS-00062,C-001957,CL-01550,4,La talla no era correcta.,2025-08-22
-RS-00063,C-001526,CL-08716,5,"Muy buen producto, llegó rápido.",2025-07-16
-RS-00064,C-001444,CL-01451,4,"Muy buen producto, llegó rápido.",2025-08-19
-RS-00065,C-002656,CL-09528,5,"Muy buen producto, llegó rápido.",2025-08-24
-RS-00066,C-004041,CL-07504,5,Excelente atención al cliente.,2025-08-09
-RS-00067,C-002394,CL-09129,3,Tuve problemas con la entrega.,2025-06-20
-RS-00068,C-000875,CL-05564,5,"Muy buen producto, llegó rápido.",2025-08-23
-RS-00069,C-000640,CL-05975,5,El embalaje estaba dañado.,2025-08-05
-RS-00070,C-004207,CL-03355,4,No era lo que esperaba.,2025-08-19
-RS-00071,C-001905,CL-02031,3,El embalaje estaba dañado.,2025-07-31
-RS-00072,C-002238,CL-05678,5,No era lo que esperaba.,2025-06-19
-RS-00073,C-001992,CL-03825,3,Tuve problemas con la entrega.,2025-06-29
-RS-00074,C-001781,CL-08664,5,Precio justo y buena calidad.,2025-08-14
-RS-00075,C-003132,CL-04683,5,"Me encantó, lo recomiendo.",2025-08-19
-RS-00076,C-003561,CL-09251,5,Volveré a comprar sin duda.,2025-08-19
-RS-00077,C-002958,CL-07956,4,Excelente atención al cliente.,2025-07-03
-RS-00078,C-001856,CL-00861,5,"Todo perfecto, gracias.",2025-08-20
-RS-00079,C-001103,CL-00956,5,Tuve problemas con la entrega.,2025-07-23
-RS-00080,C-004826,CL-09892,4,"Me encantó, lo recomiendo.",2025-07-20
-RS-00081,C-003025,CL-09547,3,Volveré a comprar sin duda.,2025-07-10
-RS-00082,C-000579,CL-03733,5,Excelente atención al cliente.,2025-07-20
-RS-00083,C-001410,CL-02577,2,"Todo perfecto, gracias.",2025-08-11
-RS-00084,C-002973,CL-05884,5,Tuve problemas con la entrega.,2025-07-12
-RS-00085,C-001527,CL-05487,4,Precio justo y buena calidad.,2025-08-20
-RS-00086,C-001408,CL-03514,3,Precio justo y buena calidad.,2025-06-29
-RS-00087,C-004830,CL-06380,2,Precio justo y buena calidad.,2025-07-20
-RS-00088,C-002047,CL-09732,4,"Muy buen producto, llegó rápido.",2025-07-16
-RS-00089,C-000578,CL-06738,2,Precio justo y buena calidad.,2025-07-18
-RS-00090,C-003660,CL-03736,4,No era lo que esperaba.,2025-08-19
-RS-00091,C-003516,CL-03576,5,No era lo que esperaba.,2025-08-12
-RS-00092,C-000376,CL-05701,5,La talla no era correcta.,2025-08-08
-RS-00093,C-003985,CL-06413,5,Volveré a comprar sin duda.,2025-07-17
-RS-00094,C-003235,CL-02809,5,Volveré a comprar sin duda.,2025-07-21
-RS-00095,C-000647,CL-05576,5,"Muy buen producto, llegó rápido.",2025-08-13
-RS-00096,C-004162,CL-07648,3,Volveré a comprar sin duda.,2025-08-17
-RS-00097,C-002748,CL-01544,5,"Me encantó, lo recomiendo.",2025-08-15
-RS-00098,C-002520,CL-02161,5,Volveré a comprar sin duda.,2025-06-10
-RS-00099,C-004249,CL-07039,5,El embalaje estaba dañado.,2025-08-19
-RS-00100,C-004393,CL-08090,4,Excelente atención al cliente.,2025-07-30
+RS-00001,C-003935,CL-01718,5,"Todo perfecto, gracias.",2025-08-19
+RS-00002,C-000374,CL-05226,4,El embalaje estaba dañado.,2025-08-28
+RS-00003,C-002280,CL-02451,1,Volveré a comprar sin duda.,2025-07-22
+RS-00004,C-002257,CL-03271,4,La talla no era correcta.,2025-08-25
+RS-00005,C-001131,CL-00225,4,No era lo que esperaba.,2025-08-28
+RS-00006,C-003833,CL-07684,4,La talla no era correcta.,2025-07-25
+RS-00007,C-003978,CL-07612,4,El embalaje estaba dañado.,2025-08-24
+RS-00008,C-004461,CL-03843,4,La talla no era correcta.,2025-08-03
+RS-00009,C-003733,CL-07527,4,"Me encantó, lo recomiendo.",2025-08-10
+RS-00010,C-001831,CL-06983,2,"Me encantó, lo recomiendo.",2025-07-28
+RS-00011,C-002443,CL-01719,1,"Me encantó, lo recomiendo.",2025-07-10
+RS-00012,C-003484,CL-05086,5,Tuve problemas con la entrega.,2025-08-26
+RS-00013,C-003471,CL-03595,4,El embalaje estaba dañado.,2025-08-17
+RS-00014,C-004618,CL-08911,3,"Muy buen producto, llegó rápido.",2025-08-08
+RS-00015,C-004468,CL-00897,3,Volveré a comprar sin duda.,2025-08-01
+RS-00016,C-000611,CL-04568,5,"Me encantó, lo recomiendo.",2025-08-21
+RS-00017,C-001809,CL-06070,4,"Todo perfecto, gracias.",2025-08-14
+RS-00018,C-002956,CL-06028,5,Tuve problemas con la entrega.,2025-07-30
+RS-00019,C-003583,CL-02828,1,El embalaje estaba dañado.,2025-08-23
+RS-00020,C-002569,CL-04308,5,Excelente atención al cliente.,2025-07-23
+RS-00021,C-003117,CL-09597,2,Excelente atención al cliente.,2025-08-13
+RS-00022,C-002087,CL-04752,3,El embalaje estaba dañado.,2025-07-12
+RS-00023,C-001013,CL-08115,2,Tuve problemas con la entrega.,2025-08-21
+RS-00024,C-004287,CL-09927,2,La talla no era correcta.,2025-08-15
+RS-00025,C-004620,CL-04924,4,"Muy buen producto, llegó rápido.",2025-08-18
+RS-00026,C-003278,CL-09855,5,Tuve problemas con la entrega.,2025-08-03
+RS-00027,C-002971,CL-05749,4,"Muy buen producto, llegó rápido.",2025-08-28
+RS-00028,C-003386,CL-06052,3,El embalaje estaba dañado.,2025-08-07
+RS-00029,C-001418,CL-06938,4,El embalaje estaba dañado.,2025-08-14
+RS-00030,C-000405,CL-02896,5,El embalaje estaba dañado.,2025-08-23
+RS-00031,C-002722,CL-04145,2,No era lo que esperaba.,2025-07-04
+RS-00032,C-000352,CL-04637,5,No era lo que esperaba.,2025-08-22
+RS-00033,C-001062,CL-02483,5,Precio justo y buena calidad.,2025-08-04
+RS-00034,C-000179,CL-05966,5,Precio justo y buena calidad.,2025-08-12
+RS-00035,C-004245,CL-09344,5,"Todo perfecto, gracias.",2025-08-13
+RS-00036,C-000887,CL-09446,5,Excelente atención al cliente.,2025-07-08
+RS-00037,C-001349,CL-00691,4,La talla no era correcta.,2025-08-24
+RS-00038,C-001242,CL-03926,3,"Muy buen producto, llegó rápido.",2025-08-08
+RS-00039,C-003782,CL-00935,4,Precio justo y buena calidad.,2025-08-14
+RS-00040,C-003218,CL-03137,4,Volveré a comprar sin duda.,2025-06-10
+RS-00041,C-003809,CL-02970,5,La talla no era correcta.,2025-07-04
+RS-00042,C-001150,CL-07538,4,Excelente atención al cliente.,2025-08-06
+RS-00043,C-001204,CL-04767,4,No era lo que esperaba.,2025-08-28
+RS-00044,C-004232,CL-08365,4,"Me encantó, lo recomiendo.",2025-08-21
+RS-00045,C-000460,CL-00883,5,Tuve problemas con la entrega.,2025-08-07
+RS-00046,C-000871,CL-03304,1,"Muy buen producto, llegó rápido.",2025-08-09
+RS-00047,C-003683,CL-04266,4,Excelente atención al cliente.,2025-08-21
+RS-00048,C-003624,CL-08505,4,Excelente atención al cliente.,2025-08-23
+RS-00049,C-004775,CL-04071,4,Excelente atención al cliente.,2025-08-08
+RS-00050,C-002310,CL-07124,5,El embalaje estaba dañado.,2025-07-24
+RS-00051,C-001441,CL-05164,4,La talla no era correcta.,2025-07-08
+RS-00052,C-003960,CL-00231,4,"Me encantó, lo recomiendo.",2025-08-21
+RS-00053,C-003165,CL-07396,5,La talla no era correcta.,2025-08-23
+RS-00054,C-002960,CL-02783,2,"Muy buen producto, llegó rápido.",2025-08-28
+RS-00055,C-004448,CL-03822,2,Excelente atención al cliente.,2025-08-26
+RS-00056,C-003544,CL-01448,4,Excelente atención al cliente.,2025-08-02
+RS-00057,C-001918,CL-03635,4,No era lo que esperaba.,2025-08-16
+RS-00058,C-001973,CL-02558,1,La talla no era correcta.,2025-08-09
+RS-00059,C-003849,CL-05451,5,"Me encantó, lo recomiendo.",2025-08-27
+RS-00060,C-000183,CL-06666,4,Precio justo y buena calidad.,2025-08-25
+RS-00061,C-003711,CL-05399,1,Excelente atención al cliente.,2025-08-18
+RS-00062,C-001521,CL-03673,5,"Todo perfecto, gracias.",2025-08-26
+RS-00063,C-004929,CL-06828,2,"Todo perfecto, gracias.",2025-08-28
+RS-00064,C-003425,CL-09858,4,"Muy buen producto, llegó rápido.",2025-07-11
+RS-00065,C-002596,CL-02199,5,No era lo que esperaba.,2025-07-17
+RS-00066,C-004750,CL-02247,5,"Me encantó, lo recomiendo.",2025-06-24
+RS-00067,C-004675,CL-07535,5,Excelente atención al cliente.,2025-08-13
+RS-00068,C-001852,CL-02955,3,Tuve problemas con la entrega.,2025-08-28
+RS-00069,C-004981,CL-04045,5,"Me encantó, lo recomiendo.",2025-08-24
+RS-00070,C-001552,CL-02928,5,Volveré a comprar sin duda.,2025-07-31
+RS-00071,C-004593,CL-06007,3,No era lo que esperaba.,2025-07-01
+RS-00072,C-001130,CL-00861,4,Volveré a comprar sin duda.,2025-08-24
+RS-00073,C-002202,CL-07333,3,"Me encantó, lo recomiendo.",2025-06-16
+RS-00074,C-002360,CL-03317,5,Tuve problemas con la entrega.,2025-08-08
+RS-00075,C-003646,CL-00350,2,El embalaje estaba dañado.,2025-08-24
+RS-00076,C-000127,CL-03578,2,No era lo que esperaba.,2025-08-20
+RS-00077,C-004315,CL-05076,4,La talla no era correcta.,2025-08-20
+RS-00078,C-002604,CL-04851,5,"Todo perfecto, gracias.",2025-07-08
+RS-00079,C-000737,CL-09109,5,Excelente atención al cliente.,2025-08-21
+RS-00080,C-000142,CL-03060,4,Precio justo y buena calidad.,2025-08-16
+RS-00081,C-000304,CL-01223,5,El embalaje estaba dañado.,2025-06-27
+RS-00082,C-000829,CL-07070,2,Volveré a comprar sin duda.,2025-07-07
+RS-00083,C-001435,CL-04752,4,No era lo que esperaba.,2025-08-27
+RS-00084,C-002731,CL-06910,4,Volveré a comprar sin duda.,2025-08-14
+RS-00085,C-001679,CL-03246,5,"Me encantó, lo recomiendo.",2025-08-18
+RS-00086,C-000807,CL-08386,2,Tuve problemas con la entrega.,2025-06-24
+RS-00087,C-000780,CL-03159,3,Volveré a comprar sin duda.,2025-08-10
+RS-00088,C-003364,CL-05676,3,Volveré a comprar sin duda.,2025-07-22
+RS-00089,C-000204,CL-02722,5,No era lo que esperaba.,2025-07-28
+RS-00090,C-004157,CL-00630,5,Volveré a comprar sin duda.,2025-08-28
+RS-00091,C-004908,CL-07348,2,La talla no era correcta.,2025-08-23
+RS-00092,C-001067,CL-04882,3,Tuve problemas con la entrega.,2025-08-12
+RS-00093,C-001529,CL-03554,5,Excelente atención al cliente.,2025-08-28
+RS-00094,C-002656,CL-08978,4,No era lo que esperaba.,2025-08-27
+RS-00095,C-002126,CL-08326,4,"Me encantó, lo recomiendo.",2025-08-06
+RS-00096,C-002411,CL-09255,4,El embalaje estaba dañado.,2025-08-21
+RS-00097,C-001868,CL-08610,5,Excelente atención al cliente.,2025-07-03
+RS-00098,C-002597,CL-08226,5,Volveré a comprar sin duda.,2025-07-19
+RS-00099,C-004223,CL-04372,5,Tuve problemas con la entrega.,2025-08-25
+RS-00100,C-004396,CL-07185,5,Precio justo y buena calidad.,2025-08-27

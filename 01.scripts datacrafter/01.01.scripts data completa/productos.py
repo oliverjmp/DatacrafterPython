@@ -55,12 +55,25 @@ for idx, row in df_productos.iterrows():
 sin_proveedor = df_productos["provider_id"].isna().sum()
 print(f"🔍 Productos sin proveedor asignado: {sin_proveedor} de {len(df_productos)}")
 
-def exportar_sql(df, ruta, nombre_tabla):
+def exportar_sql_productos(df, ruta, nombre_tabla):
     with open(ruta, 'w', encoding='utf-8') as f:
+        # 🏗️ Crear tabla productos
+        f.write(f"-- Crear tabla {nombre_tabla}\n")
+        f.write(f"CREATE TABLE {nombre_tabla} (\n")
+        f.write("    product_id VARCHAR(10) PRIMARY KEY,\n")
+        f.write("    name VARCHAR(100),\n")
+        f.write("    subcategory VARCHAR(50),\n")
+        f.write("    branch_id VARCHAR(10),\n")
+        f.write("    provider_id VARCHAR(8),\n")
+        f.write("    provider_name VARCHAR(100)\n")
+        f.write(");\n\n")
+
+        # 📥 Insertar datos
         for _, row in df.iterrows():
             columnas = ', '.join(df.columns)
             valores = ', '.join([f"'{str(valor).replace('\'', '\'\'')}'" for valor in row])
             f.write(f"INSERT INTO {nombre_tabla} ({columnas}) VALUES ({valores});\n")
+
 
 # Exportar productos enriquecidos
 def exportar_productos(df, carpeta='02.descargable'):
@@ -68,7 +81,7 @@ def exportar_productos(df, carpeta='02.descargable'):
         'CSV': lambda: df.to_csv(f'{carpeta}/CSV/01.CSV correctos/productos.csv', index=False, encoding='utf-8-sig'),
         'JSON': lambda: df.to_json(f'{carpeta}/JSON/01.JSON correctos/productos.json', orient='records', lines=True, force_ascii=False),
         'JSON_EXCEL': lambda: df.to_json(f'{carpeta}/JSON para excel/01.JSON para excel correctos/productos.json', orient='table'),
-        'SQL': lambda: exportar_sql(df, f'{carpeta}/SQL/01.SQL correctos/productos.sql', 'Productos'),
+        'SQL': lambda: exportar_sql_productos(df, f'{carpeta}/SQL/01.SQL correctos/productos.sql', 'Productos'),
         'PARQUET': lambda: df.to_parquet(f'{carpeta}/PARQUET/01.PARQUET correctos/productos.parquet', index=False),
         'FEATHER': lambda: df.to_feather(f'{carpeta}/FEATHER/01.FEATHER correctos/productos.feather'),
         'EXCEL': lambda: df.to_excel(f'{carpeta}/XLSX/01.XLSX correctos/productos.xlsx', index=False)

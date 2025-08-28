@@ -52,10 +52,23 @@ df_cobros_ventas['fecha_cobro'] = pd.to_datetime(df_cobros_ventas['fecha_cobro']
 # Función para exportar en SQL
 def exportar_sql(df, ruta, nombre_tabla):
     with open(ruta, 'w', encoding='utf-8') as f:
+        # Crear tabla Cobros
+        f.write(f"-- Crear tabla {nombre_tabla}\n")
+        f.write(f"CREATE TABLE {nombre_tabla} (\n")
+        f.write("    cobro_id VARCHAR(10) PRIMARY KEY,\n")
+        f.write("    venta_id VARCHAR(10),\n")
+        f.write("    fecha_cobro DATE,\n")
+        f.write("    monto_total DECIMAL(12,2),\n")
+        f.write("    metodo_pago VARCHAR(30),\n")
+        f.write("    estado_pago VARCHAR(20)\n")
+        f.write(");\n\n")
+
+        # Insertar datos
         for _, row in df.iterrows():
             columnas = ', '.join(df.columns)
             valores = ', '.join([f"'{str(valor).replace('\'', '\'\'')}'" for valor in row])
             f.write(f"INSERT INTO {nombre_tabla} ({columnas}) VALUES ({valores});\n")
+
 
 # Función para exportar en múltiples formatos
 def exportar_cobros(df, carpeta='02.descargable'):

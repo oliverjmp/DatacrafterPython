@@ -101,12 +101,40 @@ df_ventas = pd.DataFrame(ventas)
 df_detalles = pd.DataFrame(detalles)
 
 # Función para exportar en SQL
-def exportar_sql(df, ruta, nombre_tabla):
+def exportar_sql_ventas(df, ruta):
     with open(ruta, 'w', encoding='utf-8') as f:
+        f.write("-- Crear tabla Ventas\n")
+        f.write("CREATE TABLE Ventas (\n")
+        f.write("    purchase_id VARCHAR(10) PRIMARY KEY,\n")
+        f.write("    branch_id VARCHAR(8),\n")
+        f.write("    client_id VARCHAR(8),\n")
+        f.write("    fecha DATE,\n")
+        f.write("    canal VARCHAR(30),\n")
+        f.write("    metodo_pago VARCHAR(30),\n")
+        f.write("    employee_id VARCHAR(8),\n")
+        f.write("    total DECIMAL(12,2)\n")
+        f.write(");\n\n")
         for _, row in df.iterrows():
             columnas = ', '.join(df.columns)
             valores = ', '.join([f"'{str(valor).replace('\'', '\'\'')}'" for valor in row])
-            f.write(f"INSERT INTO {nombre_tabla} ({columnas}) VALUES ({valores});\n")
+            f.write(f"INSERT INTO Ventas ({columnas}) VALUES ({valores});\n")
+
+def exportar_sql_detalles(df, ruta):
+    with open(ruta, 'w', encoding='utf-8') as f:
+        f.write("-- Crear tabla DetalleVentas\n")
+        f.write("CREATE TABLE DetalleVentas (\n")
+        f.write("    purchase_id VARCHAR(10),\n")
+        f.write("    product_id VARCHAR(8),\n")
+        f.write("    cantidad INT,\n")
+        f.write("    precio_unitario DECIMAL(10,2),\n")
+        f.write("    subtotal DECIMAL(12,2),\n")
+        f.write("    PRIMARY KEY (purchase_id, product_id)\n")
+        f.write(");\n\n")
+        for _, row in df.iterrows():
+            columnas = ', '.join(df.columns)
+            valores = ', '.join([f"'{str(valor).replace('\'', '\'\'')}'" for valor in row])
+            f.write(f"INSERT INTO DetalleVentas ({columnas}) VALUES ({valores});\n")
+
 
 # Función para exportar en múltiples formatos
 def exportar_ventas(df1, df2, carpeta='02.descargable'):
@@ -124,8 +152,8 @@ def exportar_ventas(df1, df2, carpeta='02.descargable'):
             df2.to_json(f'{carpeta}/JSON para excel/01.JSON para excel correctos/detalle_ventas.json', orient='table')
         ),
         'SQL': lambda: (
-            exportar_sql(df1, f'{carpeta}/SQL/01.SQL correctos/ventas.sql', 'Ventas'),
-            exportar_sql(df2, f'{carpeta}/SQL/01.SQL correctos/detalle_ventas.sql', 'DetalleVentas')
+            exportar_sql_ventas(df1, f'{carpeta}/SQL/01.SQL correctos/ventas.sql'),
+            exportar_sql_detalles(df2, f'{carpeta}/SQL/01.SQL correctos/detalle_ventas.sql')
         ),
         'PARQUET': lambda: (
             df1.to_parquet(f'{carpeta}/PARQUET/01.PARQUET correctos/ventas.parquet', index=False),

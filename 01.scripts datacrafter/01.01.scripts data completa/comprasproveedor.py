@@ -54,10 +54,26 @@ df_ordenes_compras = pd.DataFrame(ordenes_compras)
 
 def exportar_sql(df, ruta, nombre_tabla):
     with open(ruta, 'w', encoding='utf-8') as f:
+        # Crear tabla compras_proveedor
+        f.write(f"-- Crear tabla {nombre_tabla}\n")
+        f.write(f"CREATE TABLE {nombre_tabla} (\n")
+        f.write("    order_proveedor_id VARCHAR(10) PRIMARY KEY,\n")
+        f.write("    branch_id VARCHAR(8),\n")
+        f.write("    product_id VARCHAR(8),\n")
+        f.write("    provider_id VARCHAR(8),\n")
+        f.write("    fecha_orden DATE,\n")
+        f.write("    cantidad INT,\n")
+        f.write("    precio_unitario DECIMAL(10,2),\n")
+        f.write("    total DECIMAL(12,2),\n")
+        f.write("    estado VARCHAR(20)\n")
+        f.write(");\n\n")
+
+        # Insertar datos
         for _, row in df.iterrows():
-            columnas = ', '.join(df.columns)
-            valores = ', '.join([f"'{str(valor).replace('\'', '\'\'')}'" for valor in row])
+            columnas = ', '.join([col for col in df.columns if col != 'provider_name'])
+            valores = ', '.join([f"'{str(row[col]).replace('\'', '\'\'')}'" for col in df.columns if col != 'provider_name'])
             f.write(f"INSERT INTO {nombre_tabla} ({columnas}) VALUES ({valores});\n")
+
 
 # Exportar
 def exportar_ordenes(df, carpeta='02.descargable'):

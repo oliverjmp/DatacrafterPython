@@ -40,10 +40,26 @@ df_fidelizacion = pd.DataFrame(fidelizacion)
 # Función para exportar en SQL
 def exportar_sql(df, ruta, nombre_tabla):
     with open(ruta, 'w', encoding='utf-8') as f:
+        # Crear tabla Fidelizacion
+        f.write(f"-- Crear tabla {nombre_tabla}\n")
+        f.write(f"CREATE TABLE {nombre_tabla} (\n")
+        f.write("    fidelizacion_id VARCHAR(10) PRIMARY KEY,\n")
+        f.write("    client_id VARCHAR(8),\n")
+        f.write("    nivel VARCHAR(20),\n")
+        f.write("    puntos_acumulados INT,\n")
+        f.write("    beneficios VARCHAR(100),\n")
+        f.write("    fecha_ultima_actividad DATE\n")
+        f.write(");\n\n")
+
+        # Insertar datos
         for _, row in df.iterrows():
             columnas = ', '.join(df.columns)
-            valores = ', '.join([f"'{str(valor).replace('\'', '\'\'')}'" for valor in row])
+            valores = ', '.join([
+                f"'{str(valor).replace('\'', '\'\'')}'" if pd.notnull(valor) else "NULL"
+                for valor in row
+            ])
             f.write(f"INSERT INTO {nombre_tabla} ({columnas}) VALUES ({valores});\n")
+
 
 # Función para exportar en múltiples formatos
 def exportar_fidelizacion(df, carpeta='02.descargable'):
