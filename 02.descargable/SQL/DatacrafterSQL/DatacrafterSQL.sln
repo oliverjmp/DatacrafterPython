@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Version 21
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "DatacrafterSQL", "DatacrafterSQL.ssmssqlproj", "{421A5C29-EBFD-513F-A221-185D533C6619}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{421A5C29-EBFD-513F-A221-185D533C6619}.Default|Default.ActiveCfg = Default
+		{F6006433-0F9E-4D7C-85E8-405AA4E152D8}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BE2F1EB-2D99-4E24-925F-A07BE02CFFD8}
+	EndGlobalSection
+EndGlobal
