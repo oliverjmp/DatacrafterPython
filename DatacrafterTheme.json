@@ -1,0 +1,35 @@
+{
+  "name": "Datacrafter Executive Theme",
+  "dataColors": ["#1F4E79", "#007BFF", "#28A745", "#DC3545", "#6C757D", "#FFC107"],
+  "background": "#F4F4F4",
+  "foreground": "#1F4E79",
+  "tableAccent": "#007BFF",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "color": { "solid": { "color": "#1F4E79" } },
+        "fontSize": 12,
+        "fontFamily": "Segoe UI"
+      }
+    },
+    "card": {
+      "*": {
+        "color": { "solid": { "color": "#007BFF" } },
+        "fontSize": 14
+      }
+    },
+    "slicer": {
+      "*": {
+        "color": { "solid": { "color": "#6C757D" } },
+        "fontSize": 12
+      }
+    },
+    "textBox": {
+      "*": {
+        "color": { "solid": { "color": "#1F4E79" } },
+        "fontSize": 16,
+        "fontFamily": "Segoe UI Semibold"
+      }
+    }
+  }
+}
