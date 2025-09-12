@@ -1,0 +1,107 @@
+{
+  "name": "Datacrafter Modern Dark",
+  "dataColors": ["#00B8D9", "#FF4081", "#FFD600", "#00E676", "#FF6D00", "#FFFFFF"],
+  "background": "#121212",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#00B8D9",
+  "visualStyles": {
+    "barChart": {
+      "*": {
+        "dataLabels": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "fontSize": 12
+          }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": { "solid": { "color": "#00B8D9" } },
+            "fontSize": 12
+          }
+        ],
+        "valueAxis": [
+          {
+            "labelColor": { "solid": { "color": "#00B8D9" } },
+            "fontSize": 12
+          }
+        ]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "dataLabels": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "fontSize": 12
+          }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": { "solid": { "color": "#00B8D9" } },
+            "fontSize": 12
+          }
+        ],
+        "valueAxis": [
+          {
+            "labelColor": { "solid": { "color": "#00B8D9" } },
+            "fontSize": 12
+          }
+        ]
+      }
+    },
+    "table": {
+      "*": {
+        "grid": [
+          {
+            "outlineColor": { "solid": { "color": "#444444" } }
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontColor": { "solid": { "color": "#FF4081" } },
+            "backColor": { "solid": { "color": "#2C2C2C" } },
+            "fontSize": 13
+          }
+        ],
+        "values": [
+          {
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "backColor": { "solid": { "color": "#1E1E1E" } },
+            "fontSize": 12
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "title": [
+          {
+            "color": { "solid": { "color": "#00B8D9" } },
+            "fontSize": 14
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "header": [
+          {
+            "color": { "solid": { "color": "#FFD600" } },
+            "fontSize": 12
+          }
+        ]
+      }
+    },
+    "textBox": {
+      "*": {
+        "title": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "fontSize": 16,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ]
+      }
+    }
+  }
+}
